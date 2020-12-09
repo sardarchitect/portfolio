@@ -1,0 +1,26 @@
+#work {
+  h1 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 5em;
+    margin-bottom: 50px;
+  }
+  .work__item {
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    h2 {
+      font-size: 3em;
+    }
+    .work__image {
+      margin: 10px;
+      background-color: black;
+    }
+    .work__date{
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}

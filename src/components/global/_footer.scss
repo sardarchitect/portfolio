@@ -1,0 +1,33 @@
+footer {
+  color: white;
+  position: relative;
+  min-height: 100vh;
+  max-width: 100vw;
+  .footer__copyright {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .footer_contact {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: 30px 5px 0 125px;
+    text-align: right;
+    p:last-child {
+      margin-top: 50px;
+    }
+    max-width: 500px;
+    a{
+      color: #ff3434
+    }
+    a:hover{
+    }
+  }
+}
