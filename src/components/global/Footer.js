@@ -2,20 +2,21 @@ import React from "react";
 import "./_footer.scss";
 
 export const Footer = () => {
+  
   return (
     <footer id="contact">
-      <div className="footer_contact">
+      <div className="footer__bg"></div>
+      <div className="contact__description">
         <p>
-          THANK YOU FOR CHECKING OUT MY WORK! I AM ALWAYS LOOKING FOR NEW AND
-          CREATIVE PROJECTS IN ART, ARCHITECTURE, AND TECHNOLOGY.
+        I GET MOTIVATED THROUGH COLLABORATING WITH OTHER CREATIVE PEOPLE, AND
+        I AM ALWAYS LOOKING TO COLLABORATE WITH ARCHITECTS, DESIGNERS, AND THE TECH WORLD
         </p>
         <p>
-          PLEASE CHECK OUT MY <a>LINKEDIN</a>, AND <a>INSTAGRAM</a> OR SIMPLY SEND
-          ME AN <a>EMAIL</a>
+          PLEASE FEEL FREE TO CHECK ME OUT ON <a target="_blank" href="https://www.linkedin.com/in/sardarchitect/">LINKEDIN</a>, AND <a target="_blank" href="https://www.instagram.com/sardarchitect/">INSTAGRAM</a> OR SIMPLY SEND ME AN <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
         </p>
       </div>
-      <div className="footer__copyright">
-        ©2020 - ALL RIGHTS RESERVED - ARVINDER SINGH
+      <div className="copyright">
+        <p>©2020 - ALL RIGHTS RESERVED - ARVINDER SINGH</p>
       </div>
     </footer>
   );

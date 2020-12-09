@@ -1,11 +1,11 @@
 import React from "react";
 import "./app.scss";
 
-import { About } from "./components/pages/About";
 import { Cursor } from "./components/global/Cursor";
-import { CV } from "./components/pages/CV";
-import { Footer } from "./components/global/Footer";
 import { Nav } from "./components/global/Nav";
+import { Footer } from "./components/global/Footer";
+
+import { About } from "./components/pages/About";
 import { Work } from "./components/pages/Work";
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
       <Cursor />
       <Nav />
       <About />
-      <Work />
-      {/* <CV /> */}
+      {/* <Work /> */}
       <Footer />
     </div>
   );

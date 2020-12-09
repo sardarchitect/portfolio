@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import "./_about.scss";
 
 export const About = () => {
-
   const [textIdx, setTextIdx] = useState(0);
   const text = ["ART", "ARCHITECTURE", "TECHNOLOGY"];
   const [showMore, setShowMore] = useState(false);
 
-  const about__description = showMore ? "about__description__show" : "about__description__hide";
+  const about__description = showMore
+    ? "about__description about__description__show"
+    : "about__description about__description__hide";
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -29,8 +30,9 @@ export const About = () => {
           <h1>SINGH</h1>
         </div>
         <div className="about__intro__subtitle">{text[textIdx]}</div>
-        
-        <div className={about__description}>
+      </div>
+
+      <div className={about__description}>
         <p>
           RAISED IN AN ARTISTIC HOUSEHOLD, MY CHILDHOOD MEMORIES REVOLVE AROUND
           DESIGN AND CREATIVITY — MY FATHER’S WOOD-SHOP, MY MOTHER’S PAINTING
@@ -43,20 +45,16 @@ export const About = () => {
           CRITICALLY ENGAGES ME WITH THE WORK I PURSUE.
         </p>
         <p>
-          I AM HIGHLY MOTIVATED THROUGH WORKING WITH OTHER CREATIVE PEOPLE, AND
-          I AM ALWAYS LOOKING TO COLLABORATE WITH DESIGNERS, SO PLEASE FEEL FREE
-          TO REACH OUT TO ME ON ANY OF THESE:
-        </p>
-        <p>
           RESUME&nbsp;
           <a href="#" target="_blank" rel="noopener noreferrer">
             PDF
           </a>
         </p>
       </div>
-        
-        <a className="about__more" onClick={() => setShowMore(!showMore)}>
-          {showMore ? "SHOW LESS..." : "SHOW MORE..."}
+
+      <div className="about__more">
+        <a onClick={() => setShowMore(!showMore)}>
+          {showMore ? "...SHOW LESS" : "...SHOW MORE"}
         </a>
       </div>
     </div>

@@ -1,9 +1,8 @@
 nav{
-    padding: 10px;
     display: flex;
     justify-content: center;
     gap: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
-    a:hover{
-        color: rgb(255, 93, 93);
+    a{
+       text-decoration: none !important;
     }
 }

@@ -1,38 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 .about {
   display: flex;
   flex-direction: column;
+  height: calc(100vh - 20px);
   p {
     margin-top: 10px;
   }
 
   .about__intro {
-    height: calc(100vh - 50px);
     text-align: right;
     flex-direction: column;
-    padding: 25px;
+    margin-top: 150px;
+
     .about__intro__title {
-      font-family: "Press Start 2P", cursive;
-      margin-top: 150px;
-      font-size: calc(16px + (72 - 12) * ((100vw - 300px) / (1600 - 300)));
+      font-family: "Montserrat Subrayada", sans-serif;
+      font-size: calc(26px + (72 - 26) * ((100vw - 300px) / (1600 - 300)));
     }
     .about__intro__subtitle {
+      font-weight: 600;
       font-size: 1.5em;
     }
-    .about__more {
-      position: relative;
-      margin-top: 25px;
+  }
+
+  .about__description{
+    margin-top: 50px;
+    transition: 0.5s max-height cubic-bezier(0.19, 1, 0.22, 1);
+    overflow: hidden;
+  }
+
+  .about__description__show {
+    max-height: 300px;
+  }
+  .about__description__hide {
+    max-height: 0px;
+  }
+
+  .about__more {
+    text-align: right;
+    position: relative;
+    margin-top: 25px;
+    a {
+      text-decoration: none;
     }
   }
 }
-
-.about__description__show {
-  max-height: 10000px;
-  overflow: hidden;
-  transition: max-height .3s ease;
-}
-.about__description__hide {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .3s ease;
-  }

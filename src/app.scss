@@ -1,20 +1,22 @@
 .App {
   position: relative;
-    a {
-      color:BLACK;
-      font-style: italic;
-      text-decoration: none;
+  a {
+    color:BLACK;
+    text-decoration: underline;
   }
+  a:hover{
+    color: white;
+}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 100px) {
   .App {
-    padding: 0 20px;
+    padding: 20px 20px;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .App {
-    padding: 0 200px;
+    padding: 20px 200px;
   }
 }
