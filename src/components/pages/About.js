@@ -12,7 +12,6 @@ export const About = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log(textIdx);
       if (textIdx === 2) {
         setTextIdx(0);
       } else {

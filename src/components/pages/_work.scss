@@ -1,15 +1,27 @@
 #work {
+  margin-bottom: 100px;
   h1 {
-    font-family: "Press Start 2P", cursive;
-    font-size: 5em;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-size: calc(30px + (100 - 30) * ((100vw - 300px) / (1600 - 300)));
     margin-bottom: 50px;
   }
+  .work__category{
+    display: flex;
+    justify-content: center;
+    gap: -webkit-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    gap: -mox-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    gap: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));    
+    margin-bottom: 50px;
+  }
+
   .work__item {
-    min-height: 300px;
+    border-top: solid black 3px;
+    min-height: calc(150px + (300 - 150) * ((100vw - 300px) / (1600 - 300)));
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     h2 {
-      font-size: 3em;
+      font-weight: 100;
+      font-size: calc(24px + (75 - 24) * ((100vw - 300px) / (1600 - 300)));
     }
     .work__image {
       margin: 10px;
@@ -17,10 +29,7 @@
     }
     .work__date{
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
   }
-}
-
-@media only screen and (max-width: 600px) {
 }

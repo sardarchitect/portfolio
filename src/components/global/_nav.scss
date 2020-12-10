@@ -1,7 +1,10 @@
 nav{
     display: flex;
     justify-content: center;
+    gap: -webkit-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    gap: -mox-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
     gap: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+
     a{
        text-decoration: none !important;
     }
