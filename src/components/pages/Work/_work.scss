@@ -1,0 +1,45 @@
+#work {
+  margin-bottom: 100px;
+  h1 {
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-size: calc(30px + (100 - 30) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: 50px;
+  }
+  .work__category{
+    display: flex;
+    justify-content: center;
+    gap: -webkit-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    gap: -mox-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    gap: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));    
+    margin-bottom: 50px;
+    .activeOption{
+      text-decoration: underline;
+    }
+  }
+
+// WORK ITEM //////////////////////////////////////////////
+  .work__grid {
+    column-count: 3;
+    column-gap: 10px;
+    .work__item {
+      margin: 0;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      margin-bottom: 10px;
+      break-inside: avoid;
+      img{
+        width: 100%;
+        display: block;
+        grid-row: 1 / -1;
+        grid-column: 1;
+      }
+      p{
+        grid-row: 2;
+        grid-column: 1;
+        background-color: rgba(255,255,255,.5);
+        padding: .2em .5em;
+        justify-self: start;
+      }
+    }
+  }
+}

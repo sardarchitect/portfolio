@@ -1,0 +1,27 @@
+.work__page{
+    margin: 50px 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+
+    .work__page__content{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        gap: 10px;
+
+        .temp_images{
+            height: 200px;
+            width: 100%;
+            background-color: black;
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .work__page .work__page__content{
+        grid-template-columns: 1fr;
+    }
+  }
+  

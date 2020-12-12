@@ -2,7 +2,6 @@
   position: relative;
   a {
     color:BLACK;
-    text-decoration: underline;
   }
   a:hover{
     color: white;
@@ -17,6 +16,6 @@
 
 @media only screen and (min-width: 1000px) {
   .App {
-    padding: 20px 200px;
+    padding: 20px 150px;
   }
 }

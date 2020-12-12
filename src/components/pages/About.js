@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./_about.scss";
 
 export const About = () => {
+  
   const [textIdx, setTextIdx] = useState(0);
   const text = ["ART", "ARCHITECTURE", "TECHNOLOGY"];
   const [showMore, setShowMore] = useState(false);
