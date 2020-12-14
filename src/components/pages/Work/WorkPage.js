@@ -23,10 +23,7 @@ export const WorkPage = () => {
       <div className="work__page__content">
         <div className="work__text">{project.text}</div>
         <div className="work__images">
-          <div className="temp_images"></div>
-          <div className="temp_images"></div>
-          <div className="temp_images"></div>
-          <div className="temp_images"></div>
+          {project.images.map((item) => <img src={item} className="temp_images" />)}
         </div>
       </div>
       <div className="work__page__other__work"></div>

@@ -9,6 +9,7 @@ import { Footer } from "./components/global/Footer";
 import { About } from "./components/pages/About";
 import { Work } from "./components/pages/Work/Work";
 import { WorkPage } from "./components/pages/Work/WorkPage";
+import { Resume } from "./components/pages/Resume";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
     <div className="home">
       <About />
       <Work />
-      {/* Resume */}
+      <Resume />
     </div>
   );
 };
