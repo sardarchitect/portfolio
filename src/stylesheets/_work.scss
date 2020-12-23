@@ -1,17 +1,15 @@
 #work {
   margin-bottom: 100px;
   h1 {
-    font-family: "Montserrat Subrayada", sans-serif;
-    font-size: calc(30px + (100 - 30) * ((100vw - 300px) / (1600 - 300)));
-    margin-bottom: 50px;
+    margin-bottom: -10px;
   }
   .work__category{
+    margin:50px 0;
     display: flex;
     justify-content: center;
     gap: -webkit-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
     gap: -mox-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
     gap: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));    
-    margin-bottom: 50px;
     .activeOption{
       text-decoration: underline;
     }

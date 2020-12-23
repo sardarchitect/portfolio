@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./_work.scss";
+import "../../../stylesheets/_work.scss";
 
 import { architectureProjects } from "./projectList";
 import { artProjects } from "./projectList";
@@ -14,9 +14,8 @@ export const Work = () => {
 
   return (
     <div id="work">
-      <h1>
-        SELECTED <br /> WORK
-      </h1>
+      <h1 className="title_text">SELECTED</h1>
+      <h1 className="title_text">WORK</h1>
 
       <div className="work__category">
         <a onClick={() => setSelectedCategory(architectureProjects)}>
@@ -55,7 +54,6 @@ export const Work = () => {
             />
           );
         })}
-        
       </div>
     </div>
   );

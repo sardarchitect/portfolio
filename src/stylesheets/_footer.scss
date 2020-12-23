@@ -1,9 +1,11 @@
+@use 'utilities' as u;
+
 footer {
   position: relative;
   min-height: 100vh;
 
   .footer__bg {
-    background: rgba(42, 42, 42, 1) no-repeat center center fixed;
+    background: u.$primary-color no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,9 +26,9 @@ footer {
     p {
       color: white;
       text-align: right;
-      font-size: 1.5em;
+      font-size: u.$subheadingsize;
       font-weight: 600;
-      max-width: 250px;
+      max-width: calc(200px + (500 - 200) * ((100vw - 300px) / (1600 - 300)));
       padding: 50px 0;
     }
     a {
@@ -43,24 +45,11 @@ footer {
     right: 0;
     justify-content: center;
   }
-  @media only screen and (min-width: 100px) {
-    .contact__description {
-      p {
-        max-width: 300px;
-      }
-    }
-  }
-  
+
   @media only screen and (min-width: 1000px) {
     .footer__bg {
       left: -200px;
       right: -200px;
     }
-    .contact__description {
-      p {
-        max-width: 500px;
-      }
-    }
   }
 }
-

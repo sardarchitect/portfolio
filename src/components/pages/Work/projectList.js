@@ -137,39 +137,6 @@ export const architectureProjects = [
       thumbnailSrc: "/thumbnail/20180118_125203-224x300.png",
     },
     {
-      projectId: "102",
-      title: "Dimensions v32",
-      year: "2020",
-      text: [
-        `Faculty Advisor: Christian UnverzagtTeam: Hannah Cane, Karun Chughasrani, Grace Hsu, Austin Kronig, Jordan Laurila, Nour Majzoub, Rinika Prince, Jenny Scarborough, Arvinder Singh.`,
-        `Dimensions is an annual architecture publication run by students of Taubman College of Architecture - University of Michigan. The journal seeks to contribute to the critical discourse of architectural education by documenting the most compelling work produced by its students, faculty, fellows, and visiting lecturers.`
-      ],
-      images: [
-        "/project-gallery/dimensions-32/1.jpg",
-        "/project-gallery/dimensions-32/2.jpg",
-        "/project-gallery/dimensions-32/3.jpg",
-      ],
-      thumbnailSrc: "/thumbnail/Dimensions-32-2.04-300x225.jpg",
-    },
-    {
-      projectId: "103",
-      title: "Robotic Picasso",
-      year: "2020",
-      text: [
-        `Robot Picasso`
-    ],
-      images: [
-        "/project-gallery/robotic-picasso/0.jpg",
-        "/project-gallery/robotic-picasso/1.jpg",
-        "/project-gallery/robotic-picasso/1a.jpg",
-        "/project-gallery/robotic-picasso/2.jpg",
-        "/project-gallery/robotic-picasso/2a.jpg",
-        "/project-gallery/robotic-picasso/3.jpg",
-        "/project-gallery/robotic-picasso/3a.jpg",
-      ],
-      thumbnailSrc: "/thumbnail/Picasso_1a-300x300.jpg",
-    },
-    {
       projectId: "104",
       title: "Stack-Pour",
       year: "2020",
@@ -190,34 +157,6 @@ export const architectureProjects = [
         "/project-gallery/stack-pour/10.png",
       ],
       thumbnailSrc: "/thumbnail/DSC_2643-e1562083831594-300x250.png",
-    },
-    {
-      projectId: "105",
-      title: "World's largest computer",
-      year: "2020",
-      text: [
-        `ji`
-    ],
-      images: [
-        "https://picsum.photos/300?random=11",
-        "https://picsum.photos/300?random=12",
-        "https://picsum.photos/300?random=13",
-      ],
-      thumbnailSrc: "/thumbnail/Dimensions-32-2.04-300x225.jpg",
-    },
-    {
-      projectId: "106",
-      title: "Web Design and stuff",
-      year: "2020",
-      text: [
-        `Digitally generated and fabricated.Software: Grasshopper, Rhino, PhotoshopFabrication Machines: CNC Router, KUKA Robot, Laser Cutters, Zund Cutter, Foam Cutter', Context-less Memorial This project explores howlight can aid in the visualand physical movement of nbodies within a spatial organization.The light on the ramp helpsilluminate the promanade. Theskylight reveals the names ofthe people who the memorialserves for. The slit wallserves as a wayfinder for theexits.The project also experimentswith color and texture.`
-      ],
-      images: [
-        "https://picsum.photos/300?random=14",
-        "https://picsum.photos/300?random=15",
-        "https://picsum.photos/300?random=16",
-      ],
-      thumbnailSrc: "/thumbnail/Dimensions-32-2.04-300x225.jpg",
     },
   ]
 

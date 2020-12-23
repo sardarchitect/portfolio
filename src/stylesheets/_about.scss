@@ -1,3 +1,5 @@
+@use 'utilities' as u;
+
 .about {
   display: flex;
   flex-direction: column;
@@ -9,18 +11,15 @@
   .about__intro {
     text-align: right;
     flex-direction: column;
-    margin-top: 130px;
+    margin-top: 100px;
 
     .about__intro__title {
-      font-family: "Montserrat Subrayada", sans-serif;
-      font-size: calc(23px + (75 - 23) * ((100vw - 300px) / (1600 - 300)));
       h1:last-child{
-        margin-top: -40px;
+        margin-top: -10px;
       }
     }
     .about__intro__subtitle {
-      font-weight: 600;
-      font-size: 1.5em;
+      font-size: u.$subheadingsize;
     }
   }
 
@@ -32,6 +31,9 @@
 
   .about__description__show {
     max-height: 300px;
+    a{
+      text-decoration: underline;
+    }
   }
   .about__description__hide {
     max-height: 0px;
@@ -41,8 +43,5 @@
     text-align: right;
     position: relative;
     margin-top: 15px;
-    a {
-      text-decoration: none;
-    }
   }
 }

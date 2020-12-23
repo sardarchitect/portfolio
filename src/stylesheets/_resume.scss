@@ -1,0 +1,20 @@
+@use 'utilities' as u;
+
+.resume{
+  margin-top: 150px;
+    h1 {
+        font-family: u.$headingfamily;
+        font-size: u.$headingsize
+      }
+      h2{
+        font-size: u.$subheadingsize;
+        margin: 30px 0;
+      }
+      .resume__section{
+        padding: 20px;
+        border-bottom: solid u.$primary-color 1px;
+      }
+      .resume__item{
+        margin: 20px;
+      }
+}

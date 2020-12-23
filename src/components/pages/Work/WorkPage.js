@@ -1,5 +1,5 @@
 import React from "react";
-import "./_workpage.scss";
+import "../../../stylesheets/_workpage.scss";
 
 import { useParams } from "react-router-dom";
 

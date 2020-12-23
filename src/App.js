@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import "./app.scss";
+import "./stylesheets/_app.scss";
 
 import { Cursor } from "./components/global/Cursor";
 import { Nav } from "./components/global/Nav";
@@ -19,6 +19,7 @@ function App() {
       <Switch>
         <Route exact path="/" children={Home} />
         <Route exact path="/projects/:id" children={<WorkPage />} />
+        <Route exact path="/cv" children={<Resume />} />
       </Switch>
       <Footer />
     </div>
@@ -30,7 +31,6 @@ const Home = () => {
     <div className="home">
       <About />
       <Work />
-      <Resume />
     </div>
   );
 };

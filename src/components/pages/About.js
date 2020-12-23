@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./_about.scss";
+import { Link } from "react-router-dom";
+import "../../stylesheets/_about.scss";
 
 export const About = () => {
   
@@ -26,10 +27,10 @@ export const About = () => {
     <div className="about">
       <div className="about__intro">
         <div className="about__intro__title">
-          <h1>ARVINDER</h1>
-          <h1>SINGH</h1>
+          <h1 className="title_text">ARVINDER</h1>
+          <h1 className="title_text">SINGH</h1>
         </div>
-        <div className="about__intro__subtitle">{text[textIdx]}</div>
+        <h2 className="about__intro__subtitle">{text[textIdx]}</h2>
       </div>
 
       <div className={about__description}>
@@ -45,10 +46,10 @@ export const About = () => {
           CRITICALLY ENGAGES ME WITH THE WORK I PURSUE.
         </p>
         <p>
-          RESUME&nbsp;
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            PDF
-          </a>
+          FIND MY &nbsp;
+          <Link to="/cv">
+            FULL CV HERE
+          </Link>
         </p>
       </div>
 

@@ -1,0 +1,59 @@
+@use "utilities" as u;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: u.$textfamily;
+  color:u.$primary-color;
+  font-size: u.$textsize;
+  overflow-x: hidden;
+}
+
+// BACKGROUND GRID
+body {
+  background: linear-gradient(-90deg, u.$line-color 1px, transparent 1px),
+    linear-gradient(u.$line-color 1px, transparent 1px),
+    linear-gradient(-90deg, u.$line-color-strong 1px, transparent 1px),
+    linear-gradient(u.$line-color-strong 1px, transparent 1px),
+    linear-gradient(
+      transparent 3px,
+      u.$background-color 3px,
+      u.$background-color 78px,
+      transparent 78px
+    ),
+    linear-gradient(-90deg, u.$middle-cross 1px, transparent 1px),
+    linear-gradient(
+      -90deg,
+      transparent 3px,
+      u.$background-color 3px,
+      u.$background-color 78px,
+      transparent 78px
+    ),
+    linear-gradient(u.$middle-cross 1px, transparent 1px), u.$background-color;
+
+  background-size: 4px 4px, 4px 4px, 80px 80px, 80px 80px, 80px 80px, 80px 80px,
+    80px 80px, 80px 80px;
+}
+
+// HIGHLIGHT COLOR
+::selection {
+  background: u.$secondary-color; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: u.$secondary-color; /* Gecko Browsers */
+}
+
+// SCROLLBAR
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background: u.$primary-color;
+}
