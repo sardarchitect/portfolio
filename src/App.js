@@ -9,7 +9,7 @@ import { Footer } from "./components/global/Footer";
 import { About } from "./components/pages/About";
 import { Work } from "./components/pages/Work/Work";
 import { WorkPage } from "./components/pages/Work/WorkPage";
-import { Resume } from "./components/pages/Resume";
+import { Resume } from "./components/pages/Resume/Resume";
 
 function App() {
   return (

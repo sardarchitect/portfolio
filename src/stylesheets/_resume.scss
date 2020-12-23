@@ -14,7 +14,28 @@
         padding: 20px;
         border-bottom: solid u.$primary-color 1px;
       }
+      .resume__section__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
       .resume__item{
         margin: 20px;
+        position: relative;
+        .resume__item__inner{
+          margin-left: 25px;
+        }
+        .resume__description__toggle{
+          text-align: center;
+        }
+        .resume__description__list{
+          transition: 0.5s max-height;
+          overflow: hidden;
+        }
+        .resume__description__list__show{
+          max-height: 300px;
+        }
+        .resume__description__list__hidden{
+          max-height: 0;
+        }
       }
 }
