@@ -11,6 +11,7 @@ export const Nav = () => {
       <nav>
         <a href="/">HOME</a>
         <a href="#cv">CV</a>
+        <a href="/blog">BLOG</a>
         <a href="#contact">CONTACT</a>
       </nav>
     );
@@ -21,16 +22,29 @@ export const Nav = () => {
       <nav>
         <a href="/">HOME</a>
         <a href="#work">SELECTED WORK</a>
+        <a href="/blog">BLOG</a>
         <a href="#contact">CONTACT</a>
       </nav>
     );
   }
 
+  if (location.pathname.includes("blog")) {
+    return (
+      <nav>
+        <a href="/">HOME</a>
+        <a href="/#work">SELECTED WORK</a>
+        <a href="/cv">CV</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    );
+  }
+
+
   return (
     <nav>
-      <a href="#about">ABOUT</a>
       <a href="#work">WORK</a>
       <a href="/cv">CV</a>
+      <a href="/blog">BLOG</a>
       <a href="#contact">CONTACT</a>
     </nav>
   );

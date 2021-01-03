@@ -1,39 +1,35 @@
 import React from "react";
 import "../../../stylesheets/_resume.scss";
+
 import { ResumeItem } from "./ResumeItem";
-import { experienceList, affilationsList, awardsList } from "./ResumeList";
+import { educationList, experienceList, affiliationsList, awardsList, skillsList } from "./ResumeList";
 
 export const Resume = () => {
   return (
     <div className="resume" id="cv">
-      <h1>BIO</h1>
+      <h1>CV</h1>
       <p>
-        Raised in an artistic household, my childhood memories revolve around
-        design and creativity — my father’s wood-shop, my mother’s painting
-        studio, and my city’s unique architectural disposition.
-      </p>
-      <p>
-        Throughout my education, I realized that the architect holds a great
-        agency in shaping social and cultural dynamics. My passion for
-        philosophy, world-politics, rhetoric, and architectural pedagogy
-        critically engages me with the work I pursue. I consider myself an
-        open-minded, cooperative, and a highly motivated individual.
+        Arvinder Singh is an architectural designer, with a specialization in Artificial Intelligence, and Medium Design. 
+        He graduated from the University of Michigan's Taubman College of Architecture (2019), and since then has been working
+        at Edge Design Associates, Ann Arbor.
+        <br/><br/>
+        Arvinder focuses on.................
       </p>
 
       <div className="resume__section">
         <h2> EDUCATION </h2>
+        
+        {educationList.map((item) => {
+          return (
+            <ResumeItem
+              title={item.title}
+              role={item.role}
+              location={item.location}
+              date={item.date}
+            />
+          );
+        })}
 
-        <div className="resume__item">
-          <h3>Bachelor of Science, Architecture</h3>
-          <p>Taubman College - University of Michigan</p>
-          <p>Ann Arbor MI | 2019</p>
-        </div>
-
-        <div className="resume__item">
-          <h3>Associate of Arts</h3>
-          <p>Grand Rapids Community College</p>
-          <p>Grand Rapids MI | 2017</p>
-        </div>
       </div>
 
       <div className="resume__section">
@@ -54,8 +50,9 @@ export const Resume = () => {
 
       <div className="resume__section__grid">
         <div className="resume__section">
+
           <h2> AFFILIATIONS </h2>
-          {affilationsList.map((item) => {
+          {affiliationsList.map((item) => {
             return (
               <ResumeItem
                 title={item.title}
@@ -80,37 +77,23 @@ export const Resume = () => {
           })}
         </div>
       </div>
-
-      <div className="resume__section__grid">
+ 
         <div className="resume__section">
-          <h2> LANGUAGES </h2>
-          <div className="resume__item">
-            <h3>Proficient </h3>
-            <p> English</p>
-            <p> Hindi</p>
-            <p> Punjabi</p>
-          </div>
-          <div className="resume__item">
-            <h3>Elementary </h3>
-            <p> French</p>
-          </div>
-        </div>
+          <h2> TOOLSET </h2>
+          <div className="resume__section__grid">
 
-        <div className="resume__section">
-          <h2> SOFTWARE </h2>
-          <div className="resume__item">
-            <h3>Proficient</h3>
-            <p>
-              Rhinocerous3D, AutoCAD, SketchUp, Photoshop, Illustrator,
-              InDesign, Excel, Word.
-            </p>
+          
+          {skillsList.map((item) => {
+            return (
+              <ResumeItem
+                title={item.title}
+                role={item.role}
+                location={item.location}
+                date={item.date}
+              />
+            );
+          })}
 
-            <h3>Intermediate</h3>
-            <p>Revit, Unreal Engine 4, After Effects, Premiere, ArcGIS Pro. </p>
-
-            <h3>Starting-out</h3>
-            <p>Grasshopper, C++, HTML, CSS</p>
-          </div>
         </div>
       </div>
     </div>

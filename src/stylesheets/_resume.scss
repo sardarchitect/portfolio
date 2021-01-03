@@ -1,41 +1,56 @@
 @use 'utilities' as u;
 
-.resume{
-  margin-top: 150px;
-    h1 {
-        font-family: u.$headingfamily;
-        font-size: u.$headingsize
+.resume {
+  margin-top: 75px;
+  h1 {
+    font-family: u.$headingfamily;
+    font-size: u.$headingsize;
+  }
+  h2 {
+    font-size: u.$subheadingsize;
+  }
+  .resume__section {
+    padding: 20px 0;
+    border-bottom: solid u.$primary-color 1px;
+  }
+  .resume__section__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  @media only screen and (min-width: 650px) {
+    .resume .resume__section__grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .resume__item {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    .resume__item__inner {
+      margin: 0 25px;
+    }
+    .resume__item__description__toggle {
+      border-top: solid 1px u.$primary-color;
+      margin-top: 15px;
+    }
+    .resume__item__description {
+      transition: 0.5s max-height;
+      overflow: hidden;
+      padding: 0 25px;
+      li {
+        list-style: circle;
       }
-      h2{
-        font-size: u.$subheadingsize;
-        margin: 30px 0;
-      }
-      .resume__section{
-        padding: 20px;
-        border-bottom: solid u.$primary-color 1px;
-      }
-      .resume__section__grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-      }
-      .resume__item{
-        margin: 20px;
-        position: relative;
-        .resume__item__inner{
-          margin-left: 25px;
-        }
-        .resume__description__toggle{
-          text-align: center;
-        }
-        .resume__description__list{
-          transition: 0.5s max-height;
-          overflow: hidden;
-        }
-        .resume__description__list__show{
-          max-height: 300px;
-        }
-        .resume__description__list__hidden{
-          max-height: 0;
-        }
-      }
+    }
+    .resume__item__description__show {
+      max-height: 300px;
+    }
+    .resume__item__description__hidden {
+      max-height: 0;
+    }
+  }
+  .resume__item:hover {
+  }
 }

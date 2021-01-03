@@ -1,0 +1,9 @@
+@use 'utilities' as u;
+
+.blog {
+  margin-top: 75px;
+  h1 {
+    font-family: u.$headingfamily;
+    font-size: u.$headingsize;
+  }
+}

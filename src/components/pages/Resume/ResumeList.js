@@ -1,3 +1,17 @@
+export const educationList = [
+  {
+    title: "Bachelor of Science, Architecture",
+    role: "Taubman College - University of Michigan",
+    location: "Ann Arbor MI",
+    date: "2019",
+  },
+  {
+    title: "Associate of Arts",
+    role: "Grand Rapids Community College",
+    location: "Grand Rapids MI",
+    date: "2017",
+  },
+]
 export const experienceList = [
   {
     title: "Edge Design Associates, Inc.",
@@ -81,7 +95,7 @@ export const experienceList = [
   },
 ];
 
-export const affilationsList = [
+export const affiliationsList = [
   {
     title: "International Students Organization GRCC",
     role: "President",
@@ -120,8 +134,26 @@ export const awardsList = [
   },
 ];
 
-export const technicalSkillsList = [
+export const skillsList = [
   {
-    
+    title: "Visualization Tools",
+    role: "Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere, Adobe AfterEffects"
   },
+  {
+    title: "Architectural Tools",
+    role: "Autodesk AutoCAD, Autodesk Revit, Rhino, Grasshopper, Unreal Engine 4, ArcGIS"
+  },
+  {
+    title: "Web Dev Tools",
+    role: "HTML, CSS, JavaScript, ReactJS, D3JS, NodeJS, ExpressJS, MongoDB, Mongoose"
+  },
+  {
+    title: "Machine Learning Tools",
+    role: "Python, Anaconda Environment, PyTorch, Numpy, Pandas"
+  },
+  {
+    title: "Languages",
+    role: "English, Hindi, Punjabi"
+  },
+  
 ];
