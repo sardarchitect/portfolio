@@ -1,16 +1,15 @@
 import React from "react";
-import "../../stylesheets/_nav.scss";
 import { Link, useLocation } from "react-router-dom";
+
+import "../../stylesheets/_nav.scss";
 
 export const Nav = () => {
   const location = useLocation();
-  console.log(location.pathname);
 
   if (location.pathname.includes("cv")) {
     return (
       <nav>
         <Link to="/">HOME</Link>
-        <a href="#cv">CV</a>
         <Link to="/blog">BLOG</Link>
         <a href="#contact">CONTACT</a>
       </nav>
@@ -21,8 +20,8 @@ export const Nav = () => {
     return (
       <nav>
         <Link to="/">HOME</Link>
-        <a href="#work">SELECTED WORK</a>
-        <Link to="/blog">BLOG</Link>
+        <a href="#work">OTHER WORK</a>
+        <Link to="/cv">CV</Link>
         <a href="#contact">CONTACT</a>
       </nav>
     );
@@ -32,7 +31,6 @@ export const Nav = () => {
     return (
       <nav>
         <Link to="/">HOME</Link>
-        <Link to="/#work">SELECTED WORK</Link>
         <Link to="/cv">CV</Link>
         <a href="#contact">CONTACT</a>
       </nav>

@@ -29,10 +29,10 @@ footer {
       font-size: u.$subheadingsize;
       font-weight: 600;
       max-width: calc(200px + (500 - 200) * ((100vw - 300px) / (1600 - 300)));
-      padding: 50px 0;
+      padding: 75px 0;
     }
     a {
-      color: white;
+      color: u.$secondary-color;
     }
   }
 

@@ -8,15 +8,15 @@ export const Footer = () => {
       <div className="footer__bg"></div>
       <div className="contact__description">
         <p>
-        I GET MOTIVATED THROUGH COLLABORATING WITH OTHER CREATIVE PEOPLE, AND
-        I AM ALWAYS LOOKING TO COLLABORATE WITH ARCHITECTS, DESIGNERS, AND THE TECH WORLD
+        I DO MY BEST WORK WITH OTHER COLLABORATORS, AND I AM ALWAYS LOOKING 
+        TO COLLABORATE WITH ARCHITECTS, DESIGNERS, AND THE AI COMMUNITY
         </p>
         <p>
-          PLEASE FEEL FREE TO CHECK ME OUT ON <a target="_blank" href="https://www.linkedin.com/in/sardarchitect/">LINKEDIN</a>, AND <a target="_blank" href="https://www.instagram.com/sardarchitect/">INSTAGRAM</a> OR SIMPLY SEND ME AN <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
+          PLEASE FEEL FREE TO CHECK ME OUT ON <a target="_blank" href="https://www.linkedin.com/in/sardarchitect/">LINKEDIN</a>, AND <a target="_blank" href="https://www.instagram.com/sardarchitect/">INSTAGRAM</a>, OR SIMPLY SEND ME AN <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
         </p>
       </div>
       <div className="copyright">
-        <p>©2020 - ALL RIGHTS RESERVED - ARVINDER SINGH</p>
+        <p>DESIGNED BY ARVINDER SINGH - 2021</p>
       </div>
     </footer>
   );

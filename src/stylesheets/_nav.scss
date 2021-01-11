@@ -1,7 +1,21 @@
+@use "utilities" as u;
+
 nav{
+    z-index: 999;
+
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+
     display: flex;
     justify-content: center;
-    gap: -webkit-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
-    gap: -mox-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
-    gap: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    
+    grid-gap: -webkit-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    grid-gap: -mox-calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+    grid-gap: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: u.$shadow;
 }

@@ -13,7 +13,7 @@ $line-color: rgba(255, 255, 255, 0.05);
 $line-color-strong: rgba(255, 255, 255, 0.04);
 
 $primary-color:rgba(42, 42, 42, 1);
-$secondary-color: rgb(204, 226, 0);
+$secondary-color: rgb(219, 117, 70);
 
 // FONTS
 $textsize: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
@@ -22,3 +22,7 @@ $subheadingsize: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
 
 $textfamily: "Poppins", sans-serif;
 $headingfamily: "Montserrat Subrayada", sans-serif;
+
+// SHADOWS
+
+$shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 10px 0 rgba(0, 0, 0, 0.5);

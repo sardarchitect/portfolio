@@ -1,4 +1,5 @@
 import React from "react";
+import {Work} from './Work'
 import "../../../stylesheets/_workpage.scss";
 
 import { useParams } from "react-router-dom";
@@ -26,7 +27,9 @@ export const WorkPage = () => {
           {project.images.map((item) => <img src={item} className="temp_images" />)}
         </div>
       </div>
-      <div className="work__page__other__work"></div>
+      <div className="work__page__other__work">
+        <Work />
+      </div>
     </div>
   );
 };

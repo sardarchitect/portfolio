@@ -6,4 +6,20 @@
     font-family: u.$headingfamily;
     font-size: u.$headingsize;
   }
+  .coming_soon{
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    min-height: 100vh;
+    background-color: wheat;
+    overflow: hidden;
+    .coming_soon_0{
+      background-color: white;
+      padding: 50px;
+    }
+    .coming_soon_1{
+      background-color: violet;
+      padding: 50px;
+    }
+  }
 }

@@ -13,8 +13,7 @@ export const Work = () => {
   );
 
   return (
-    <div id="work">
-      <h1 className="title_text">SELECTED</h1>
+    <div className='work' id='work'>
       <h1 className="title_text">WORK</h1>
 
       <div className="work__category">
