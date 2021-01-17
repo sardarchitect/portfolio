@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
-import "../../stylesheets/_cursor.scss";
+import "./_cursor.scss";
 
 const isMobile = () => {
     const ua = navigator.userAgent;
@@ -56,7 +56,7 @@ export const Cursor = () => {
     };
   
     const handleLinkHoverEvents = () => {
-      document.querySelectorAll("a").forEach((el) => {
+      document.querySelectorAll("a, #logo, #nav-icon4").forEach((el) => {
         el.addEventListener("mouseover", () => setLinkHovered(true));
         el.addEventListener("mouseout", () => setLinkHovered(false));
       });

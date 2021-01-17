@@ -1,40 +1,30 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-
-import "./stylesheets/_app.scss";
-
-import { Cursor } from "./components/global/Cursor";
-import { Nav } from "./components/global/Nav";
-import { Footer } from "./components/global/Footer";
 import { About } from "./components/pages/About";
-import { Work } from "./components/pages/Work/Work";
-import { WorkPage } from "./components/pages/Work/WorkPage";
-import { Resume } from "./components/pages/Resume/Resume";
-import { Blog } from "./components/pages/Blog/Blog";
+import "./_app.scss";
+
+import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
+import { Footer } from "./components/pages/Footer";
 
 function App() {
+  let parallax;
   return (
     <div className="App">
-      <Cursor />
-      <Nav />
-      <Switch>
-        <Route exact path="/" children={Home} />
-        <Route exact path="/projects/:id" children={<WorkPage />} />
-        <Route exact path="/cv" children={<Resume />} />
-        <Route exact path="/blog" children={<Blog />} />
-      </Switch>
-      <Footer />
+      <Parallax className='parallax_layer' ref={(ref) => (parallax = ref)} pages={2}>
+        <ParallaxLayer offset={0} speed={0.5} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div className="App__title" >
+            <h1>ARVINDER</h1>
+            <h1>SINGH</h1>
+            <h2>PORTFOLIO '21</h2>
+          </div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0.75} speed={1}>
+        <About/>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.3} style={{ backgroundColor: 'rgb(224, 140, 101)' }} children={<Footer />} />
+      </Parallax>
     </div>
   );
 }
-
-const Home = () => {
-  return (
-    <div className="home">
-      <About />
-      <Work />
-    </div>
-  );
-};
 
 export default App;

@@ -1,0 +1,48 @@
+@use './utils/utils' as u;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: u.$textFamily;
+  color: u.$primaryColor;
+  font-size: u.$textSize;
+  a {
+    color: u.$primaryColor;
+    transition: color 0.2s;
+    text-decoration: none;
+  }
+  a:hover {
+    color: u.$secondaryColor;
+  }
+  h1 {
+    font-family: u.$headingFamily;
+    font-size: u.$headingSize;
+  }
+}
+
+
+// // HIGHLIGHT COLOR
+// ::selection {
+//   background: u.$secondaryColor; /* WebKit/Blink Browsers */
+// }
+// ::-moz-selection {
+//   background: u.$secondaryColor; /* Gecko Browsers */
+// }
+
+// SCROLLBAR
+// ::-webkit-scrollbar {
+//   width: 5px;
+// }
+// ::-webkit-scrollbar-track {
+//   background: rgba(0, 0, 0, 0.5);
+// }
+// ::-webkit-scrollbar-thumb {
+//   border-radius: 0px;
+//   background: u.$primaryColor;
+// }
