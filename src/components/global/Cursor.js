@@ -56,7 +56,7 @@ export const Cursor = () => {
     };
   
     const handleLinkHoverEvents = () => {
-      document.querySelectorAll("a, #logo, #nav-icon4").forEach((el) => {
+      document.querySelectorAll("a, #nav-icon4").forEach((el) => {
         el.addEventListener("mouseover", () => setLinkHovered(true));
         el.addEventListener("mouseout", () => setLinkHovered(false));
       });
