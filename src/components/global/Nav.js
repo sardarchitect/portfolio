@@ -1,5 +1,7 @@
+// MODULE IMPORTS
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// STYLE IMPORTS
 import "./_nav.scss";
 
 export const Nav = () => {
@@ -7,6 +9,7 @@ export const Nav = () => {
 
   return (
     <div className="Nav">
+      {/* MENU */}
       <div
         id="Nav__menu"
         className={menuOpen ? "Nav__menu__open" : "Nav__menu__close"}
@@ -25,15 +28,23 @@ export const Nav = () => {
             <Link to="#"> Contact </Link>
           </h1>
         </div>
-        <div className="Nav__menu__footer">
-          <h1>
-            <Link to="#"> Instagram </Link>
-          </h1>
-          <h1>
-            <Link to="#"> LinkedIn </Link>
-          </h1>
-        </div>
+        {menuOpen ? (
+          <div className="Nav__menu__footer">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sardarchitect/"
+            >
+              LINKEDIN
+            </a>
+            <a target="_blank" href="https://www.instagram.com/sardarchitect/">
+              INSTAGRAM
+            </a>
+            <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
+          </div>
+        ) : null}
       </div>
+      
+      {/* ICON */}
       <div
         id="nav-icon4"
         className={menuOpen ? "open" : null}

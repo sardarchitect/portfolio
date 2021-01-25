@@ -1,3 +1,4 @@
+/* IMPORTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap");
 
@@ -7,11 +8,9 @@ $primaryColor: rgba(42, 42, 42, 1);
 $secondaryColor: rgb(224, 140, 101);
 
 // FONTS
-// $headingsize: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
 $headingSize: calc(5em + (10 - 8) * ((100vw - 300px) / (1600 - 300)));
 $subheadingSize: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
 $textSize: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
-
 $headingFamily: "Montserrat Subrayada", sans-serif;
 $textFamily: "Poppins", sans-serif;
 

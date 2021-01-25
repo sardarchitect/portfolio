@@ -1,5 +1,7 @@
+/* IMPORTS */
 @use '../../utils/utils' as u;
 
+/* NAV */
 .Nav {
   position: fixed;
   top: 0;
@@ -7,42 +9,38 @@
   width: 100%;
   padding: 20px 20px;
   z-index: 999;
-
+  // NAV MENU
   #Nav__menu {
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(255, 255, 255, 0.95);
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     transition: all 0.5s;
-    .Nav__menu__main{
-      h1{
-        font-family: u.$headingFamily;
+    .Nav__menu__main {
+      h1 {
+        font-size: 4em;
         margin: 25px;
       }
     }
-    .Nav__menu__footer{
+    .Nav__menu__footer {
       position: fixed;
       bottom: 0;
       left: 0;
       right: 0;
-      justify-content: center;
+      justify-content: space-around;
       display: flex;
-      h1{
-        font-family: u.$headingFamily;
-        font-size: 2em;
-        margin: 25px;
-      }
+      font-family: u.$headingFamily;
+      margin: 10px;
+      font-size: 1.5em;
     }
   }
   .Nav__menu__open {
-    height: 100%;
-    opacity: 100%;
+    height: 100vh;
   }
   .Nav__menu__close {
     overflow: hidden;
@@ -50,14 +48,13 @@
     opacity: 0%;
   }
 }
-
 @media only screen and (min-width: 1000px) {
   .Nav {
     padding: 20px 150px;
   }
 }
 
-// ICON (SPECIFIC)
+/* NAV ICON */
 $icon4-height: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
 $icon4-width: calc(1.414213 * #{$icon4-height});
 #nav-icon4 {

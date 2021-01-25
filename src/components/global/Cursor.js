@@ -1,5 +1,7 @@
+// MODULE IMPORTS
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
+// STYLE IMPORTS
 import "./_cursor.scss";
 
 const isMobile = () => {
@@ -56,7 +58,7 @@ export const Cursor = () => {
     };
   
     const handleLinkHoverEvents = () => {
-      document.querySelectorAll("a, #nav-icon4").forEach((el) => {
+      document.querySelectorAll("a , #nav-icon4").forEach((el) => {
         el.addEventListener("mouseover", () => setLinkHovered(true));
         el.addEventListener("mouseout", () => setLinkHovered(false));
       });

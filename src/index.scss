@@ -1,19 +1,17 @@
+/* IMPORTS */
 @use './utils/utils' as u;
 
-// GLOBAL
+/* GLOBAL STYLES */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
 
-// FONTS
-body {
+  // FONTS
   font-family: u.$textFamily;
   color: u.$primaryColor;
   font-size: u.$textSize;
@@ -38,7 +36,6 @@ body {
 ::-moz-selection {
   background: u.$secondaryColor; /* Gecko Browsers */
 }
-
 // SCROLLBAR
 ::-webkit-scrollbar {
   width: 5px;
