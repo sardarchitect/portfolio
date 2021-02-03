@@ -2,11 +2,10 @@
 @use '../../utils/utils' as u;
 // FOOTER
 .Footer {
-  min-height: 100vh;
   background-color: u.$secondaryColor;
 
   .contact__description {
-    padding: 150px 20px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -15,9 +14,7 @@
       font-size: u.$subheadingSize;
       font-weight: 600;
       max-width: calc(200px + (500 - 200) * ((100vw - 300px) / (1600 - 300)));
-    }
-    p{
-      margin-top: 50px;
+      padding: 25px;
     }
     a {
       color: white;
@@ -28,12 +25,8 @@
   }
 
   .copyright {
-    margin: 15px;
+    padding: 15px;
     display: flex;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    right: 0;
     justify-content: center;
   }
 

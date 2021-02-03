@@ -1,7 +1,6 @@
 // MODULE IMPORTS
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { ParallaxLayer } from "react-spring/renderprops-addons";
 // STYLE IMPORTS
 import "./_work.scss";
 // DATA IMPORTS
@@ -17,25 +16,24 @@ export const Work = () => {
   );
 
   return (
-    <ParallaxLayer offset={1} speed={0.1}>
       <div className="Work" id="Work">
         <h1>WORK</h1>
         <h2>{selectedCategory==architectureProjects ? "ARCHITECTURE" : selectedCategory==artProjects ? "ART" : "TECHNOLOGY"}</h2>
         <div className="Work__category">
-          <RiBuilding3Line
+          <a><RiBuilding3Line
             className={
               selectedCategory == architectureProjects ? "active" : null
             }
             onClick={() => setSelectedCategory(architectureProjects)}
-          />
-          <GiPaintBrush
+          /></a>
+          <a><GiPaintBrush
             className={selectedCategory == artProjects ? "active" : null}
             onClick={() => setSelectedCategory(artProjects)}
-          />
-          <GiComputing
+          /></a>
+          <a><GiComputing
             className={selectedCategory == technologyProjects ? "active" : null}
             onClick={() => setSelectedCategory(technologyProjects)}
-          />
+          /></a>
         </div>
         <div className="Work__grid">
           {selectedCategory.map((item) => {
@@ -50,7 +48,6 @@ export const Work = () => {
           })}
         </div>
       </div>
-    </ParallaxLayer>
   );
 };
 

@@ -3,6 +3,10 @@
 
 // ABOUT
 .About {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   .About__title {
     display: flex;
     flex-direction: column;
@@ -13,8 +17,5 @@
     color: rgba(0, 0, 0, 0.055);
     text-align: center;
     font-size: 2.5em;
-  }
-  .About__glasses {
-    background-color: wheat;
   }
 }

@@ -8,12 +8,14 @@ import { Cursor } from "./components/global/Cursor";
 import App from "./App";
 // STYLE IMPORTS
 import "./index.scss";
+import { Footer } from "./components/global/Footer";
 
 ReactDOM.render(
   <BrowserRouter>
     <Cursor />
     <Nav />
     <App />
+    <Footer />
   </BrowserRouter>,
   document.getElementById("root")
 );

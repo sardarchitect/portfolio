@@ -1,6 +1,5 @@
 // IMPORT MODULES
 import React, { useEffect, useState } from "react";
-import { ParallaxLayer } from "react-spring/renderprops-addons";
 // IMPORT COMPONENTS
 import { Glasses } from "./Glasses";
 // IMPORT STYLES
@@ -23,25 +22,18 @@ export const About = () => {
 
   return (
     <div className="About">
-      {/* TITLE */}
-      <ParallaxLayer offset={0.35} speed={0} className="About">
-        <div className="About__title">
-          <h1>ARVINDER</h1>
-          <h1>SINGH</h1>
-          <h2>PORTFOLIO '21</h2>
-        </div>
-      </ParallaxLayer>
-      {/* SUBTITLE */}
-      <ParallaxLayer offset={0.25} speed={-0.75}>
-        <div className="About__subtitle">
-          <h2>{text[textIdx]}</h2>
-        </div>
-      </ParallaxLayer>
       {/* GRAPHIC */}
-      {/* <ParallaxLayer
-        offset={0}
-        speed={0}
-      ><Glasses /></ParallaxLayer> */}
+      {/* <Glasses /> */}
+      {/* TITLE */}
+      <div className="About__title">
+        <h1>ARVINDER</h1>
+        <h1>SINGH</h1>
+        <h2>PORTFOLIO '21</h2>
+      </div>
+      {/* SUBTITLE */}
+      <div className="About__subtitle">
+        <h2>{text[textIdx]}</h2>
+      </div>
     </div>
   );
 };

@@ -15,17 +15,17 @@ export const Nav = () => {
         className={menuOpen ? "Nav__menu__open" : "Nav__menu__close"}
       >
         <div className="Nav__menu__main">
-          <h1>
-            <Link to="#"> About </Link>
+          <h1 onClick={()=> setMenuOpen(false)}>
+            <Link to="/"> Home </Link>
           </h1>
-          <h1>
-            <Link to="#"> CV </Link>
+          <h1 onClick={()=> setMenuOpen(false)}>
+            <Link to="/cv"> CV </Link>
           </h1>
-          <h1>
-            <Link to="#"> Work </Link>
+          <h1 onClick={()=> setMenuOpen(false)}>
+            <Link to="/#work"> Work </Link>
           </h1>
-          <h1>
-            <Link to="#"> Contact </Link>
+          <h1 onClick={()=> setMenuOpen(false)}>
+            <Link to="/#footer"> Contact </Link>
           </h1>
         </div>
         {menuOpen ? (

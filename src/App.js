@@ -1,27 +1,21 @@
 // MODULE IMPORTS
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
-// COMPONENT IMPORTS 
+// COMPONENT IMPORTS
 import { About } from "./components/pages/About";
-import { Footer } from "./components/pages/Footer";
 import { Work } from "./components/pages/Work";
+import { Resume } from "./components/pages/Resume";
+
 // STYLE IMPORTS
 import "./_app.scss";
 
 function App() {
-  let parallax;
   return (
     <div className="App">
-      <Parallax
-        className="App__parallax"
-        ref={(ref) => (parallax = ref)}
-        pages={4}
-      >
-        <About />
-        <Work />
-        <Footer />
-      </Parallax>
+      <Switch>
+        <Route exact path="/" children={[<About/>, <Work/>]} />
+        <Route exact path="/cv" children={<Resume/>} />
+      </Switch>
     </div>
   );
 }
