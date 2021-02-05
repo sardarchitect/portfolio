@@ -6,11 +6,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
-  scroll-behavior: smooth;
   overflow-x: hidden;
-
+  
   // FONTS
   font-family: u.$textFamily;
   color: u.$primaryColor;
@@ -26,6 +26,9 @@ body {
   h1 {
     font-family: u.$headingFamily;
     font-size: u.$headingSize;
+  }
+  h2 {
+    font-size: u.$subheadingSize;
   }
 }
 

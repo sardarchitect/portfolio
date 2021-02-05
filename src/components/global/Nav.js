@@ -1,6 +1,8 @@
 // MODULE IMPORTS
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// COMPONENT IMPORTS
+import { Glasses } from "../pages/Glasses";
 // STYLE IMPORTS
 import "./_nav.scss";
 
@@ -15,17 +17,17 @@ export const Nav = () => {
         className={menuOpen ? "Nav__menu__open" : "Nav__menu__close"}
       >
         <div className="Nav__menu__main">
-          <h1 onClick={()=> setMenuOpen(false)}>
+          <h1 onClick={() => setMenuOpen(false)}>
             <Link to="/"> Home </Link>
           </h1>
-          <h1 onClick={()=> setMenuOpen(false)}>
-            <Link to="/cv"> CV </Link>
+          <h1 onClick={() => setMenuOpen(false)}>
+            <Link to="/cv"> About </Link>
           </h1>
-          <h1 onClick={()=> setMenuOpen(false)}>
+          <h1 onClick={() => setMenuOpen(false)}>
             <Link to="/#work"> Work </Link>
           </h1>
-          <h1 onClick={()=> setMenuOpen(false)}>
-            <Link to="/#footer"> Contact </Link>
+          <h1 onClick={() => setMenuOpen(false)}>
+            <Link to="/blog"> Blog </Link>
           </h1>
         </div>
         {menuOpen ? (
@@ -43,17 +45,22 @@ export const Nav = () => {
           </div>
         ) : null}
       </div>
-      
+
       {/* ICON */}
-      <div
-        id="nav-icon4"
-        className={menuOpen ? "open" : null}
-        onClick={() => setMenuOpen(!menuOpen)}
-      >
-        <span></span>
-        <span></span>
-        <span></span>
+        <div
+          id="nav-icon4"
+          className={menuOpen ? "open" : null}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="home__icon">
+        <Link to='/'>
+          <Glasses />
+        </Link>
+        </div>
       </div>
-    </div>
   );
 };
