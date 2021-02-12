@@ -4,9 +4,9 @@ import { Link, useParams } from "react-router-dom";
 // STYLE IMPORT
 import "./_workpage.scss";
 // COMPONENT IMPORT
-import { architectureProjects } from "./projectList";
-import { artProjects } from "./projectList";
-import { technologyProjects } from "./projectList";
+import { architectureProjects } from "../../data/projectList"
+import { artProjects } from "../../data/projectList"
+import { technologyProjects } from "../../data/projectList"
 
 export const WorkPage = () => {
   let { id } = useParams();

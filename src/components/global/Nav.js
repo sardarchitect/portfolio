@@ -21,7 +21,7 @@ export const Nav = () => {
             <Link to="/"> Home </Link>
           </h1>
           <h1 onClick={() => setMenuOpen(false)}>
-            <Link to="/cv"> About </Link>
+            <Link to="/cv"> CV </Link>
           </h1>
           <h1 onClick={() => setMenuOpen(false)}>
             <Link to="/#work"> Work </Link>
@@ -55,11 +55,6 @@ export const Nav = () => {
           <span></span>
           <span></span>
           <span></span>
-        </div>
-        <div className="home__icon">
-        <Link to='/'>
-          <Glasses />
-        </Link>
         </div>
       </div>
   );

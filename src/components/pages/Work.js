@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 // STYLE IMPORTS
 import "./_work.scss";
 // DATA IMPORTS
-import { architectureProjects } from "./projectList";
-import { artProjects } from "./projectList";
-import { technologyProjects } from "./projectList";
+import { architectureProjects } from "../../data/projectList";
+import { artProjects } from "../../data/projectList"
+import { technologyProjects } from "../../data/projectList"
 // ICONS IMPORTS
 import { RiBuilding3Line } from "react-icons/ri";
 import { GiPaintBrush, GiComputing } from "react-icons/gi";
@@ -59,7 +59,7 @@ export const WorkItem = (props) => {
       <div className="Work__item">
         <img src={props.thumbnailSrc} />
         <p> {props.title}</p>
-        {/* <p> {props.year} </p> */}
+        <p> {props.year} </p>
       </div>
     </Link>
   );

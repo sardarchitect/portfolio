@@ -55,18 +55,6 @@
   }
 }
 
-  .home__icon{
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-align: center;
-    img{
-    height: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300)));
-  }}
-
   /* NAV ICON */
   $icon4-height: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
   $icon4-width: calc(1.414213 * #{$icon4-height});

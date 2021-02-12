@@ -2,7 +2,7 @@ import React from "react";
 import "./_resume.scss";
 
 import { ResumeItem } from "./ResumeItem";
-import { educationList, experienceList, affiliationsList, awardsList, skillsList } from "./ResumeList";
+import { educationList, experienceList, affiliationsList, awardsList, skillsList } from "../../data/ResumeList"
 
 export const Resume = () => {
   return (

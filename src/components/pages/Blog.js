@@ -6,7 +6,6 @@ import './_blog.scss'
 export const Blog = () => {
     return(
         <div className="Blog">
-            Blog
         </div>
     )
 }
