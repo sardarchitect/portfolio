@@ -1,7 +1,6 @@
 @use '../../utils/utils' as u;
 
 .resume {
-  padding: 0 20px;
   margin-top: 75px;
   h1 {
     text-align: center;
@@ -9,54 +8,47 @@
     font-size: u.$headingSize;
   }
   h2 {
-    text-align: left;
     font-size: u.$subheadingSize;
-    margin-bottom: 15px;
+    align-self: flex-start;
+  }
+  .resume__description{
+    margin: 10ch 0;
   }
   .resume__section {
-  }
-  .resume__section__grid {
     display: grid;
     grid-template-columns: 1fr;
+    text-align: center;
   }
   .resume__item {
-    padding: 0 10px;
+    margin: 0 0 25px 0;
     .resume__item__header{
       position: relative;
       .resume__item__description__toggle svg {
         position: absolute;
         top: 0;
         right: 0;
-        height: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
-        width: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
       }
     }
     .resume__item__inner {
-      margin: 0 0 0 25px;
+      font-style: italic;
+      margin-left: 25px;
+      .resume__role{
+        font-weight: 700;
+      }
     }
 
     .resume__item__description {
       transition: 0.2s max-height;
-      overflow: hidden;
-      padding: 0 25px;
-      li {
-        list-style: circle;
-      }
-    }
-    .resume__item__description__show {
-      max-height: 500px;
-    }
-    .resume__item__description__hidden {
-      max-height: 0;
     }
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 700px) {
   .resume {
-    padding: 0 150px;
-    .resume__section__grid {
-      grid-template-columns: 1fr 1fr;
+    .resume__section {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      text-align: left;
     }
   }
 }

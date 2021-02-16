@@ -9,6 +9,7 @@ import { WorkPage } from "./components/pages/WorkPage";
 import { Blog } from "./components/pages/Blog";
 // STYLE IMPORTS
 import "./_app.scss";
+import { BlogPage } from "./components/pages/BlogPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path="/" children={[<About />, <Work/>]} />
         <Route exact path="/projects/:id" children={<WorkPage />} />
+        <Route exact path="/blog/:id" children={<BlogPage />} />
         <Route exact path="/cv" children={<Resume />} />
         <Route exact path="/blog" children={<Blog />} />
       </Switch>
