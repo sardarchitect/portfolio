@@ -4,16 +4,11 @@ import { Link, useParams } from "react-router-dom";
 // STYLE IMPORT
 import "./_workpage.scss";
 // COMPONENT IMPORT
-import { architectureProjects } from "../../data/projectList"
-import { artProjects } from "../../data/projectList"
-import { technologyProjects } from "../../data/projectList"
+import { projects } from "../../data/projectList"
 
 export const WorkPage = () => {
   let { id } = useParams();
-  const combinedProjects = architectureProjects
-    .concat(artProjects)
-    .concat(technologyProjects);
-  const project = combinedProjects.find((project) => project.projectId === id);
+  const project = projects.find((project) => project.projectId === id);
   console.log(project);
 
   return (

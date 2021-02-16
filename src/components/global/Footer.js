@@ -12,13 +12,16 @@ export const Footer = () => {
           PROJECTS IN ART, ARCHITECTURE, AND COMPUTER VISION TECHNOLOGIES
         </p>
         <p>
-          FEEL FREE TO CHECK ME OUT ON <a target="_blank" href="https://www.linkedin.com/in/sardarchitect/">
+          FEEL FREE TO CHECK OUT MY
+          <a target="_blank" href="https://www.linkedin.com/in/sardarchitect/">
             LINKEDIN
           </a>
-          , AND <a target="_blank" href="https://www.instagram.com/sardarchitect/">
-            INSTAGRAM 
+          , AND
+          <a target="_blank" href="https://www.instagram.com/sardarchitect/">
+            INSTAGRAM
           </a>
-          , OR SIMPLY SEND ME AN <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
+          , OR SIMPLY REACH ME VIA
+          <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
         </p>
       </div>
       <div className="copyright">

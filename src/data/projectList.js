@@ -1,5 +1,6 @@
-export const architectureProjects = [
+export const projects = [
   {
+    category: "architectureProjects",
     projectId: "baker-college",
     title: "Baker College",
     year: "2020",
@@ -17,6 +18,7 @@ export const architectureProjects = [
     thumbnailSrc: "/thumbnail/Royal-Oak-Campus-Rendering.jpg",
   },
   {
+    category: "architectureProjects",
     projectId: "disrupting-suburbia",
     title: "Disrupting Suburbia",
     year: "2019",
@@ -37,6 +39,7 @@ export const architectureProjects = [
     thumbnailSrc: "/thumbnail/14-300x153.jpg",
   },
   {
+    category: "architectureProjects",
     projectId: "the-american-bazaar",
     title: "The American Bazaar",
     award: 'Student Show Award Finalists',
@@ -61,6 +64,7 @@ export const architectureProjects = [
     thumbnailSrc: "/thumbnail/03212019_GIS_Pittsburgh-300x200.png",
   },
   {
+    category: "architectureProjects",
     projectId: "farm-to-rent",
     title: "Farm-to-Rent",
     year: "2020",
@@ -83,6 +87,7 @@ export const architectureProjects = [
       "/thumbnail/farm_to_rent_submission_6-1024x663-1-e1564605849817-300x196.jpg",
   },
   {
+    category: "architectureProjects",
     projectId: "fragmented-living",
     title: "Fragmented Living",
     year: "2018",
@@ -102,6 +107,7 @@ export const architectureProjects = [
     thumbnailSrc: "/thumbnail/Plans_Sections_Axons-3-200x300.png",
   },
   {
+    category: "architectureProjects",
     projectId: "a-framework-for-frameworks",
     title: "A Framework For Frameworks",
     year: "2019",
@@ -127,6 +133,7 @@ export const architectureProjects = [
     thumbnailSrc: "/thumbnail/Reservation_Urban1-300x199.png",
   },
   {
+    category: "architectureProjects",
     projectId: "light-memorial",
     title: "Light Memorial",
     year: "2018",
@@ -141,10 +148,8 @@ export const architectureProjects = [
     ],
     thumbnailSrc: "/thumbnail/DSC_0480-300x225.png",
   },
-];
-
-export const artProjects = [
   {
+    category: "artProjects",
     projectId: "phantasmagoria",
     title: "Phantasmagoria",
     year: "2020",
@@ -162,6 +167,7 @@ export const artProjects = [
     thumbnailSrc: "/thumbnail/phantasmagoria.jpg",
   },
   {
+    category: "artProjects",
     projectId: "artwork",
     title: "Artwork",
     year: "2015",
@@ -176,6 +182,7 @@ export const artProjects = [
     thumbnailSrc: "/thumbnail/Sketches_4-221x300.png",
   },
   {
+    category: "artProjects",
     projectId: "digital-objects",
     title: "Digital Objects",
     year: "2019",
@@ -190,6 +197,7 @@ export const artProjects = [
     thumbnailSrc: "/thumbnail/20180118_125203-224x300.png",
   },
   {
+    category: "artProjects",
     projectId: "stack-pour",
     title: "Stack-Pour",
     year: "2020",
@@ -209,10 +217,8 @@ export const artProjects = [
     ],
     thumbnailSrc: "/thumbnail/DSC_2643-e1562083831594-300x250.png",
   },
-];
-
-export const technologyProjects = [
   {
+    category: "technologyProjects",
     projectId: "seek2solve",
     title: "Seek2Solve",
     year: "2020",
@@ -234,6 +240,7 @@ export const technologyProjects = [
     thumbnailSrc: "/thumbnail/FINAL WIREFRAMES-02.png",
   },
   {
+    category: "technologyProjects",
     projectId: "mnist-gan",
     title: "MNIST GAN",
     year: "2020",
@@ -249,6 +256,7 @@ export const technologyProjects = [
     thumbnailSrc: "/thumbnail/Dimensions-32-2.04-300x225.jpg",
   },
   {
+    category: "technologyProjects",
     projectId: "architectural-floor-plan-gan",
     title: "Architectural Floor Plan Generation",
     year: "2021",
@@ -265,6 +273,7 @@ export const technologyProjects = [
     thumbnailSrc: "/thumbnail/Picasso_1a-300x300.jpg",
   },
   {
+    category: "technologyProjects",
     projectId: "style-transfer",
     title: "Style Transfer",
     year: "2020",
@@ -285,6 +294,7 @@ export const technologyProjects = [
     thumbnailSrc: "/thumbnail/DSC_2643-e1562083831594-300x250.png",
   },
   {
+    category: "technologyProjects",
     projectId: "virtual-worlds",
     title: "Virtual Worlds",
     year: "2020",
@@ -297,3 +307,4 @@ export const technologyProjects = [
     thumbnailSrc: "/thumbnail/Dimensions-32-2.04-300x225.jpg",
   },
 ];
+

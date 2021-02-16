@@ -10,7 +10,7 @@
 }
 body {
   overflow-x: hidden;
-  
+
   // FONTS
   font-family: u.$textFamily;
   color: u.$primaryColor;
@@ -30,6 +30,10 @@ body {
   h2 {
     font-size: u.$subheadingSize;
   }
+}
+
+.noscroll{
+  overflow-y: hidden;
 }
 
 // HIGHLIGHT COLOR

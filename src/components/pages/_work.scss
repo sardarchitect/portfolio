@@ -2,8 +2,7 @@
 @use '../../utils/utils' as u;
 
 .Work {
-  padding: 0 20px;
-  margin-bottom: 50px;
+  padding: 50px 20px;
   h1 {
     text-align: center;
   }
@@ -16,37 +15,19 @@
     align-items: center;
     margin: 50px 0;
     svg {
+      color: u.$secondaryColor;
       height: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
       width: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
-      transition: 1s color;
+      transition: 0.5s color;
     }
     .active {
-      color: u.$secondaryColor;
-    }
-  }
-  .Work__grid {
-    column-count: 2;
-    column-gap: 10px;
-    .Work__item {
-      display: grid;
-      grid-template-rows: 1fr auto;
-      margin-bottom: 10px;
-      break-inside: avoid;
-      img {
-        width: 100%;
-      }
-      p {
-        padding: 0.2em 0.5em;
-      }
+      color: u.$primaryColor;
     }
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .Work{
-    padding: 0 150px;
-  }
-  .Work .Work__grid {
-    column-count: 3;
+    padding: 50px 150px;
   }
 }

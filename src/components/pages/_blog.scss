@@ -1,0 +1,26 @@
+/* IMPORTS */
+@use '../../utils/utils' as u;
+
+.blog {
+  padding: 0 20px;
+  margin-top: 75px;
+  min-height: 100vh;
+  h1 {
+    text-align: center;
+  }
+  .blog__grid {
+    margin: 25px 0;
+    .blog__card {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      border: solid black 1px;
+      margin: 25px 0;
+      .blog__card__text {
+          padding: 15px;
+      }
+      .blog__card__thumbnail {
+          background-color: u.$secondaryColor;
+      }
+    }
+  }
+}

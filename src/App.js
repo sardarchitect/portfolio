@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" children={[<About />, <Work />]} />
+        <Route exact path="/" children={[<About />, <Work/>]} />
         <Route exact path="/projects/:id" children={<WorkPage />} />
         <Route exact path="/cv" children={<Resume />} />
         <Route exact path="/blog" children={<Blog />} />

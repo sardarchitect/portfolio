@@ -1,0 +1,16 @@
+.Work__grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  .Work__item{
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    height: 150px;
+  }
+}
+
+  @media only screen and (min-width: 1000px) {
+    .Work__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
