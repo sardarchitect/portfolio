@@ -1,7 +1,8 @@
 /* IMPORTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');// COLORS
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+// COLORS
 $backgroundColor: rgb(255, 255, 255);
 $primaryColor: rgba(42, 42, 42, 1);
 $secondaryColor: rgb(204, 204, 204);
@@ -10,6 +11,5 @@ $secondaryColor: rgb(204, 204, 204);
 $headingSize: calc(40px + (100 - 40) * ((100vw - 300px) / (1600 - 300)));
 $subheadingSize: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
 $textSize: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
-// $headingFamily: "Montserrat Subrayada", sans-serif;
 $headingFamily: 'Space Grotesk', sans-serif;
 $textFamily: "Poppins", sans-serif;

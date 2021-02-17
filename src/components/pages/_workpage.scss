@@ -1,29 +1,42 @@
 @use '../../utils/utils' as u;
 
-.work__page{
-    padding: 0 20px;
-    margin: 75px 0;
-    h1{
-        font-family: u.$headingFamily;
-        font-size: u.$headingSize;
+.work__page {
+  margin: 75px 0;
+  .work__page__title {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-family: u.$headingFamily;
+      font-size: u.$headingSize;
     }
-    .work__page__content{
-        .temp_images{
-            width: 100%;
-        }
-        .work__text{
-            p{
-                margin-top: 10px;
-            }
-        }
+  }
+  .work__page__content {
+      display: grid;
+      grid-template-columns: 1fr;
+    .work__images {
+      img {
+        width: 100%;
+      }
     }
-    .back__button{
-        margin-top: 50px
+    .work__text {
+      p {
+        margin-top: 10px;
+      }
     }
+  }
+  .back__button {
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
-    .work__page{
-        padding: 0 150px;
+  .work__page {
+    .work__page__content{
+
     }
   }
+
+}

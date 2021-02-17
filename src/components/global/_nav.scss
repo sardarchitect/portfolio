@@ -6,7 +6,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   padding: 20px 20px;
   z-index: 999;
   // NAV MENU
@@ -24,7 +23,6 @@
     transition: all 0.5s;
     .Nav__menu__main {
       h1 {
-        font-size: 4em;
         margin: 25px;
       }
     }

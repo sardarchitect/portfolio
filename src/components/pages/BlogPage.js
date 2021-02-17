@@ -3,8 +3,8 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 // STYLE IMPORT
 import "./_blogpage.scss";
-// COMPONENT IMPORT
-import { blogList } from "../../data/BlogList"
+// DATA IMPORT
+import { blogList } from "../../data/BlogList";
 
 export const BlogPage = () => {
   let { id } = useParams();
@@ -19,18 +19,15 @@ export const BlogPage = () => {
         {/* <div className="work__images">
           {blog.thumbnail.map((item) => <img src={item} className="temp_images" />)}
         </div> */}
-        <div className="work__text">{
-
-          blog.text.map(para => (
-            (<p>{para}</p>)
-          ))
-        
-        }</div>
-
+        <div className="work__text">
+          {blog.text.map((para) => (
+            <p>{para}</p>
+          ))}
+        </div>
       </div>
 
       <div className="back__button">
-        <Link to='/#Work'>...Back to blogs</Link>
+        <Link to="/#Work">...Back to blogs</Link>
       </div>
     </div>
   );

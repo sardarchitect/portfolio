@@ -10,14 +10,19 @@
   h2 {
     font-size: u.$subheadingSize;
     align-self: flex-start;
+    margin: 10px 0;
   }
   .resume__description{
     margin: 10ch 0;
+  }
+  .resume__section:nth-child(odd){
+    background-color: whitesmoke;
   }
   .resume__section {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
+    padding: 10px;
   }
   .resume__item {
     margin: 0 0 25px 0;
@@ -31,7 +36,6 @@
     }
     .resume__item__inner {
       font-style: italic;
-      margin-left: 25px;
       .resume__role{
         font-weight: 700;
       }
@@ -49,6 +53,9 @@
       display: grid;
       grid-template-columns: 1fr 3fr;
       text-align: left;
+    }
+    .resume__item__inner{
+      margin-left: 25px;
     }
   }
 }

@@ -1,7 +1,10 @@
+// MODULE IMPORTS
 import React from "react";
+// STYLES IMPORT
 import "./_resume.scss";
-
+// COMPONENT IMPORTS
 import { ResumeItem } from "./ResumeItem";
+// DATA IMPORTS
 import {
   educationList,
   experienceList,
@@ -34,17 +37,16 @@ export const Resume = () => {
         <h2> EDUCATION </h2>
 
         <div className="resume__section__list">
-        {educationList.map((item) => {
-          return (
-            <ResumeItem
-              title={item.title}
-              location={item.location}
-              date={item.date}
-              role={item.role}
-
-            />
-          );
-        })}
+          {educationList.map((item) => {
+            return (
+              <ResumeItem
+                title={item.title}
+                location={item.location}
+                date={item.date}
+                role={item.role}
+              />
+            );
+          })}
         </div>
       </div>
 
@@ -52,25 +54,23 @@ export const Resume = () => {
         <h2> EXPERIENCE </h2>
 
         <div className="resume__section__list">
-
-        {experienceList.map((item) => {
-          return (
-            <ResumeItem
-              title={item.title}
-              role={item.role}
-              location={item.location}
-              date={item.date}
-              description={item.description}
-            />
-          );
-        })}
+          {experienceList.map((item) => {
+            return (
+              <ResumeItem
+                title={item.title}
+                role={item.role}
+                location={item.location}
+                date={item.date}
+                description={item.description}
+              />
+            );
+          })}
         </div>
       </div>
 
-        <div className="resume__section">
-          <h2> AFFILIATIONS </h2>
-          <div className="resume__section__list">
-
+      <div className="resume__section">
+        <h2> AFFILIATIONS </h2>
+        <div className="resume__section__list">
           {affiliationsList.map((item) => {
             return (
               <ResumeItem
@@ -81,13 +81,12 @@ export const Resume = () => {
               />
             );
           })}
-          </div>
-          </div>
+        </div>
+      </div>
 
-        <div className="resume__section">
-          <h2> AWARDS & SKILLS </h2>
-          <div className="resume__section__list">
-
+      <div className="resume__section">
+        <h2> AWARDS & SKILLS </h2>
+        <div className="resume__section__list">
           {awardsSkillsList.map((item) => {
             return (
               <ResumeItem
@@ -99,7 +98,7 @@ export const Resume = () => {
             );
           })}
         </div>
-        </div>
       </div>
+    </div>
   );
 };

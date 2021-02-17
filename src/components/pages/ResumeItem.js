@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// MODULE IMPORTS
+import React from "react";
 
 export const ResumeItem = ({ title, role, location, date, description }) => {
   return (

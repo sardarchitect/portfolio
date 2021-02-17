@@ -1,7 +1,6 @@
 // IMPORT MODULES
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-// IMPORT COMPONENTS
 // IMPORT STYLES
 import "./_about.scss";
 

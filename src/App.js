@@ -7,9 +7,9 @@ import { Work } from "./components/pages/Work";
 import { Resume } from "./components/pages/Resume";
 import { WorkPage } from "./components/pages/WorkPage";
 import { Blog } from "./components/pages/Blog";
+import { BlogPage } from "./components/pages/BlogPage";
 // STYLE IMPORTS
 import "./_app.scss";
-import { BlogPage } from "./components/pages/BlogPage";
 
 function App() {
   return (

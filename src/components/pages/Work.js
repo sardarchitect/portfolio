@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 // STYLE IMPORTS
 import "./_work.scss";
-// DATA IMPORTS
 // ICONS IMPORTS
 import { RiBuilding3Line } from "react-icons/ri";
 import { GiPaintBrush, GiComputing } from "react-icons/gi";
@@ -47,9 +46,7 @@ export const Work = () => {
           />
         </a>
       </div>
-      <WorkGrid 
-        selectedCategory = {selectedCategory}
-      />
+      <WorkGrid selectedCategory={selectedCategory} />
     </div>
   );
 };

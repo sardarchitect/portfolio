@@ -1,8 +1,11 @@
-import { logDOM } from "@testing-library/react";
+// IMPORT MODULES
 import React from "react";
-import "./_workgrid.scss";
 import { Link } from "react-router-dom";
+// IMPORT COMPONENTS
+// IMPORT DATA
 import { projects } from "../../data/projectList";
+// IMPORT STYLES
+import "./_workgrid.scss";
 
 export const WorkGrid = ({ selectedCategory }) => {
   return (
@@ -11,7 +14,7 @@ export const WorkGrid = ({ selectedCategory }) => {
       {projects
         .filter((i) => i.category == selectedCategory)
         .map((item) => {
-          let url = "projects/" + item.id;
+          let url = "projects/" + item.projectId;
           return (
             <div>
               <Link to={"/" + url}>
