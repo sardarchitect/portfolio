@@ -16,35 +16,35 @@ export const Work = () => {
     <div className="Work" id="Work">
       <h1>SELECTED WORK</h1>
       <h2>
-        {selectedCategory == "architectureProjects"
+        {selectedCategory === "architectureProjects"
           ? "ARCHITECTURE"
-          : selectedCategory == "artProjects"
+          : selectedCategory === "artProjects"
           ? "ART"
           : "TECHNOLOGY"}
       </h2>
       <div className="Work__category">
-        <a>
+        <button>
           <RiBuilding3Line
             className={
-              selectedCategory == "architectureProjects" ? "active" : null
+              selectedCategory === "architectureProjects" ? "active" : null
             }
             onClick={() => setSelectedCategory("architectureProjects")}
           />
-        </a>
-        <a>
+        </button>
+        <button>
           <GiComputing
             className={
-              selectedCategory == "technologyProjects" ? "active" : null
+              selectedCategory === "technologyProjects" ? "active" : null
             }
             onClick={() => setSelectedCategory("technologyProjects")}
           />
-        </a>
-        <a>
+        </button>
+        <button>
           <GiPaintBrush
-            className={selectedCategory == "artProjects" ? "active" : null}
+            className={selectedCategory === "artProjects" ? "active" : null}
             onClick={() => setSelectedCategory("artProjects")}
           />
-        </a>
+        </button>
       </div>
       <WorkGrid selectedCategory={selectedCategory} />
     </div>

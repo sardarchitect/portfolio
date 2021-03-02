@@ -3,36 +3,28 @@
 // FOOTER
 .Footer {
   background-color: u.$secondaryColor;
+  padding-top: 30px;
 
   .contact__description {
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    p {
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 30px;
       text-align: right;
-      font-size: u.$subheadingSize;
-      font-weight: 600;
       max-width: calc(300px + (500 - 300) * ((100vw - 300px) / (1600 - 300)));
-      padding: 25px;
     }
     a {
       color: white;
     }
-    a:hover{
+    a:hover {
       color: u.$primaryColor;
     }
   }
-
   .copyright {
     padding: 15px;
     display: flex;
     justify-content: center;
-  }
-
-  @media only screen and (min-width: 1000px) {
-    .contact__description {
-      padding: 50px 150px;
-    }
   }
 }

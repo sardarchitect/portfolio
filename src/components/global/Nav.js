@@ -18,23 +18,23 @@ export const Nav = () => {
   }
 
   return (
-    <div className="Nav">
+    <div className="Nav template_page">
         <div
           id="Nav__menu"
           className={menuOpen ? "Nav__menu__open" : "Nav__menu__close"}
         >
           <div className="Nav__menu__main">
             <h1 onClick={(e) => toggleMenu(e)}>
-              <Link to="/"> Home </Link>
+              <Link to="/"> HOME </Link>
             </h1>
             <h1 onClick={(e) => toggleMenu(e)}>
               <Link to="/cv"> CV </Link>
             </h1>
             <h1 onClick={(e) => toggleMenu(e)}>
-              <Link to="/#work"> Work </Link>
+              <Link to="/#work"> WORK </Link>
             </h1>
             <h1 onClick={(e) => toggleMenu(e)}>
-              <Link to="/blog"> Blog </Link>
+              <Link to="/blog"> BLOG </Link>
             </h1>
           </div>
           {menuOpen ? (
@@ -42,12 +42,14 @@ export const Nav = () => {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/sardarchitect/"
+                rel="noreferrer"
               >
                 LINKEDIN
               </a>
               <a
                 target="_blank"
                 href="https://www.instagram.com/sardarchitect/"
+                rel="noreferrer"
               >
                 INSTAGRAM
               </a>

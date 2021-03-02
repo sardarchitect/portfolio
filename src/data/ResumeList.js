@@ -19,9 +19,7 @@ export const experienceList = [
     location: "Ann Arbor MI",
     date: "July 2019 - December 2020",
     description: [
-      "Worked on mutliple commercial projects in Michigan, in phases ranging from conceptual design to \
-      construction drawings. Notable projects include Baker College at Royal Oak, The dot at Ferndale, and \
-      various rennovations at the Ann Arbor District Libraries"
+      "Worked on mutliple commercial projects in Michigan, in phases ranging from conceptual design to construction drawings. Notable projects include Baker College at Royal Oak, The dot at Ferndale, and various rennovations at the Ann Arbor District Libraries"
     ],
   },
   {

@@ -10,9 +10,9 @@ import "./_workgrid.scss";
 export const WorkGrid = ({ selectedCategory }) => {
   return (
     <div className="Work__grid">
-      {console.log(projects.filter((i) => i.category == selectedCategory))}
+      {console.log(projects.filter((i) => i.category === selectedCategory))}
       {projects
-        .filter((i) => i.category == selectedCategory)
+        .filter((i) => i.category === selectedCategory)
         .map((item) => {
           let url = "projects/" + item.projectId;
           return (

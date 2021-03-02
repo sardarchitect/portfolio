@@ -20,6 +20,7 @@
 .env.production.local
 /images
 /src_archived
+/src_archived_20210302
 
 npm-debug.log*
 yarn-debug.log*

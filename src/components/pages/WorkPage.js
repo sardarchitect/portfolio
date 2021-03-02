@@ -1,6 +1,6 @@
 // MODULE IMPORTS
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 // STYLE IMPORT
 import "./_workpage.scss";
 // COMPONENT IMPORT
@@ -34,7 +34,7 @@ export const WorkPage = () => {
         </div>
         <div className="work__images">
           {project.images.map((item) => (
-            <img src={item}/>
+            <img src={item} alt={item.key}/>
           ))}
         </div>
       </div>

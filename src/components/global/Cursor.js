@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 // STYLE IMPORTS
 import "./_cursor.scss";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 const isMobile = () => {
     const ua = navigator.userAgent;
@@ -17,14 +17,14 @@ export const Cursor = () => {
     const [linkHovered, setLinkHovered] = React.useState(false);
     const [hidden, setHidden] = useState(false);
   
-    const history = useHistory()
+    // const history = useHistory()
 
     useEffect(() => {
       addEventListeners();
       handleLinkHoverEvents();
       console.log('Cursor Mounted');
       return () => removeEventListeners();
-    }, [history.location.pathname]);
+    }, []);
   
     const addEventListeners = () => {
       document.addEventListener("mousemove", onMouseMove);

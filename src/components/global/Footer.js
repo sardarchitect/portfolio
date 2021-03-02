@@ -5,24 +5,20 @@ import "./_footer.scss";
 
 export const Footer = () => {
   return (
-    <div className="Footer" id="Footer">
+    <div className="Footer template_page" id="Footer">
       <div className="contact__description">
-        <p>
-          THANKS FOR CHECKING OUT MY PORTFOLIO. I AM ALWAYS LOOKING FOR NEW
-          PROJECTS IN ART, ARCHITECTURE, AND COMPUTER VISION TECHNOLOGIES
-        </p>
-        <p>
-          FEEL FREE TO CHECK OUT MY
-          <a target="_blank" href="https://www.linkedin.com/in/sardarchitect/">
+        <h2>
+          THANKS FOR CHECKING OUT MY PORTFOLIO. I AM CURRENTLY LOOKING FOR WORK AND COLLABORATIONS WITHIN ARCHITECTURE AND AI
+        </h2>
+        <h2>
+          FEEL FREE TO CHECK OUT MY <a target="_blank" href="https://www.linkedin.com/in/sardarchitect/" rel="noreferrer">
             LINKEDIN
           </a>
-          , AND
-          <a target="_blank" href="https://www.instagram.com/sardarchitect/">
+          , AND <a target="_blank" href="https://www.instagram.com/sardarchitect/" rel="noreferrer">
             INSTAGRAM
           </a>
-          , OR SIMPLY REACH ME VIA
-          <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
-        </p>
+          , OR SIMPLY REACH ME VIA <a href="mailto: sardarchitect@gmail.com">EMAIL</a>
+        </h2>
       </div>
       <div className="copyright">
         <p>ARVINDER SINGH - 2021</p>

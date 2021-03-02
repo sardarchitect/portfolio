@@ -2,12 +2,3 @@
 @use "./utils/utils" as u;
 
 /* APP */
-.App {
-  padding: 0 20px;
-}
-
-@media only screen and (min-width: 1000px) {
-  .App {
-    padding: 0 150px;
-  }
-}

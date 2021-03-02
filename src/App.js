@@ -13,7 +13,7 @@ import "./_app.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App template_page">
       <Switch>
         <Route exact path="/" children={[<About />, <Work/>]} />
         <Route exact path="/projects/:id" children={<WorkPage />} />

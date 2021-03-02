@@ -8,6 +8,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 body {
   overflow-x: hidden;
 
@@ -15,6 +16,13 @@ body {
   font-family: u.$textFamily;
   color: u.$primaryColor;
   font-size: u.$textSize;
+  h1 {
+    font-family: u.$headingFamily;
+    font-size: u.$headingSize;
+  }
+  h2 {
+    font-size: u.$subheadingSize;
+  }
   a {
     color: u.$primaryColor;
     transition: color 0.2s;
@@ -23,15 +31,18 @@ body {
   a:hover {
     color: u.$secondaryColor;
   }
-  h1 {
-    font-family: u.$headingFamily;
-    font-size: u.$headingSize;
-  }
-  h2 {
-    font-size: u.$subheadingSize;
+}
+// TEMPLATE CLASSES
+.template_page {
+  padding: 0 20px;
+}
+@media only screen and (min-width: 1000px) {
+  .template_page {
+    padding: 0 150px;
   }
 }
 
+// EDGE CASE CLASSES
 .noscroll {
   overflow-y: hidden;
 }
@@ -43,6 +54,7 @@ body {
 ::-moz-selection {
   background: u.$secondaryColor; /* Gecko Browsers */
 }
+
 // SCROLLBAR
 ::-webkit-scrollbar {
   width: 5px;
