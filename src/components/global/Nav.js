@@ -1,6 +1,7 @@
 // MODULE IMPORTS
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 // STYLE IMPORTS
 import "./_nav.scss";
 
@@ -18,7 +19,7 @@ export const Nav = () => {
   }
 
   return (
-    <div className="Nav template_page">
+    <div className="Nav">
         <div
           id="Nav__menu"
           className={menuOpen ? "Nav__menu__open" : "Nav__menu__close"}
@@ -31,7 +32,7 @@ export const Nav = () => {
               <Link to="/cv"> CV </Link>
             </h1>
             <h1 onClick={(e) => toggleMenu(e)}>
-              <Link to="/#work"> WORK </Link>
+              <HashLink smooth to="/#work"> WORK </HashLink>
             </h1>
             <h1 onClick={(e) => toggleMenu(e)}>
               <Link to="/blog"> BLOG </Link>

@@ -5,7 +5,7 @@ import "./_footer.scss";
 
 export const Footer = () => {
   return (
-    <div className="Footer template_page" id="Footer">
+    <div className="Footer" id="Footer">
       <div className="contact__description">
         <h2>
           THANKS FOR CHECKING OUT MY PORTFOLIO. I AM CURRENTLY LOOKING FOR WORK AND COLLABORATIONS WITHIN ARCHITECTURE AND AI

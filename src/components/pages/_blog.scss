@@ -2,9 +2,6 @@
 @use '../../utils/utils' as u;
 
 .blog {
-  padding: 0 20px;
-  margin-top: 75px;
-  min-height: 100vh;
   h1 {
     text-align: center;
   }
@@ -16,10 +13,10 @@
       border: solid black 1px;
       margin: 25px 0;
       .blog__card__text {
-          padding: 15px;
+        padding: 15px;
       }
       .blog__card__thumbnail {
-          background-color: u.$secondaryColor;
+        background-color: u.$secondaryColor;
       }
     }
   }

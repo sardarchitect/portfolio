@@ -32,16 +32,6 @@ body {
     color: u.$secondaryColor;
   }
 }
-// TEMPLATE CLASSES
-.template_page {
-  padding: 0 20px;
-}
-@media only screen and (min-width: 1000px) {
-  .template_page {
-    padding: 0 150px;
-  }
-}
-
 // EDGE CASE CLASSES
 .noscroll {
   overflow-y: hidden;

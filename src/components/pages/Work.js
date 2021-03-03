@@ -13,7 +13,7 @@ export const Work = () => {
   );
 
   return (
-    <div className="Work" id="Work">
+    <div className="Work" id="work">
       <h1>SELECTED WORK</h1>
       <h2>
         {selectedCategory === "architectureProjects"

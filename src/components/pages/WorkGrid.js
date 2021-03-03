@@ -19,9 +19,11 @@ export const WorkGrid = ({ selectedCategory }) => {
             <div>
               <Link to={"/" + url}>
                 <div className="Work__item">
-                  {/* <img src={item.thumbnailSrc} /> */}
-                  <p> {item.title}</p>
-                  <p> {item.year} </p>
+                  <img src={item.thumbnailSrc} />
+                  <div className="Work__item__description">
+                    <p> {item.title.toUpperCase()}</p>
+                    <p> {item.year} </p>
+                  </div>
                 </div>
               </Link>
             </div>

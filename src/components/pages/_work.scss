@@ -2,11 +2,8 @@
 @use '../../utils/utils' as u;
 
 .Work {
-  padding: 50px 20px;
-  h1 {
-    text-align: center;
-  }
-  h2{
+  margin-top: 150px;
+  h1,h2{
     text-align: center;
   }
   .Work__category {

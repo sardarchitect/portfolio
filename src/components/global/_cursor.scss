@@ -26,6 +26,6 @@
   transform: translate(-50%, -50%) scale(0.9);
   background-color: u.$secondaryColor;
 }
-html *, body * {
+html, html *, body * {
   cursor: none;
 }

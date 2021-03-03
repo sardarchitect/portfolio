@@ -8,7 +8,7 @@ $primaryColor: rgba(42, 42, 42, 1);
 $secondaryColor: rgb(204, 204, 204);
 
 // FONTS
-$headingSize: calc(40px + (100 - 40) * ((100vw - 300px) / (1600 - 300)));
+$headingSize: calc(30px + (75 - 30) * ((100vw - 300px) / (1600 - 300)));
 $subheadingSize: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
 $textSize: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
 $headingFamily: 'Space Grotesk', sans-serif;

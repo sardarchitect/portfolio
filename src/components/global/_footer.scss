@@ -2,6 +2,7 @@
 @use '../../utils/utils' as u;
 // FOOTER
 .Footer {
+  padding: 0 20px;
   background-color: u.$secondaryColor;
   padding-top: 30px;
 
@@ -26,5 +27,11 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Footer {
+    padding: 0 150px;
   }
 }
