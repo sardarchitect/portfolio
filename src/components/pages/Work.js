@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import "./_work.scss";
 // ICONS IMPORTS
 import { RiBuilding3Line } from "react-icons/ri";
-import { GiPaintBrush, GiComputing } from "react-icons/gi";
+import { GiComputing } from "react-icons/gi";
+import { BiPencil } from "react-icons/bi";
 import { WorkGrid } from "./WorkGrid";
 
 export const Work = () => {
@@ -23,28 +24,28 @@ export const Work = () => {
           : "TECHNOLOGY"}
       </h2>
       <div className="Work__category">
-        <button>
+        <div>
           <RiBuilding3Line
             className={
               selectedCategory === "architectureProjects" ? "active" : null
             }
             onClick={() => setSelectedCategory("architectureProjects")}
           />
-        </button>
-        <button>
+        </div>
+        <div>
           <GiComputing
             className={
               selectedCategory === "technologyProjects" ? "active" : null
             }
             onClick={() => setSelectedCategory("technologyProjects")}
           />
-        </button>
-        <button>
-          <GiPaintBrush
+        </div>
+        <div>
+          <BiPencil
             className={selectedCategory === "artProjects" ? "active" : null}
             onClick={() => setSelectedCategory("artProjects")}
           />
-        </button>
+        </div>
       </div>
       <WorkGrid selectedCategory={selectedCategory} />
     </div>

@@ -2,6 +2,10 @@
 @use '../../utils/utils' as u;
 
 .blog {
+  .comingsoon{
+    text-align: center;
+    padding: 300px 0;
+  }
   h1 {
     text-align: center;
   }

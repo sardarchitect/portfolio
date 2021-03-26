@@ -15,18 +15,21 @@ import {
 export const Resume = () => {
   return (
     <div className="resume" id="cv">
-      <h1>CV</h1>
+      <h1>BIO</h1>
       <div className="resume__description">
-        Arvinder Singh is an architectural designer, with a specialization in
-        Artificial Intelligence, and Medium Design. He graduated from the
-        University of Michigan's Taubman College of Architecture (2019), and
-        since then has been working at Edge Design Associates, Ann Arbor.
+        Arvinder Singh is an architectural designer, with a unique focus in
+        Artificial Intelligence. He got his Bachelor's from the 
+        Taubman College of Architecture at the University of Michigan, and since
+        then has worked at Edge Design Associates, Ann Arbor.
         <br />
         <br />
-        Raised in an artistic household, my childhood memories revolve around
-        design and creativity — my father’s wood-shop, my mother’s painting
-        studio, and my city’s unique architectural disposition. Throughout my
-        education, I realized that the architect holds a great agency in shaping
+        Brought up in a unique experimental city of Chandigarh, designed by
+        the famous architect Le Corbusier, Arvinder's childood has revolved 
+        around design and creativity — from his father's wood-shop, to his 
+        mother's art studio.
+        <br />
+        <br />
+        Throughout his education, Arvinder realized that the architect holds a great agency in shaping
         social and cultural dynamics. My passion for philosophy, world-politics,
         rhetoric, and architectural pedagogy critically engages me with the work
         I pursue. I consider myself an open-minded, cooperative, and a highly
@@ -69,7 +72,7 @@ export const Resume = () => {
       </div>
 
       <div className="resume__section">
-        <h2> AFFILIATIONS </h2>
+        <h2> AFFILIATIONS AND AWARDS </h2>
         <div className="resume__section__list">
           {affiliationsList.map((item) => {
             return (
@@ -85,7 +88,7 @@ export const Resume = () => {
       </div>
 
       <div className="resume__section">
-        <h2> AWARDS & SKILLS </h2>
+        <h2> SKILLS </h2>
         <div className="resume__section__list">
           {awardsSkillsList.map((item) => {
             return (

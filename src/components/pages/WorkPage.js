@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import "./_workpage.scss";
 // COMPONENT IMPORT
 import { projects } from "../../data/projectList";
+import { HashLink } from "react-router-hash-link";
 
 export const WorkPage = () => {
   let { id } = useParams();
@@ -40,7 +41,7 @@ export const WorkPage = () => {
       </div>
 
       <div className="back__button">
-        <a href="/#Work">...Back to Projects</a>
+        <HashLink smooth to="/#work">...Back to Projects</HashLink>
       </div>
     </div>
   );

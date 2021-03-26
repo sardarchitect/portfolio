@@ -29,7 +29,7 @@ export const About = () => {
           steering this revolution.
         </p>
         <p>
-          Please feel free to check out my <Link to="/cv">CV</Link> to know
+          Please feel free to check out my <Link to="/bio">BIO</Link> to know
           more.
         </p>
       </div>

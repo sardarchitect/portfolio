@@ -2,28 +2,20 @@
 
 .work__page {
   .work__page__title {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     h1 {
       font-family: u.$headingFamily;
       font-size: u.$headingSize;
     }
   }
   .work__page__content {
-      display: grid;
-      grid-template-columns: 1fr;
     .work__images {
+      margin: 0 auto;
       img {
-        width: 100%;
+        max-width: 800px;
       }
     }
     .work__text {
-      p {
-        margin-top: 10px;
-      }
     }
   }
   .back__button {

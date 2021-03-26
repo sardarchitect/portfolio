@@ -17,7 +17,7 @@
     text-align: center;
   }
   .About__description {
-    max-width: 700px;
+    max-width: calc(600px + (1000 - 600) * ((100vw - 300px) / (1600 - 300)));
     margin: 0 auto;
     p {
       margin-top: 25px;

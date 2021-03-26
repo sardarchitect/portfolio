@@ -29,7 +29,7 @@ export const Nav = () => {
               <Link to="/"> HOME </Link>
             </h1>
             <h1 onClick={(e) => toggleMenu(e)}>
-              <Link to="/cv"> CV </Link>
+              <Link to="/bio"> BIO </Link>
             </h1>
             <h1 onClick={(e) => toggleMenu(e)}>
               <HashLink smooth to="/#work"> WORK </HashLink>

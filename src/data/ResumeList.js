@@ -19,7 +19,16 @@ export const experienceList = [
     location: "Ann Arbor MI",
     date: "July 2019 - December 2020",
     description: [
-      "Worked on mutliple commercial projects in Michigan, in phases ranging from conceptual design to construction drawings. Notable projects include Baker College at Royal Oak, The dot at Ferndale, and various rennovations at the Ann Arbor District Libraries"
+      "Worked on mutliple commercial projects in Michigan, ranging from conceptual design to shop drawings. Notable projects include: Baker College at Royal Oak, The Dot at Ferndale, and various rennovations at the Ann Arbor District Libraries"
+    ],
+  },
+  {
+    title: "OptiMize - Social Innovation Challenge",
+    role: "Team Leader",
+    location: "Ann Arbor MI",
+    date: "October 2019 - February 2020",
+    description: [
+      "Drafted, designed, and prototyped a cloud-based app for promoting awareness of world-issues through the use of big-data and AI. The project was pitched to te optiMize panel and was well recieved."
     ],
   },
   {
@@ -28,9 +37,7 @@ export const experienceList = [
     location: "Ann Arbor MI",
     date: " September 2018 - April 2019",
     description: [
-      "Collaborated with a student-team to compile selected Taubman College student and faculty-work.",
-      "Facilitated resolution of manuscript queries related to text-editing, cover design, and layout.",
-      "Played a key role in keeping the production process on schedule by preparing for final prints.",
+      "Collaborated with a student-team to compile selected Taubman College student and faculty-work by facilitating resolution of manuscript queries related to text-editing, cover design, and layout. Played a key role in keeping the production process on schedule by preparing for final prints.",
     ],
   },
   {
@@ -39,7 +46,7 @@ export const experienceList = [
     location: "Detroit MI",
     date: "March 2019",
     description: [
-      "Investigated multiple design strategies for HAA 25th-Anniversary Book design and cover.",
+      "Investigated multiple design strategies for HAA 25th-Anniversary Book design and cover, while also helping out with facade design decisions.",
     ],
   },
   {
@@ -48,7 +55,7 @@ export const experienceList = [
     location: "Los Angeles CA",
     date: "February 2018",
     description: [
-      "Collaborated with interior design team for re-imagining rooms in Google’s Playa Vista LA Office.",
+      "Collaborated with the interior design team for re-imagining rooms in Google’s Playa Vista, LA Office.",
     ],
   },
   {
@@ -57,9 +64,7 @@ export const experienceList = [
     location: "Detroit MI",
     date: "June 2016 - August 2016",
     description: [
-      "ssisted Prof. Anya Sirota with preparing for the 10th Saint Etienne International Design Biennale.",
-      "Produced plans and elevations of plots and existing buildings after taking measured site surveys.",
-      "Managed layout and transcription of Akoaki’s annual publication: The ONE Mile Zine 2.",
+      "Assisted Prof. Anya Sirota with preparing for the 10th Saint Etienne International Design Biennale by helping produce floor plans and elevations of exisiting buildings in the neighborhood. Also managed the design of Akoaki's annual publication: The ONE Mile Zine v.2",
     ],
   },
   {
@@ -68,9 +73,7 @@ export const experienceList = [
     location: "Grand Rapids MI",
     date: "May 2016 - June 2017",
     description: [
-      "Assisted and coordinated with college staff to run incoming student orientations efficiently.",
-      "Actively led weekly orientations through presentations, campus-tours, and student enrollments.",
-      "Demonstrated strong communication skills and the ability to learn administrative systems quickly.",
+      "Assisted and coordinated with college staff to run incoming student orientations efficiently by leading weekly orientations through presentations, campus-tours, and student enrollments."
     ],
   },
   {
@@ -88,16 +91,28 @@ export const experienceList = [
     location: "Chandigarh India",
     date: "2014 - 2015, 2018",
     description: [
-      " Oversaw key interior design projects: Hotel Chail Palace (Chail), Hotel Holiday Home (Shimla) and Filmy Keeda Production House (Mumbai), through on-site production.",
-      "Managed material inventory and purchase, on-site labor efficiency, and client presentations.",
-      "Commended for producing quick, accurate CAD documents on-site for design alterations.",
-      "Supervised 40-50 personnel along with 2 foremen in a 13000 sq.ft.furniture manufacturing facility.",
-      "Produced in-shop CAD documents for efficient furniture production, prioritizing lowest wastage.",
+      "Oversaw key interior design projects: Hotel Chail Palace (Chail), Hotel Holiday Home (Shimla) and Filmy Keeda Production House (Mumbai), through on-site production. Also managed material inventory and purchase, on-site labor efficiency, and client presentations.",
     ],
   },
 ];
 
 export const affiliationsList = [
+  {
+    title: "Michigan Student Artificial Intelligence Lab (MSAIL)",
+    role: "Graphic Designer and Member",
+    location: "Ann Arbor MI",
+    date: "Septmeber 2020 - Present",
+  },
+  {
+    title: "Wallenberg Studio Thesis Award",
+    role: "Studio Finalist",
+    date: "2019",
+  },
+  {
+    title: "Student Show Award",
+    role: "Studio Finalist",
+    date: "2018",
+  },
   {
     title: "International Students Organization GRCC",
     role: "President",
@@ -120,27 +135,17 @@ export const affiliationsList = [
 
 export const awardsSkillsList = [
   {
-    title: "Wallenberg Studio Thesis Award",
-    role: "Studio Finalist",
-    date: "2019",
-  },
-  {
-    title: "Student Show Award",
-    role: "Studio Finalist",
-    date: "2018",
-  },
-  {
-    title: "Software: Design",
-    description: [
-      "Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere, Adobe AfterEffects"
-    ]
-    },
-  {
     title: "Software: Architectural",
     description: [
       "AutoCAD, Revit, Rhino, Grasshopper, Unreal Engine 4, ArcGIS"
     ]
   },
+  {
+    title: "Software: Visualization",
+    description: [
+      "Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere, Adobe AfterEffects"
+    ]
+    },
   {
     title: "Software: Web Development",
     description:[
@@ -157,7 +162,7 @@ export const awardsSkillsList = [
     title: "Languages",
     description:[
        "English, Hindi, Punjabi",
-       "IELTS: 8.5"
+       "IELTS Score: 8.5"
     ]
   },
 ];
