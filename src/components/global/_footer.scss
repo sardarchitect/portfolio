@@ -1,37 +1,36 @@
 /* IMPORTS */
-@use '../../utils/utils' as u;
-// FOOTER
-.Footer {
-  padding: 0 20px;
-  background-color: u.$secondaryColor;
-  padding-top: 30px;
+@use "../../utils" as u;
 
-  .contact__description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    h2 {
-      margin-top: 30px;
-      margin-bottom: 30px;
-      text-align: right;
-      max-width: calc(300px + (500 - 300) * ((100vw - 300px) / (1600 - 300)));
+footer {
+    background-color: u.$secondaryColor;
+    position: relative;
+    padding: 20px;
+    .footer__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        .footer__text {
+        }
+        .footer__form {
+            display: flex;
+            flex-direction: column;
+            input, textarea{
+                display: block;
+                width: 100%;
+                height: 2em;
+                margin-bottom: 5px;
+            }
+            textarea{
+                min-height: 150px;
+            }
+        }
     }
-    a {
-      color: white;
+    .footer__copyright {
+        text-align: center;
     }
-    a:hover {
-      color: u.$primaryColor;
-    }
-  }
-  .copyright {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-  }
 }
-
-@media only screen and (min-width: 1000px) {
-  .Footer {
-    padding: 0 150px;
+@media only screen and (max-width: 1000px) {
+    footer .footer__content {
+      grid-template-columns: 1fr;
+    }
   }
-}

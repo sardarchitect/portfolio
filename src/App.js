@@ -1,28 +1,20 @@
 // MODULE IMPORTS
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-// COMPONENT IMPORTS
-import { About } from "./components/pages/About";
+import { Home } from "./components/pages/Home";
 import { Work } from "./components/pages/Work";
-import { Resume } from "./components/pages/Resume";
-import { WorkPage } from "./components/pages/WorkPage";
-import { Blog } from "./components/pages/Blog";
-import { BlogPage } from "./components/pages/BlogPage";
-import { Sandbox } from "./components/sandbox/Sandbox";
+import { Bio } from "./components/pages/Bio";
 import { Error404 } from "./components/pages/Error404";
+// COMPONENT IMPORTS
 // STYLE IMPORTS
-import "./_app.scss";
+import "./_App.scss";
 
 function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" children={[<About />]} />
-        <Route exact path="/projects/:id" children={<WorkPage />} />
-        <Route exact path="/blog/:id" children={<BlogPage />} />
-        <Route exact path="/bio" children={<Resume />} />
-        <Route exact path="/blog" children={<Blog />} />
-        <Route exact path="/sandbox" children={<Sandbox />} />
+        <Route exact path="/" children={[<Home/>, <Work/>]} />
+        <Route path="/bio" children={<Bio/>} />
         <Route path="/" children={<Error404 />} />
       </Switch>
     </div>

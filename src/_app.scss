@@ -1,13 +1,13 @@
 /* IMPORTS */
-@use "./utils/utils" as u;
+@use "./utils" as u;
 
 /* APP */
 .App{
-    margin: calc(50px + (100 - 40) * ((100vw - 300px) / (1600 - 300))) 20px;
+  margin: calc(50px + (100 - 40) * ((100vw - 300px) / (1600 - 300))) 20px;
 }
 
 @media only screen and (min-width: 1000px) {
   .App {
-    margin: initial 150px;
+    margin: inherit 150px;
   }
 }

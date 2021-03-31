@@ -1,53 +1,37 @@
-// MODULE IMPORTS
-import React, { useState } from "react";
-// STYLE IMPORTS
-import "./_work.scss";
-// ICONS IMPORTS
-import { RiBuilding3Line } from "react-icons/ri";
-import { GiComputing } from "react-icons/gi";
-import { BiPencil } from "react-icons/bi";
-import { WorkGrid } from "./WorkGrid";
+import React, { useState } from 'react'
+import './_Work.scss';
+import { projects } from '../../data/projectList';
 
 export const Work = () => {
-  const [selectedCategory, setSelectedCategory] = useState(
-    "architectureProjects"
-  );
+    return (
+        <div className="Work">
+            <div className="Work_filter">
+                <h2>ARCHITECTURE</h2>
+                <h2>RESEARCH</h2>
+                <h2>ART</h2>
+                <h2>GRAPHIC DESIGN</h2>
+            </div>
+            <div className="Work_list">
+                {
+                    projects.map((project) => {
+                        return (
+                            <WorkItem key={project.projectId} project={project} />
+                        )
+                    })
+                }
+            </div>
+        </div>
+    )
+}
 
-  return (
-    <div className="Work" id="work">
-      <h1>SELECTED WORK</h1>
-      <h2>
-        {selectedCategory === "architectureProjects"
-          ? "ARCHITECTURE"
-          : selectedCategory === "artProjects"
-          ? "ART"
-          : "TECHNOLOGY"}
-      </h2>
-      <div className="Work__category">
-        <div>
-          <RiBuilding3Line
-            className={
-              selectedCategory === "architectureProjects" ? "active" : null
+export const WorkItem = ({ project }) => {
+    const [hover, setHover] = useState(false);
+    return (
+        <div className="Work_grid_item" onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
+            <h2 className={hover ? "active" : null}>{project.title}</h2>
+            { 
+                hover ? (<img src={project.thumbnailSrc} alt={project.title}/>) : null
             }
-            onClick={() => setSelectedCategory("architectureProjects")}
-          />
         </div>
-        <div>
-          <GiComputing
-            className={
-              selectedCategory === "technologyProjects" ? "active" : null
-            }
-            onClick={() => setSelectedCategory("technologyProjects")}
-          />
-        </div>
-        <div>
-          <BiPencil
-            className={selectedCategory === "artProjects" ? "active" : null}
-            onClick={() => setSelectedCategory("artProjects")}
-          />
-        </div>
-      </div>
-      <WorkGrid selectedCategory={selectedCategory} />
-    </div>
-  );
-};
+    )
+}

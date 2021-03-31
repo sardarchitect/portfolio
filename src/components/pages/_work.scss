@@ -1,24 +1,36 @@
 /* IMPORTS */
-@use '../../utils/utils' as u;
+@use "../../utils" as u;
 
-.Work {
-  margin-top: 150px;
-  h1,h2{
-    text-align: center;
-  }
-  .Work__category {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50px 0;
-    svg {
-      color: u.$secondaryColor;
-      height: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
-      width: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
-      transition: 0.5s color;
+.Work{
+    margin-top: 100px;
+    .Work_filter{
+        display: flex;
+        gap: 15px;
+        h2{
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        }
     }
-    .active {
-      color: u.$primaryColor;
+    .Work_list{
+        margin-top: 50px;
+        .Work_grid_item{
+            h2{
+                font-size: 4vw;
+            }
+            .active{
+                color: u.$secondaryColor;
+            }
+            img{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 50vh;
+                z-index:-1;
+
+            }
+        }
+
     }
-  }
 }

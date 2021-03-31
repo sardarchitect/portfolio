@@ -3,22 +3,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 // COMPONENT IMPORTS
-import { Nav } from "./components/global/Nav";
-import { Cursor } from "./components/global/Cursor";
-import { Footer } from "./components/global/Footer";
-import ScrollToTop from "./components/global/ScrollToTop";
 import App from "./App";
+import { Footer } from "./components/global/Footer";
+import { Nav } from "./components/global/Nav";
 // STYLE IMPORTS
 import "./index.scss";
 
 ReactDOM.render(
   <BrowserRouter>
-    <ScrollToTop>
-      <Cursor />
-      <Nav />
+      {/* <Nav/> */}
       <App />
-      <Footer />
-    </ScrollToTop>
+      <Footer/>
   </BrowserRouter>,
   document.getElementById("root")
 );

@@ -1,15 +1,18 @@
 /* IMPORTS */
-@use './utils/utils' as u;
+@use './utils' as u;
 
 /* GLOBAL STYLES */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
   scroll-behavior: smooth;
 }
 
 body {
+  background-color: u.$backgroundColor;
   overflow-x: hidden;
 
   // FONTS
@@ -32,19 +35,13 @@ body {
     color: u.$secondaryColor;
   }
 }
-// EDGE CASE CLASSES
-.noscroll {
-  overflow-y: hidden;
-}
-
 // HIGHLIGHT COLOR
 ::selection {
-  background: u.$secondaryColor; /* WebKit/Blink Browsers */
+  background: u.$highlightColor; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: u.$secondaryColor; /* Gecko Browsers */
+  background: u.$highlightColor; /* Gecko Browsers */
 }
-
 // SCROLLBAR
 ::-webkit-scrollbar {
   width: 5px;

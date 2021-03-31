@@ -1,134 +1,51 @@
 /* IMPORTS */
-@use '../../utils/utils' as u;
+@use "../../utils" as u;
 
-/* NAV */
-.Nav {
-  margin: 0 20px;
-  position: fixed;
-  top: 20px;
-  z-index: 999;
-  // NAV MENU
-  #Nav__menu {
-    background-color: white;
-
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav {
     text-align: center;
-    transition: all 0.5s;
-    .Nav__menu__main {
-      h1 {
-        margin: 25px;
-      }
+    position: relative;
+    .nav__wrapper{
+        z-index: 1;
+        background-color: u.$secondaryColor;
+        position: fixed;
+        top: 0;
+        min-height: 100vh;
+        min-width: 100vw;
+        transition: all 1s;
     }
-    .Nav__menu__footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      justify-content: space-around;
-      display: flex;
-      margin: 10px;
-      font-size: 1.5em;
+    .nav_title{
+        position: fixed;
+        right: 10px;
+        top: 10px;
     }
-  }
-  .Nav__menu__open {
-    height: 100vh;
-  }
-  .Nav__menu__close {
-    overflow: hidden;
-    height: 0;
-    opacity: 0%;
-  }
+    .nav__main {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .nav__item {
+            font-size: u.$headingSize;
+            font-family: u.$headingFamily;
+            height: 70px;
+            line-height: 70px ;
+            position: relative;
+            will-change: transform, opacity;
+        }
+    }
+    .nav__footer {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        gap: 100px;
+
+        transition: opacity 3s;
+        opacity: 100%;
+        img {
+            height: 30px;
+            width: auto;
+            color: white;
+        }
+    }
 }
-
-  /* NAV ICON */
-  $icon4-height: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
-  $icon4-width: calc(1.414213 * #{$icon4-height});
-  #nav-icon4 {
-    width: $icon4-width;
-    height: $icon4-height;
-    justify-self: right;
-
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-  }
-
-  #nav-icon4 span {
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background: u.$primaryColor;
-    border-radius: 3px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
-    transition: 0.25s ease-in-out;
-  }
-
-  #nav-icon4 span:nth-child(1) {
-    top: 0px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-  }
-
-  #nav-icon4 span:nth-child(2) {
-    top: calc(#{$icon4-height} / 2);
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-  }
-
-  #nav-icon4 span:nth-child(3) {
-    top: calc(#{$icon4-height} / 1);
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-  }
-
-  #nav-icon4.open span:nth-child(1) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: 0px;
-    left: 0px;
-  }
-
-  #nav-icon4.open span:nth-child(2) {
-    width: 0%;
-    opacity: 0;
-  }
-
-  #nav-icon4.open span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: $icon4-height;
-    right: 0px;
-  }
-

@@ -3,13 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 // COLORS
-$backgroundColor: rgb(255, 255, 255);
-$primaryColor: rgba(42, 42, 42, 1);
-$secondaryColor: rgb(204, 204, 204);
+$backgroundColor: rgb(26, 26, 26);
+$primaryColor: rgb(255, 250, 232);
+$secondaryColor: rgb(34, 34, 34);
+$highlightColor: rgb(107, 107, 107);
+
 
 // FONTS
 $headingSize: calc(30px + (75 - 30) * ((100vw - 300px) / (1600 - 300)));
 $subheadingSize: calc(18px + (30 - 18) * ((100vw - 300px) / (1600 - 300)));
-$textSize: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+$textSize: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
 $headingFamily: 'Space Grotesk', sans-serif;
 $textFamily: "Poppins", sans-serif;
