@@ -6,21 +6,23 @@ export const Footer = () => {
         <footer>
             <div className="footer__content">
                 <div className="footer__text">
-                    <h2>Thanks for checking out my work. I am currently open for full-time work within architecture and technology.
-            Feel free to check out my LinkedIn, and Instagram. Or simply reach me via Email.</h2>
+                    <h2>THANKS FOR CHECKING OUT MY WORK. I AM CURRENTLY OPEN FOR FULL-TIME WORK IN ARCHITECTURE AND TECHNOLOGY AROUND THE BOSTON AREA. FEEL FREE TO CHECK OUT MY LINKEDIN, AND INSTAGRAM. OR SIMPLY REACH ME VIA EMAIL.</h2>
                 </div>
                 <div className="footer__form">
-                    <h2>Contact Me</h2>
+                    <h2>SEND AN INQUIRY</h2>
                     <form>
-                        <input placeholder="Your Name" />
-                        <input placeholder="Your Email" />
-                        <textarea placeholder="Your Message" />
-                        <button>Submit</button>
+                        <label>NAME</label>
+                        <input />
+                        <label>EMAIL</label>
+                        <input />
+                        <label>MESSAGE</label>
+                        <textarea />
+                        <button>SEND</button>
                     </form>
                 </div>
             </div>
             <div className="footer__copyright">
-                Sardarchitect - 2021
+                SARDARCHITECT - 2021
             </div>
         </footer>
     )

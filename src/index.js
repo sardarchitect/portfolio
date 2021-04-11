@@ -11,7 +11,7 @@ import "./index.scss";
 
 ReactDOM.render(
   <BrowserRouter>
-      {/* <Nav/> */}
+      <Nav/>
       <App />
       <Footer/>
   </BrowserRouter>,

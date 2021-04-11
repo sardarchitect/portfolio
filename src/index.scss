@@ -5,16 +5,15 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box; 
-  scroll-behavior: smooth;
+  -moz-box-sizing: border-box;
 }
 
 body {
   background-color: u.$backgroundColor;
   overflow-x: hidden;
-
   // FONTS
   font-family: u.$textFamily;
   color: u.$primaryColor;
@@ -24,15 +23,17 @@ body {
     font-size: u.$headingSize;
   }
   h2 {
+    font-family: u.$textFamily;
     font-size: u.$subheadingSize;
   }
   a {
     color: u.$primaryColor;
     transition: color 0.2s;
-    text-decoration: none;
+    text-decoration: underline;
   }
   a:hover {
-    color: u.$secondaryColor;
+    color: u.$highlightColor;
+    cursor: pointer;
   }
 }
 // HIGHLIGHT COLOR

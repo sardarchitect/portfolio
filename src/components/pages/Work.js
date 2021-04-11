@@ -27,10 +27,10 @@ export const Work = () => {
 export const WorkItem = ({ project }) => {
     const [hover, setHover] = useState(false);
     return (
-        <div className="Work_grid_item" onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
+        <div className="Work_grid_item" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
             <h2 className={hover ? "active" : null}>{project.title}</h2>
-            { 
-                hover ? (<img src={project.thumbnailSrc} alt={project.title}/>) : null
+            {
+                hover ? (<img src={project.thumbnailSrc} alt={project.title} />) : null
             }
         </div>
     )
