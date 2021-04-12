@@ -1,56 +1,41 @@
 /* IMPORTS */
 @use "../../utils" as u;
 
-nav {
-    position: relative;
-    .nav__header {
-        .nav_title {
-            position: fixed;
-            right: 10px;
-            top: 10px;
-            z-index: 999;
-        }
-    }
-    .nav__content__hidden{
-        opacity: 0;
-    }
-    .nav__content {
-        z-index: 998;
-        background-color: u.$secondaryColor;
+.nav__header {
+    .nav_title {
         position: fixed;
-        top: 0;
-        min-height: 100vh;
-        min-width: 100vw;
-        transition: all 1s;
-        text-align: center;
-        opacity: 100%;
+        right: 20px;
+        top: 20px;
+        z-index: 999;
     }
-    .nav__main {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        .nav__item {
-            font-size: u.$headingSize;
-            font-family: u.$headingFamily;
-            height: 70px;
-            line-height: 70px;
-            position: relative;
-            will-change: transform, opacity;
-        }
-    }
-    .nav__footer {
-        position: fixed;
-        bottom: 10px;
-        left: 50%;
-        transform: translate(-50%);
-        display: flex;
-        gap: 100px;
+}
 
-        transition: opacity 3s;
-        opacity: 100%;
-        svg path{
-            fill: u.$primaryColor;
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    position: fixed;
+    z-index: 998;
+    background-color: u.$secondaryColor;
+    overflow: hidden;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    .nav__content {
+        width: 100%;
+        text-align: center;
+        .nav__main a{
+            margin: 25px;
+        }
+        .nav__footer {
+            margin-top: 50px;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            svg path{
+                fill: u.$primaryColor;
+            }
         }
     }
 }

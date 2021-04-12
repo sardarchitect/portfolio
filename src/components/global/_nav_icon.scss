@@ -9,8 +9,8 @@ $icon-width: calc(1.414213 * #{$icon-height});
 #nav_icon {
   z-index: 999;
     position: fixed;
-    left: 10px;
-    top: 10px;
+    left: 20px;
+    top: 20px;
   width: $icon-width;
   height: $icon-height;
   justify-self: right;

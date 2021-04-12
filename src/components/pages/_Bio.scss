@@ -1,37 +1,60 @@
 /* IMPORTS */
 @use "../../utils" as u;
 
-.Bio{
-    h1{
-        text-align: center;
+.Bio {
+  h1 {
+    text-align: center;
+  }
+  .Bio__description{
+    margin: calc(50px + (100 - 40) * ((100vw - 300px) / (1600 - 300))) auto;
+    max-width: calc(600px + (1000 - 600) * ((100vw - 300px) / (1600 - 300)));
+    text-align: center;
+  }
+  .Bio__section:nth-child(odd){
+    background-color: u.$secondaryColor;
+  }
+  .Bio__section {
+    max-width: calc(800px + (1200 - 800) * ((100vw - 300px) / (1600 - 300)));
+    margin: 0 auto;
+    text-align: center;
+    h2{
+      text-align: center;
+      margin-bottom: 10px;
     }
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .Bio__item {
+    margin-bottom: 25px;
+    .Bio__item__inner {
+      font-style: italic;
+      .Bio__role{
+        font-weight: 700;
+      }
+    }
+  }
+  .Bio__item:last-child{
+    margin-bottom: 0;
+}
+}
+
+@media only screen and (min-width: 700px) {
+  .Bio {
     .Bio__description{
-        margin: 50px 0;
+      text-align: start;
     }
-    .Bio__section{
-        h2{
-            text-align: center;
-            margin-bottom: 25px;
-        }
-        margin-bottom: 50px;
-        
-        .Bio__section__list{
-            .Bio__item{
-                margin: 25px 0;
-                .Bio__item__header{
-
-                }
-                .Bio__item__inner{
-                    margin-left: 35px;
-                    .Bio__role, .Bio__location{
-                        font-style: italic;
-                    }
-                    .Bio__item__description{
-                        margin-left: 50px;
-                    }
-                }
-            }
-        }
+    .Bio__section {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      text-align: start;
+      h2{
+        text-align: start;
+        margin-bottom: 0;
+      }
     }
-
+    .Bio__item__inner{
+      margin-left: 25px;
+    }
+  }
 }

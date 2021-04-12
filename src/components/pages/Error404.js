@@ -5,7 +5,7 @@ export const Error404 = () => {
     return(
         <div className="Error404">
             <h1>ERROR 404</h1>
-            <p>The page you are looking for no longer exists. Back to the <a href='/'><b>Homepage</b></a></p>
+            <p>THE PAGE YOU ARE LOOKING FOR NO LONGER EXISTS. BACK TO THE <a href='/'><b>HOMEPAGE</b></a></p>
         </div>
     )
 }
