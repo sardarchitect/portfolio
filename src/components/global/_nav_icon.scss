@@ -7,14 +7,8 @@ $icon-width: calc(1.414213 * #{$icon-height});
   cursor: pointer;
 }
 #nav_icon {
-  z-index: 999;
-    position: fixed;
-    left: 20px;
-    top: 20px;
   width: $icon-width;
   height: $icon-height;
-  justify-self: right;
-
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);

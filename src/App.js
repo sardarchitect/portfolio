@@ -6,6 +6,7 @@ import { Home } from "./components/pages/Home";
 import { Work } from "./components/pages/Work";
 import { Bio } from "./components/pages/Bio";
 import { Error404 } from "./components/pages/Error404";
+import { WorkPage } from "./components/pages/WorkPage";
 // STYLE IMPORTS
 import "./_App.scss";
 
@@ -16,6 +17,7 @@ function App() {
         {/* <Route exact path="/" children={[<Home/>, <Work/>]} /> */}
         <Route exact path="/" children={[<Home/>]} />
         <Route path="/bio" children={<Bio/>} />
+        <Route path="/projects/:id" children={<WorkPage />} />
         <Route path="/" children={<Error404 />} />
       </Switch>
     </div>

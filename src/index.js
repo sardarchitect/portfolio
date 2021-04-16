@@ -6,14 +6,17 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import { Footer } from "./components/global/Footer";
 import { Nav } from "./components/global/Nav";
+import ScrollToTop from "./components/utils/ScrollToTop";
 // STYLE IMPORTS
 import "./index.scss";
 
 ReactDOM.render(
   <BrowserRouter>
+      <ScrollToTop>
       <Nav/>
       <App />
       <Footer/>
+      </ScrollToTop>
   </BrowserRouter>,
   document.getElementById("root")
 );

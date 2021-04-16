@@ -1,40 +1,52 @@
 /* IMPORTS */
 @use "../../utils" as u;
 
-.nav__header {
-    .nav_title {
-        position: fixed;
-        right: 20px;
-        top: 20px;
-        z-index: 999;
-    }
-}
-
 nav {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 0;
     position: fixed;
-    z-index: 998;
-    background-color: u.$secondaryColor;
-    overflow: hidden;
-    transition: 0.5s;
-    display: flex;
-    align-items: center;
-    .nav__content {
+    top: 0;
+    a{
+        text-decoration: none;
+    }
+    .nav__header {
+        z-index: 999;
         width: 100%;
-        text-align: center;
-        .nav__main a{
-            margin: 25px;
-        }
-        .nav__footer {
-            margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        position: fixed;
+    }
+    .nav__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 0;
+        background-color: u.$secondaryColor;
+       overflow: hidden;
+        transition: 0.5s;
+        
+        .nav__content {
             display: flex;
-            gap: 50px;
+            flex-direction: column;
             justify-content: center;
-            svg path{
-                fill: u.$primaryColor;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            overflow: hidden;
+            .nav__main h1 {
+                margin-top: 30px;
+            }
+            .nav__footer {
+                position: absolute;
+                bottom: 0;
+                padding: 50px;
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                svg path {
+                    fill: u.$primaryColor;
+                }
             }
         }
     }

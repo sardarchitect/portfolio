@@ -6,10 +6,25 @@
     .Work_filter {
         display: flex;
         gap: 15px;
-        h2 {
-            border: 1px solid white;
+        align-items: center;
+        p{
+            cursor: pointer;
+            margin-left: 25px;
+            font-size: 1.5em;
+        }
+        button {
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid u.$primaryColor;
             border-radius: 10px;
-            padding: 10px;
+            color: u.$primaryColor;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: 0.25s;
+            font-size: u.$textSize;
+        }
+        button:hover, .Work_filter_active {
+            background-color: u.$primaryColor;
+            color: u.$secondaryColor;
         }
     }
     .Work_list {
@@ -17,8 +32,9 @@
         .Work_grid_item {
             h2 {
                 font-size: 4vw;
+                color: u.$primaryColor;
             }
-            .active {
+            .Work_grid_item_filter {
                 color: u.$secondaryColor;
             }
             img {

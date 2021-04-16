@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './_Home.scss';
 
 export const Home = () => {
@@ -13,10 +14,12 @@ export const Home = () => {
                 <h2>PORTFOLIO - 21</h2>
             </div>
             <div className="Home__text">
-                {
-                (`Artificial Intelligence and Architecture are seeing an interplay akin to the advancements of computer modeling in the 80s. We are currently at an early stage but this time, the technology is moving at neck-breaking speeds. AI's role in architecture is inevitable, and my current research deals with how to make sure architects are the ones steering this revolution.
-                    Please feel free to check out my current project and CV to know more.`).toUpperCase()
-                }
+                ARTIFICIAL INTELLIGENCE AND ARCHITECTURE ARE SEEING AN INTERPLAY AKIN TO THE
+                ADVANCEMENTS OF COMPUTER MODELING IN THE 80S. WE ARE CURRENTLY AT AN EARLY 
+                STAGE BUT THIS TIME, THE TECHNOLOGY IS MOVING AT NECK-BREAKING SPEEDS. 
+                AI'S ROLE IN ARCHITECTURE IS INEVITABLE, AND MY CURRENT RESEARCH DEALS 
+                WITH HOW TO MAKE SURE ARCHITECTS ARE THE ONES STEERING THIS REVOLUTION.
+                PLEASE FEEL FREE TO CHECK OUT MY <Link to="#">CURRENT RESEARCH</Link> AND MY <Link to="/bio">BIO</Link> TO KNOW MORE.
             </div>
         </div>
     )

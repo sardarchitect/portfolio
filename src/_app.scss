@@ -3,11 +3,11 @@
 
 /* APP */
 .App{
-  margin: calc(50px + (100 - 40) * ((100vw - 300px) / (1600 - 300))) 20px;
+  margin: calc(60px + (100 - 60) * ((100vw - 300px) / (1600 - 300))) 20px;
 }
 
 @media only screen and (min-width: 1000px) {
   .App {
-    margin: inherit 150px;
+    margin: calc(60px + (100 - 60) * ((100vw - 300px) / (1600 - 300))) 150px;
   }
 }

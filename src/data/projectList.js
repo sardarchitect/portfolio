@@ -1,6 +1,6 @@
 export const projects = [
   {
-    category: "technologyProjects",
+    category: "research",
     projectId: "architectural-floor-plan-gan",
     title: "Architectural Floor Plan Generation",
     year: "2021",
@@ -18,7 +18,7 @@ export const projects = [
   },
 
   {
-    category: "architectureProjects",
+    category: "research",
     projectId: "a-framework-for-frameworks",
     title: "A Framework For Frameworks",
     year: "2019",
@@ -44,7 +44,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/Reservation_Urban1-300x199.png",
   },
   {
-    category: "architectureProjects",
+    category: "architecture",
     projectId: "baker-college",
     title: "Baker College",
     year: "2020",
@@ -62,7 +62,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/Royal-Oak-Campus-Rendering.jpg",
   },
   {
-    category: "architectureProjects",
+    category: "architecture",
     projectId: "disrupting-suburbia",
     title: "Disrupting Suburbia",
     year: "2019",
@@ -83,7 +83,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/14-300x153.jpg",
   },
   {
-    category: "architectureProjects",
+    category: "architecture",
     projectId: "the-american-bazaar",
     title: "The American Bazaar",
     award: 'Student Show Award Finalists',
@@ -108,7 +108,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/03212019_GIS_Pittsburgh-300x200.png",
   },
   {
-    category: "architectureProjects",
+    category: "architecture",
     projectId: "farm-to-rent",
     title: "Farm-to-Rent",
     year: "2020",
@@ -131,7 +131,7 @@ export const projects = [
       "/thumbnail/farm_to_rent_submission_6-1024x663-1-e1564605849817-300x196.jpg",
   },
   {
-    category: "architectureProjects",
+    category: "architecture",
     projectId: "fragmented-living",
     title: "Fragmented Living",
     year: "2018",
@@ -151,7 +151,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/Plans_Sections_Axons-3-200x300.png",
   },
   {
-    category: "architectureProjects",
+    category: "architecture",
     projectId: "light-memorial",
     title: "Light Memorial",
     year: "2018",
@@ -167,7 +167,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/DSC_0480-300x225.png",
   },
   {
-    category: "artProjects",
+    category: "art",
     projectId: "phantasmagoria",
     title: "Phantasmagoria",
     year: "2020",
@@ -185,7 +185,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/phantasmagoria.jpg",
   },
   {
-    category: "artProjects",
+    category: "art",
     projectId: "artwork",
     title: "Artwork",
     year: "2015",
@@ -200,7 +200,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/Sketches_4-221x300.png",
   },
   {
-    category: "artProjects",
+    category: "art",
     projectId: "digital-objects",
     title: "Digital Objects",
     year: "2019",
@@ -215,7 +215,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/20180118_125203-224x300.png",
   },
   {
-    category: "artProjects",
+    category: "art",
     projectId: "stack-pour",
     title: "Stack-Pour",
     year: "2020",
@@ -236,7 +236,7 @@ export const projects = [
     thumbnailSrc: "/thumbnail/DSC_2643-e1562083831594-300x250.png",
   },
   {
-    category: "technologyProjects",
+    category: "research",
     projectId: "seek2solve",
     title: "Seek2Solve",
     year: "2020",
@@ -256,23 +256,28 @@ export const projects = [
 
     ],
     thumbnailSrc: "/thumbnail/FINAL WIREFRAMES-02.png",
-  },
+  }, 
   {
-    category: "technologyProjects",
-    projectId: "mnist-gan",
-    title: "MNIST GAN",
+    category: "graphicDesign",
+    projectId: "seek2solve",
+    title: "Dimensions",
     year: "2020",
     text: [
-      `Faculty Advisor: Christian UnverzagtTeam: Hannah Cane, Karun Chughasrani, Grace Hsu, Austin Kronig, Jordan Laurila, Nour Majzoub, Rinika Prince, Jenny Scarborough, Arvinder Singh.`,
-      `Dimensions is an annual architecture publication run by students of Taubman College of Architecture - University of Michigan. The journal seeks to contribute to the critical discourse of architectural education by documenting the most compelling work produced by its students, faculty, fellows, and visiting lecturers.`,
+      `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
     ],
     images: [
-      "/project-gallery/dimensions-32/1.jpg",
-      "/project-gallery/dimensions-32/2.jpg",
-      "/project-gallery/dimensions-32/3.jpg",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-01.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-02.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-03.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-04.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-05.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-06.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-07.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-08.png",
+      "/project-gallery/seek2solve/FINAL WIREFRAMES-09.png",
+
     ],
-    thumbnailSrc: "/thumbnail/Dimensions-32-2.04-300x225.jpg",
-  },
- 
+    thumbnailSrc: "/thumbnail/FINAL WIREFRAMES-02.png",
+  }, 
 ];
 
