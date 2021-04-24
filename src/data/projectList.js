@@ -3,7 +3,7 @@ export const projects = [
     category: "research",
     projectId: "architectural-floor-plan-gan",
     title: "Architectural Floor Plan Generation",
-    year: "2021",
+    year: 2021,
     text: [`Robot Picasso`],
     images: [
       "/project-gallery/robotic-picasso/0.jpg",
@@ -21,7 +21,7 @@ export const projects = [
     category: "research",
     projectId: "a-framework-for-frameworks",
     title: "A Framework For Frameworks",
-    year: "2019",
+    year: 2019,
     studio: 'Gabriel Cuellar',
     site: 'Native Reservations NM',
     team: 'Brendan Varilek, Arvinder Singh',
@@ -47,7 +47,7 @@ export const projects = [
     category: "architecture",
     projectId: "baker-college",
     title: "Baker College",
-    year: "2020",
+    year: 2020,
     role: 'Architectural Designer',
     studio: 'Edge Design Associates',
     site: 'Royal Oak MI',
@@ -65,7 +65,7 @@ export const projects = [
     category: "architecture",
     projectId: "disrupting-suburbia",
     title: "Disrupting Suburbia",
-    year: "2019",
+    year: 2019,
     studio: 'Brittany Utting',
     site: 'Ann Arbor MI',
     text: [
@@ -87,7 +87,7 @@ export const projects = [
     projectId: "the-american-bazaar",
     title: "The American Bazaar",
     award: 'Student Show Award Finalists',
-    year: "2018",
+    year: 2018,
     studio: 'Peter Halquist',
     site: 'Pittsburgh PA',
     text: [
@@ -111,7 +111,7 @@ export const projects = [
     category: "architecture",
     projectId: "farm-to-rent",
     title: "Farm-to-Rent",
-    year: "2020",
+    year: 2020,
     studio: 'DEI Challenge',
     site: 'Detroit MI',
     text: [
@@ -134,7 +134,7 @@ export const projects = [
     category: "architecture",
     projectId: "fragmented-living",
     title: "Fragmented Living",
-    year: "2018",
+    year: 2018,
     studio: 'Brittany Utting',
     site: 'Site-less',
     text: [
@@ -154,7 +154,7 @@ export const projects = [
     category: "architecture",
     projectId: "light-memorial",
     title: "Light Memorial",
-    year: "2018",
+    year: 2018,
     text: [
       `Site: Native American Reservations, New Mexico`,
       `Wallenberg Award Finalists The rights of the Native Americans have been constantly violated since the first encounter with European colonists. Today, Native reservations are exploited for their land and resources for capitalistic gains, virtually erasing their influence and footprint from this continent. Indigenous people living on reservations are disproportionately experiencing problems of poverty, connectivity, housing, education, and overall self-determination.`,
@@ -170,7 +170,7 @@ export const projects = [
     category: "art",
     projectId: "phantasmagoria",
     title: "Phantasmagoria",
-    year: "2020",
+    year: 2020,
     text: [
       `Studio: Peter Halquist`,
       `Phantasmagoria(noun): a sequence of real or imaginary images likethose seen in a dream.Through the use of curated reflectionsoverlayed onto a 3D space, it is possibleto lose sense of reality and perception. What is physical and what is not? This flattening of space foregrounds our brain’s(in)ability to capture reality as it is.Our brain tries to create its own realityto better understand the world around us. The creation of this phantasmogoria does just that.`,
@@ -188,7 +188,7 @@ export const projects = [
     category: "art",
     projectId: "artwork",
     title: "Artwork",
-    year: "2015",
+    year: 2015,
     text: [
       `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
     ],
@@ -203,7 +203,7 @@ export const projects = [
     category: "art",
     projectId: "digital-objects",
     title: "Digital Objects",
-    year: "2019",
+    year: 2019,
     text: [
       `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
     ],
@@ -218,7 +218,7 @@ export const projects = [
     category: "art",
     projectId: "stack-pour",
     title: "Stack-Pour",
-    year: "2020",
+    year: 2020,
     text: [`Stack-pour is a...`],
     images: [
       "/project-gallery/stack-pour/0.png",
@@ -239,7 +239,7 @@ export const projects = [
     category: "research",
     projectId: "seek2solve",
     title: "Seek2Solve",
-    year: "2020",
+    year: 2020,
     text: [
       `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
     ],
@@ -259,9 +259,9 @@ export const projects = [
   }, 
   {
     category: "graphicDesign",
-    projectId: "seek2solve",
+    projectId: "dimensions",
     title: "Dimensions",
-    year: "2020",
+    year: 2020,
     text: [
       `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
     ],

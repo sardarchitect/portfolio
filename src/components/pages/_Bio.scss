@@ -6,9 +6,7 @@
     text-align: center;
   }
   .Bio__description{
-    margin: calc(50px + (100 - 40) * ((100vw - 300px) / (1600 - 300))) auto;
-    max-width: calc(600px + (1000 - 600) * ((100vw - 300px) / (1600 - 300)));
-    text-align: center;
+    margin: 50px 0;
   }
   .Bio__section:nth-child(odd){
     background-color: u.$secondaryColor;

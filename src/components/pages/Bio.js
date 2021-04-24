@@ -17,7 +17,7 @@ export const Bio = () => {
     <div className="Bio">
       <h1>BIO</h1>
       <div className="Bio__description">
-        Arvinder Singh is an architectural designer, with a unique focus in
+        *TODO* Arvinder Singh is an architectural designer, with a unique focus in
         Artificial Intelligence. He got his Bachelor's from the 
         Taubman College of Architecture at the University of Michigan, and since
         then has worked at Edge Design Associates, Ann Arbor.
@@ -34,6 +34,9 @@ export const Bio = () => {
         rhetoric, and architectural pedagogy critically engages me with the work
         I pursue. I consider myself an open-minded, cooperative, and a highly
         motivated individual.
+        <br />
+        <br />
+        Click <a href="#">here</a> for a PDF version.
       </div>
 
       <div className="Bio__section">
