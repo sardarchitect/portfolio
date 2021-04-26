@@ -28,7 +28,7 @@ export const experienceList = [
     location: "Ann Arbor MI",
     date: "October 2019 - February 2020",
     description: [
-      "Drafted, designed, and prototyped a cloud-based app for promoting awareness of world-issues through the use of big-data and AI. The project was pitched to te optiMize panel and was well recieved."
+      "Drafted, designed, and prototyped a cloud-based app for promoting awareness of world-issues through the use of big-data and AI. The project was pitched to tHe optiMize panel and was well recieved."
     ],
   },
   {
@@ -42,7 +42,7 @@ export const experienceList = [
   },
   {
     title: "Hamilton Anderson Associates",
-    role: "Spring Extern",
+    role: "Spring Intern",
     location: "Detroit MI",
     date: "March 2019",
     description: [
@@ -51,7 +51,7 @@ export const experienceList = [
   },
   {
     title: "ZGF Architects LLP",
-    role: "Spring Extern",
+    role: "Spring Intern",
     location: "Los Angeles CA",
     date: "February 2018",
     description: [
@@ -137,7 +137,7 @@ export const awardsSkillsList = [
   {
     title: "Software: Architectural",
     description: [
-      "AutoCAD, Revit, Rhino, Grasshopper, Unreal Engine 4, ArcGIS"
+      "AutoCAD (4+ Years), Revit (3+ Years), Rhino (3+ Years), Grasshopper, Unreal Engine 4, ArcGIS"
     ]
   },
   {

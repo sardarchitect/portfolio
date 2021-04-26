@@ -33,6 +33,9 @@
                 font-size: 4vw;
                 color: u.$primaryColor;
             }
+            h2:hover{
+                color: u.$highlightColor;
+            }
             .Work_grid_item_filter {
                 color: u.$secondaryColor;
             }

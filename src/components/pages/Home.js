@@ -4,7 +4,7 @@ import './_Home.scss';
 
 export const Home = () => {
     return (
-        <div className="Home">
+        <div className="Home" id="Home">
             <div className="Home__title">
                 <h1>ARCHITECTURE</h1>
                 <h1>+</h1>

@@ -9,6 +9,7 @@ import { Error404 } from "./components/pages/Error404";
 import { WorkPage } from "./components/pages/WorkPage";
 // STYLE IMPORTS
 import "./_App.scss";
+import { Contact } from "./components/pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" children={[<Home/>, <Work/>]} />
         <Route path="/bio" children={<Bio/>} />
         <Route path="/projects/:id" children={<WorkPage />} />
+        <Route path="/contact" children={<Contact />} />
         <Route path="/" children={<Error404 />} />
       </Switch>
     </div>

@@ -20,7 +20,7 @@ export const Work = () => {
   }, [filter]);
 
   return (
-    <div className="Work">
+    <div className="Work" id="Work">
       <div className="Work_filter">
         <button
           className={filter === "architecture" ? "Work_filter_active" : null}
@@ -41,22 +41,12 @@ export const Work = () => {
           RESEARCH
         </button>
         <button
-          className={filter === "art" ? "Work_filter_active" : null}
+          className={filter === "art-design" ? "Work_filter_active" : null}
           onClick={() => {
-            filter == "art" ? setFilter(false) : setFilter("art");
+            filter == "art-design" ? setFilter(false) : setFilter("art-design");
           }}
         >
-          ART
-        </button>
-        <button
-          className={filter === "graphicDesign" ? "Work_filter_active" : null}
-          onClick={() => {
-            filter == "graphicDesign"
-              ? setFilter(false)
-              : setFilter("graphicDesign");
-          }}
-        >
-          GRAPHIC DESIGN
+          ART | DESIGN
         </button>
       </div>
      
@@ -97,7 +87,7 @@ export const WorkItem = ({ project, filter }) => {
           {project.title}
         </h2>
       </Link>
-      {hover ? <img src={project.thumbnailSrc} alt={project.title} /> : null}
+      {hover ? <img src={project.thumbnail} alt={project.title} /> : null}
     </div>
   );
 };

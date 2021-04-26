@@ -1,24 +1,39 @@
 @use '../../utils' as u;
 
-.work__page {
-  .work__page__title {
-    text-align: center;
-    h1 {
-      font-family: u.$headingFamily;
-      font-size: u.$headingSize;
-    }
-  }
-  .work__page__content {
-    .work__images {
-      margin: 0 auto;
+.workpage {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+  position: relative;
+  .workpage__images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .workpage__images__item {
+      margin: 25px;
+      p {
+        text-align: center;
+      }
       img {
-        max-width: 800px;
+        max-width: 100%;
+        background-color: white;
       }
     }
-    .work__text {
+  }
+  .workpage__text {
+    h2 {
+    }
+    .workpage__text__metadata {
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+    .workpage__text__content {
     }
   }
-  .back__button {
-    margin-top: 50px;
+  .workpage__back {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 25px;
   }
 }

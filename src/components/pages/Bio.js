@@ -11,16 +11,25 @@ import {
   affiliationsList,
   awardsSkillsList,
 } from "../../data/ResumeList";
+import {  IoArrowUpCircle } from "react-icons/io5";
+import { HashLink } from "react-router-hash-link";
 
 export const Bio = () => {
   return (
-    <div className="Bio">
+    <div className="Bio" id="Bio">
       <h1>BIO</h1>
+      <div className="ScrollToTop__Bio">
+        <HashLink smooth to="/bio/#Bio">
+          <IoArrowUpCircle size="50px" />
+        </HashLink>
+      </div>
       <div className="Bio__description">
-        *TODO* Arvinder Singh is an architectural designer, with a unique focus in
+        Arvinder Singh is an architectural designer, with a unique focus in
         Artificial Intelligence. He got his Bachelor's from the 
         Taubman College of Architecture at the University of Michigan, and since
-        then has worked at Edge Design Associates, Ann Arbor.
+        then has worked at Edge Design Associates in Ann Arbor. During his time at Edge,
+        Arvinder worked on a couple of large development projects, including the new urban 
+        campus building of Baker College at Royal Oak, Michigan.
         <br />
         <br />
         Brought up in a unique experimental city of Chandigarh, designed by
@@ -30,13 +39,13 @@ export const Bio = () => {
         <br />
         <br />
         Throughout his education, Arvinder realized that the architect holds a great agency in shaping
-        social and cultural dynamics. My passion for philosophy, world-politics,
-        rhetoric, and architectural pedagogy critically engages me with the work
-        I pursue. I consider myself an open-minded, cooperative, and a highly
-        motivated individual.
+        social and cultural dynamics. His passion for philosophy, world-politics,
+        rhetoric, and architectural pedagogy critically engages him with the work
+        he pursues. Arvinder considers himself as an open-minded, 
+        cooperative, and a highly motivated individual.
         <br />
         <br />
-        Click <a href="#">here</a> for a PDF version.
+        Click <a href="#">here</a> for a PDF version of Arvinder's resume.
       </div>
 
       <div className="Bio__section">
