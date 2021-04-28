@@ -13,12 +13,7 @@ export const projects = [
     text: [
       `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     ],
-    images: [
-      {
-        src: "/project-gallery/",
-        caption: "GAN Architecture",
-      },
-    ],
+    images: [{ src: "/project-gallery/", caption: "" }],
   },
   {
     category: "research",
@@ -36,12 +31,7 @@ export const projects = [
       `To address the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque NM, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics. In pursuit of addressing the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics.`,
       `Through navigating within law, policies, economic incentives, and the cultural context, the project proposes to create a unified Pueblo body, the Middle Rio Grande Pueblo Initiative, that advocates for Indigenous priorities to the Bureau of Indian Affairs.  MRGPI works closely with lawyers, architects, and politicians to prioritize infrastructure development through budgetary allocations, and collective transformations. Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. By doing so, the project speculates a decrease in heavy-dependency on the BIA, and an increase in tribal sovereignty`,
     ],
-    images: [
-      {
-        src: "/project-gallery/framework-for-frameworks/0.png",
-        caption: "Placeholder",
-      },
-    ],
+    images: [{ src: "/project-gallery/", caption: "" }],
   },
   {
     category: "research",
@@ -53,15 +43,16 @@ export const projects = [
     site: null,
     team: "Ninnie Chiang | Kierra Davis | Brendan Varilek | Arvinder Singh",
     award: "optiMize Finalist",
-    thumbnail: "/thumbnail/seek2solve.png",
+    thumbnail: "/thumbnail/thumbnail-seek2solve.png",
     text: [
       `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     ],
     images: [
-      {
-        src: "/project-gallery/seek2solve/FINAL WIREFRAMES-01.png",
-        caption: "Placeholder",
-      },
+      { src: "/project-gallery/seek2solve/seek2solve-1.png", caption: "" },
+      { src: "/project-gallery/seek2solve/seek2solve-2.png", caption: "" },
+      { src: "/project-gallery/seek2solve/seek2solve-3.png", caption: "" },
+      { src: "/project-gallery/seek2solve/seek2solve-4.png", caption: "" },
+      { src: "/project-gallery/seek2solve/seek2solve-5.png", caption: "" },
     ],
   },
   {
@@ -74,23 +65,14 @@ export const projects = [
     site: "Royal Oak, Michigan",
     team: "Daniel Mooney | Heather Buffone | Stephen Bohlen | Arvinder Singh",
     award: null,
-    thumbnail: "/thumbnail/royal-oak.jpg",
+    thumbnail: "/thumbnail/thumbnail-baker-college.jpg",
     text: [
       `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     ],
     images: [
-      {
-        src: "/project-gallery/baker-college/1.jpg",
-        caption: "Birdseye view of terrace",
-      },
-      {
-        src: "/project-gallery/baker-college/2.jpg",
-        caption: "Lafayette St View",
-      },
-      {
-        src: "/project-gallery/baker-college/3.jpg",
-        caption: "5th Street viewr",
-      },
+      { src: "/project-gallery/baker-college/baker-college-render-1.jpg", caption: "" },
+      { src: "/project-gallery/baker-college/baker-college-render-2.jpg", caption: "" },
+      { src: "/project-gallery/baker-college/baker-college-render-3.jpg", caption: "" },
     ],
   },
   {
@@ -103,66 +85,29 @@ export const projects = [
     site: "Ann Arbor, Michigan",
     team: null,
     award: null,
-    thumbnail: "/thumbnail/disrupting-suburbia.jpg",
+    thumbnail: "/thumbnail/thumbnail-disrupting-suburbia.png",
     text: [
       `American suburbanization has created an uneventful dystopia that lacks pedestrian anchorage, walk-ability, and social infrastructure. This car-dependent, eveloper-oriented sub-urbanization also creates spaces that economically disincentivizes lower-income housing, gives way to sprawl, and promotes longer commutes.`,
       `This project creates a disruption within the critiqued American suburbiaby introducing a society of “DIY Makers” similar to the type proposed by Adam Greenfield in Toward a New Political Economy of Matter. By providing tools for manufacturing within a spatial rule-set, this project predicts a new sub-urban typology for a community-based development.`,
       `This new form of urbanism stays cohesive and structured in form, yet becomes organic in behavior. The project speculates the introduction of markets, cafes, residential quarters, and employment opportunities, providing a re-densification of suburbia at a smaller scale.`,
     ],
     images: [
-      {
-        src: "/project-gallery/disrupting-suburbia/0.png",
-        caption: "Site Plan",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/1.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/2.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/3.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/4.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/5.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/6.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/7.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/8.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/9.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/10.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/11.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/12.jpg",
-        caption: "Placeholder",
-      },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-1.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-2.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-3.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-4.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-5.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-6.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-7.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-8.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-plan.jpg", caption: "" },
+      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-site.jpg", caption: "" },
     ],
+    video: [
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia.mp4"
+      }
+    ]
   },
   {
     category: "architecture",
@@ -174,54 +119,23 @@ export const projects = [
     site: "Pittsburgh, Pennsylvania",
     team: null,
     award: "Student Show Award Finalst",
-    thumbnail: "/thumbnail/american-bazaar.png",
+    thumbnail: "/thumbnail/thumbnail-the-american-bazaar.png",
     text: [
       `Throughout history, the bazaar has been the backdrop for not only trade, commerce, and innovation, but also for politics, rhetoric, and exchange of ideas. This has rarely been the case with contemporary, capital-driven spatial typologies, like the American strip-mall.`,
       `Through introducing a bazaar typology in the American urban-condition, this project tries to advocate for a human-centric buyer-seller relationship, via an economy of scale. The introduction of a formal and informal theater provides a layer of anchorage to bring people in, providing a medium for the spread of ideas.`,
       `Formally, the vaulted ceiling-condition not only recalls the ancient typology of a bazaar, but also helps the visual distribution of spaces within the super structure. The periphery of the pochè supports service areas, whilethe core opens up for circulation and flexible programming.`,
     ],
     images: [
-      {
-        src: "/project-gallery/the-american-bazaar/0.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/1.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/2.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/3.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/4.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/5.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/6.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/7.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/8.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/9.png",
-        caption: "Placeholder",
-      },
-
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
     ],
   },
   {
@@ -241,30 +155,12 @@ export const projects = [
       `Given the uninhibited quality of the greenhouse, it can adapt to the desires of the inhabitants quite easily. Simple negotiations with one’s neighbor regarding how much space they’d each like to use can determine how the greenhouse will be best used. Additionally, the program aims to increase communication between two traditionally conflicting groups - the landlord and the renter. Given that the program relies on a deductible from the landlord, in exchange for produce, means that ongoing conversations will be had so that both parties are satisfied, motivated and happy!`,
     ],
     images: [
-      {
-        src: "/project-gallery/farm-to-rent/1.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/farm-to-rent/2.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/farm-to-rent/3.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/farm-to-rent/4.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/farm-to-rent/5.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/farm-to-rent/6.jpg",
-        caption: "Placeholder",
-      },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
     ],
   },
   {
@@ -277,7 +173,7 @@ export const projects = [
     site: null,
     team: null,
     award: null,
-    thumbnail: "/thumbnail/fragmented-living.jpg",
+    thumbnail: "/thumbnail/thumbnail-fragmented-living.png",
     text: [
       `Conventional residential complexes contain self-centered units that usually inhibit any kind of interaction with other neighboring units. Even if the architect provides social space(s), the intrinsic nature of being self-sustaining (bedrooms, bathrooms, kitchen, etc. all being in the same unit), gives room to creating a very individualistic lifestyle. These separate living environments create social bubbles within the life of the inhabitants, which may or may not be desirable. Moreover, this individual unit system is low kinetic: the dynamics prescribed by a localized architecture (in terms of proximity of programs), is lower than, let’s say, alternative ways of living.`,
       `By challenging this conventional configuration of a solid-void relationship between the public and private space within each residential unit, an alternative way of living environment can be cultivated.`,
@@ -286,14 +182,8 @@ export const projects = [
       `The site-less nature of the project allows an exploration of a public/private solid-void relationship, through a formal aesthetic. By carving into these fantastical mountainous plinths, a more permanent public/private relationship can be designed, which differentiates itself from the extremely social dynamic life on the surface.`,
     ],
     images: [
-      {
-        src: "/project-gallery/fragmented-living/1.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/fragmented-living/2.png",
-        caption: "Placeholder",
-      },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
     ],
   },
   {
@@ -306,61 +196,22 @@ export const projects = [
     site: null,
     team: null,
     award: null,
-    thumbnail: "/thumbnail/artwork.png",
+    thumbnail: "/thumbnail/thumbnail-artwork.png",
     text: [`Art is that communicates`],
     images: [
-      {
-        src: "/project-gallery/artwork/1.png",
-        caption: "Boston MA - 2015",
-      },
-      {
-        src: "/project-gallery/artwork/2.png",
-        caption: "Statue - 2016",
-      },
-      {
-        src: "/project-gallery/artwork/3.png",
-        caption: "Indian Temple - 2015",
-      },
-      {
-        src: "/project-gallery/artwork/4.png",
-        caption: "Fabric Study - 2016",
-      },
-      {
-        src: "/project-gallery/artwork/5.png",
-        caption: "MSAIL Blog I - 2020",
-      },
-      {
-        src: "/project-gallery/artwork/6.png",
-        caption: "MSAIL Blog II - 2020",
-      },
-      {
-        src: "/project-gallery/artwork/7.png",
-        caption: "MSAIL Blog III - 2020",
-      },
-      {
-        src: "/project-gallery/artwork/8.png",
-        caption: "MSAIL Blog IV - 2021",
-      },
-      {
-        src: "/project-gallery/artwork/9.png",
-        caption: "Reinbadt Study - 2020",
-      },
-      {
-        src: "/project-gallery/artwork/10.png",
-        caption: "Light Study - 2019",
-      },
-      {
-        src: "/project-gallery/robotic-picasso/0.jpg",
-        caption: "Light Study - 2019",
-      },
-      {
-        src: "/project-gallery/robotic-picasso/1.jpg",
-        caption: "Light Study - 2019",
-      },
-      {
-        src: "/project-gallery/robotic-picasso/1a.jpg",
-        caption: "Light Study - 2019",
-      },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
     ],
   },
   {
@@ -373,71 +224,26 @@ export const projects = [
     site: null,
     team: null,
     award: null,
-    thumbnail: "/thumbnail/digital-objects.png",
+    thumbnail: "/thumbnail/thumbnail-digital-objects.png",
     text: [
       `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
     ],
     images: [
-      {
-        src: "/project-gallery/digital-objects/1.gif",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/digital-objects/2.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/digital-objects/3.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/1.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/2.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/3.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/4.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/5.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/6.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/vid.gif",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/phantasmagoria/0.png",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/phantasmagoria/1.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/phantasmagoria/2.gif",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/phantasmagoria/3.mp4",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/stack-pour/0.png",
-        caption: "Placeholder",
-      },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
     ],
   },
   {
@@ -451,23 +257,14 @@ export const projects = [
     team:
       "Christian Unverzagt | Hannah X | Grace X | X | X | X | X | Arvinder Singh",
     award: null,
-    thumbnail: "/thumbnail/dimensions.jpg",
+    thumbnail: "/thumbnail/thumbnail-dimensions.png",
     text: [
       `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
     ],
     images: [
-      {
-        src: "/project-gallery/dimensions-32/1.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/dimensions-32/2.jpg",
-        caption: "Placeholder",
-      },
-      {
-        src: "/project-gallery/dimensions-32/3.jpg",
-        caption: "Placeholder",
-      },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
+      { src: "/project-gallery/", caption: "" },
     ],
   },
 ];
