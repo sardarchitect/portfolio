@@ -34,6 +34,10 @@ body {
     color: u.$highlightColor;
     cursor: pointer;
   }
+  .section-breaker{
+    margin: 20px 0;
+    border: 1px solid u.$primaryColor;
+  }
 }
 // HIGHLIGHT COLOR
 ::selection {

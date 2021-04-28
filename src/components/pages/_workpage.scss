@@ -2,7 +2,7 @@
 
 .workpage {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 3fr;
   gap: 25px;
   position: relative;
   .workpage__images {
@@ -10,24 +10,26 @@
     flex-direction: column;
     align-items: center;
     .workpage__images__item {
-      margin: 25px;
+      margin-bottom: 25px;
       p {
         text-align: center;
       }
       img {
         max-width: 100%;
-        background-color: white;
+        // background-color: white;
       }
     }
   }
   .workpage__text {
-    h2 {
+    .workpage__text__heading{
+      margin-bottom: 25px;
     }
-    .workpage__text__metadata {
+    .workpage__text__metadata p{
       margin-bottom: 15px;
-      font-weight: bold;
+      font-weight: 900;
     }
     .workpage__text__content {
+        margin-bottom: 15px;
     }
   }
   .workpage__back {
@@ -36,4 +38,10 @@
     right: 0;
     padding: 25px;
   }
+}
+
+@media only screen and (max-width: 700px) {
+.workpage{
+  grid-template-columns: none;
+}
 }

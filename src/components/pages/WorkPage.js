@@ -7,6 +7,9 @@ import "./_Workpage.scss";
 import { projects } from "../../data/projectList";
 import { HashLink } from "react-router-hash-link";
 import { IoArrowBackCircle } from "react-icons/io5";
+import Zoom from "react-medium-image-zoom";
+import ImageZoom from "react-medium-image-zoom";
+import ReactPlayer from "react-player";
 
 export const WorkPage = () => {
   let { id } = useParams();
@@ -15,28 +18,57 @@ export const WorkPage = () => {
 
   return (
     <div className="workpage">
+      <div className="workpage__text">
+        <div className="workpage__text__heading">
+          <h2>{project.title.toUpperCase()}</h2>
+          <h2>{project.year}</h2>
+        </div>
+
+        <div className="workpage__text__metadata">
+          {project.studio ? (
+            <p>STUDIO: {project.studio.toUpperCase()}</p>
+          ) : null}
+          {project.site ? <p>SITE: {project.site.toUpperCase()}</p> : null}
+          {project.team ? <p>TEAM: {project.team.toUpperCase()}</p> : null}
+          {project.award ? <p>AWARD: {project.award.toUpperCase()}</p> : null}
+        </div>
+        <div className="section-breaker" />
+        {project.text.map((para) => (
+          <p className="workpage__text__content">{para}</p>
+        ))}
+      </div>
       <div className="workpage__images">
         {project.images.map((image) => (
           <div className="workpage__images__item">
-            <img src={image.src} alt={image.caption} />
+            <ImageZoom
+              image={{
+                src: image.src,
+                alt: image.caption ,
+                className: "img",
+                // style: { width: "200em" },
+              }}
+              zoomImage={{
+                src: image.src,
+                alt: image.caption ,
+              }}
+              zoomMargin={10}
+            />
+            {
+              image.src.includes(".mp4") ? (
+                <ReactPlayer
+                className='react-player'
+                playing="True"
+                loop="True"
+                url={image.src}
+                width='100%'
+                height='100%'
+                volume="0"
+                muted="True"
+              />
+              ) : null 
+              }
             <p>{image.caption}</p>
           </div>
-        ))}
-      </div>
-
-      <div className="workpage__text">
-        <h2>
-          {project.title} | {project.year}
-        </h2>
-
-        <div className="workpage__text__metadata">
-          {project.studio ? <p>Studio: {project.studio}</p> : null}
-          {project.site ? <p>Site: {project.site}</p> : null}
-          {project.team ? <p>Team: {project.team}</p> : null}
-          {project.award ? <p>Award: {project.award}</p> : null}
-        </div>
-        {project.text.map((para) => (
-          <p className="workpage__text__content">{para}</p>
         ))}
       </div>
 
