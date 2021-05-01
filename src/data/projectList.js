@@ -52,9 +52,15 @@ export const projects = [
     images: [
       { src: "/project-gallery/seek2solve/seek2solve-1.png", caption: "Seek" },
       { src: "/project-gallery/seek2solve/seek2solve-2.png", caption: "Solve" },
-      { src: "/project-gallery/seek2solve/seek2solve-3.png", caption: "Educate" },
+      {
+        src: "/project-gallery/seek2solve/seek2solve-3.png",
+        caption: "Educate",
+      },
       { src: "/project-gallery/seek2solve/seek2solve-4.png", caption: "" },
-      { src: "/project-gallery/seek2solve/seek2solve-5.png", caption: "Diagramitic description" },
+      {
+        src: "/project-gallery/seek2solve/seek2solve-5.png",
+        caption: "Diagramitic description",
+      },
     ],
   },
   {
@@ -69,12 +75,21 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-baker-college.jpg",
     text: [
-      `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+      ``,
     ],
     images: [
-      { src: "/project-gallery/baker-college/baker-college-render-1.jpg", caption: "" },
-      { src: "/project-gallery/baker-college/baker-college-render-2.jpg", caption: "" },
-      { src: "/project-gallery/baker-college/baker-college-render-3.jpg", caption: "" },
+      {
+        src: "/project-gallery/baker-college/baker-college-render-2.jpg",
+        caption: "S.Lafayette Ave and W.5th Street",
+      },
+      {
+        src: "/project-gallery/baker-college/baker-college-render-1.jpg",
+        caption: "Rendering of Terraces",
+      },
+      {
+        src: "/project-gallery/baker-college/baker-college-render-3.jpg",
+        caption: "S. Lafayette Ave. Looking South",
+      },
     ],
   },
   {
@@ -94,17 +109,54 @@ export const projects = [
       `This new form of urbanism stays cohesive and structured in form, yet becomes organic in behavior. The project speculates the introduction of markets, cafes, residential quarters, and employment opportunities, providing a re-densification of suburbia at a smaller scale.`,
     ],
     images: [
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-1.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-2.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-3.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-4.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-5.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-6.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-7.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-8.jpg", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-plan.png", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-site.png", caption: "" },
-      { src: "/project-gallery/disrupting-suburbia/disrupting-suburbia.mp4", caption: "" },
+      {
+        src:
+          "/project-gallery/disrupting-suburbia/disrupting-suburbia-site.png",
+        caption: "Site - Ann Arbor MI",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia.mp4",
+        caption: "Construction Process",
+      },
+      {
+        src:
+          "/project-gallery/disrupting-suburbia/disrupting-suburbia-plan.png",
+        caption: "Plan",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-1.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-2.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-3.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-4.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-5.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-6.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-7.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-8.jpg",
+        caption: "",
+      },
+
+     
     ],
   },
   {
@@ -124,16 +176,16 @@ export const projects = [
       `Formally, the vaulted ceiling-condition not only recalls the ancient typology of a bazaar, but also helps the visual distribution of spaces within the super structure. The periphery of the pochè supports service areas, whilethe core opens up for circulation and flexible programming.`,
     ],
     images: [
-      { src: "/project-gallery/the-american-bazaar/0.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/1.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/2.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/3.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/4.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/5.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/6.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/7.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/8.png", caption: "" },
-      { src: "/project-gallery/the-american-bazaar/9.png", caption: "" },
+      { src: "/project-gallery/the-american-bazaar/0.png", caption: "Site - Pittsburgh PA" },
+      { src: "/project-gallery/the-american-bazaar/1.png", caption: "Worms-eye View" },
+      { src: "/project-gallery/the-american-bazaar/2.png", caption: "Exploded Axonometric" },
+      { src: "/project-gallery/the-american-bazaar/3.png", caption: "Floor Plan - Ground" },
+      { src: "/project-gallery/the-american-bazaar/4.png", caption: "Floor Plan - 2nd" },
+      { src: "/project-gallery/the-american-bazaar/5.png", caption: "Section - A" },
+      { src: "/project-gallery/the-american-bazaar/6.png", caption: "Elevation - West" },
+      { src: "/project-gallery/the-american-bazaar/7.jpg", caption: "3D Model" },
+      { src: "/project-gallery/the-american-bazaar/8.png", caption: "Render - Public Space" },
+      { src: "/project-gallery/the-american-bazaar/9.png", caption: "Render - Market" },
     ],
   },
   {
@@ -150,7 +202,6 @@ export const projects = [
     text: [
       `Farm-to-Rent is designed, at its core, with community in mind.`,
       `This program encourages using the provided infrastructure as a means for residents to not only feed themselves, but also their neighbor, friend, family, or a stranger. As long as one is willing to cultivate their produce, and there are people willing to purchase, a strong and healthy relationship can be fostered. This effect is bolstered by the proximity to the Eastern Market, and two other grocery stores in the area. If business appears to be bustling at one of the places and not the other, renters will have the opportunity to connect with these groups and sell their produce at these locations. The greenhouse in particular is designed without barriers between each unit. This can lead to a number of encounters amongst the two occupants which can lead to new friendships, knowledge, and potentially a helping hand.`,
-      `Given the uninhibited quality of the greenhouse, it can adapt to the desires of the inhabitants quite easily. Simple negotiations with one’s neighbor regarding how much space they’d each like to use can determine how the greenhouse will be best used. Additionally, the program aims to increase communication between two traditionally conflicting groups - the landlord and the renter. Given that the program relies on a deductible from the landlord, in exchange for produce, means that ongoing conversations will be had so that both parties are satisfied, motivated and happy!`,
     ],
     images: [
       { src: "/project-gallery/farm-to-rent/farm-to-rent-1.jpg", caption: "" },
@@ -173,15 +224,19 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-fragmented-living.png",
     text: [
-      `Conventional residential complexes contain self-centered units that usually inhibit any kind of interaction with other neighboring units. Even if the architect provides social space(s), the intrinsic nature of being self-sustaining (bedrooms, bathrooms, kitchen, etc. all being in the same unit), gives room to creating a very individualistic lifestyle. These separate living environments create social bubbles within the life of the inhabitants, which may or may not be desirable. Moreover, this individual unit system is low kinetic: the dynamics prescribed by a localized architecture (in terms of proximity of programs), is lower than, let’s say, alternative ways of living.`,
-      `By challenging this conventional configuration of a solid-void relationship between the public and private space within each residential unit, an alternative way of living environment can be cultivated.`,
-      `Through exploding and fragmenting the programs (i.e. by deliberately shifting the programs of one unit in relation to others), and re-organizing the configuration of these individual programs, the architecture can allow room for social interaction, that may have not been possible otherwise. For example, the architecture may lead to unusual interactions between categories of people who normally wouldn’t be able to directly interact with one another in the conventional sense.`,
-      `Furthermore, by creating social spaces that double as utilitarian (such as common kitchen spaces, public baths, open living rooms, etc.), this idea of bumping into another member of this micro-community can be furthered. As noted above, conventional housing units are low dynamic in nature. They are almost inflexible to the changing social environments within the community. By providing the residents modular structures that can be added (both vertically and horizontally), subtracted, and moved, space can be generated according to the inhabitant’s needs.`,
-      `The site-less nature of the project allows an exploration of a public/private solid-void relationship, through a formal aesthetic. By carving into these fantastical mountainous plinths, a more permanent public/private relationship can be designed, which differentiates itself from the extremely social dynamic life on the surface.`,
+      `Conventional residential complexes contain self-centered units that usually inhibit any kind of interaction with other neighboring units. Even if the architect provides social space(s), the intrinsic nature of being self-sustaining (bedrooms, bathrooms, kitchen, etc. all being in the same unit), gives room to creating a very individualistic lifestyle.`,
+      `     
+      These separate living environments create social bubbles within the life of the inhabitants, which may or may not be desirable. By challenging this conventional configuration of a solid-void relationship between the public and private space within each residential unit, an alternative way of living environment can be cultivated through the use of explosions and fragmentations of the program.`,
     ],
     images: [
-      { src: "/project-gallery/fragmented-living/fragmented-living-1.png", caption: "" },
-      { src: "/project-gallery/fragmented-living/fragmented-living-2.png", caption: "" },
+      {
+        src: "/project-gallery/fragmented-living/fragmented-living-1.png",
+        caption: "Axonometric - The Social Plinth",
+      },
+      {
+        src: "/project-gallery/fragmented-living/fragmented-living-2.png",
+        caption: "Axonometric - XRay",
+      },
     ],
   },
   {
@@ -195,24 +250,51 @@ export const projects = [
     team: null,
     award: null,
     thumbnail: "/thumbnail/thumbnail-artwork.png",
-    text: [`Art is that communicates`],
+    text: [
+      `Here is a compilation of various artworks done by Arvinder over various periods.`,
+    ],
     images: [
-      { src: "/project-gallery/artwork/artwork-ai-factory.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-ai-fusion.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-boston.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-chair.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-computer-vision.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-mouse.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-rembrandt-study.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-statue.png", caption: "" },
-      { src: "/project-gallery/artwork/artwork-temple.png", caption: "" },
+      {
+        src: "/project-gallery/artwork/artwork-ai-factory.png",
+        caption:
+          "MSAIL Blog Cover Image: The Image Classification Process | 2020",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-ai-fusion.png",
+        caption: "MSAIL Blog Cover: Using AI For Good | 2021",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-chair.png",
+        caption: "Fabric Study | 2016",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-computer-vision.png",
+        caption: "MSAIL Blog Cover: Object Detection | 2020",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-mouse.png",
+        caption: "Object Study | 2019",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-rembrandt-study.png",
+        caption: "Studying the Greats: Rembrandt | 2020",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-statue.png",
+        caption: "Charcoal Practice | 2015",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-temple.png",
+        caption: "Temple Study | 2014",
+      },
       { src: "/project-gallery/robotic-picasso/0.jpg", caption: "" },
       { src: "/project-gallery/robotic-picasso/1.jpg", caption: "" },
       { src: "/project-gallery/robotic-picasso/1a.jpg", caption: "" },
       { src: "/project-gallery/robotic-picasso/2.jpg", caption: "" },
       { src: "/project-gallery/robotic-picasso/2a.jpg", caption: "" },
       { src: "/project-gallery/robotic-picasso/3.jpg", caption: "" },
-      { src: "/project-gallery/robotic-picasso/3a.jpg", caption: "" },    ],
+      { src: "/project-gallery/robotic-picasso/3a.jpg", caption: "" },
+    ],
   },
   {
     category: "art-design",
@@ -226,22 +308,52 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-digital-objects.png",
     text: [
-      `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
+      `This is a compilation of small objects designed and manufactured through the use of digital technologies. The projects were created using tools like Grasshopper, and physically rendered using 3D printing, ZUND cutter, laser cutter, robots, etc. `,
     ],
     images: [
-      { src: "/project-gallery/contextless-memorial/memorial-side.png", caption: "" },
-      { src: "/project-gallery/contextless-memorial/memorial-entrance.png", caption: "" },
-      { src: "/project-gallery/contextless-memorial/memorial-plan.png", caption: "" },
-      { src: "/project-gallery/contextless-memorial/memorial-section-1.png", caption: "" },
-      { src: "/project-gallery/contextless-memorial/memorial-section-2.png", caption: "" },
-      { src: "/project-gallery/contextless-memorial/memorial-top.png", caption: "" },
-      { src: "/project-gallery/digital-objects/cnc-art.jpg", caption: "" },
-      { src: "/project-gallery/digital-objects/grasshopper-vases.png", caption: "" },
-      { src: "/project-gallery/digital-objects/laser-cube.gif", caption: "" },
-      { src: "/project-gallery/phantasmagoria/phantasmagoria-elevation.png", caption: "" },
-      { src: "/project-gallery/phantasmagoria/phantasmagoria-plan.jpg", caption: "" },
-      { src: "/project-gallery/phantasmagoria/phantasmagoria-sketch.png", caption: "" },
-      { src: "/project-gallery/phantasmagoria/phantasmagoria-video.mp4", caption: "" },
+      {
+        src: "/project-gallery/contextless-memorial/memorial-side.png",
+        caption: "Memorial: Elevation View",
+      },
+      {
+        src: "/project-gallery/contextless-memorial/memorial-top.png",
+        caption: "Memorial: Top View",
+      },
+      {
+        src: "/project-gallery/contextless-memorial/memorial-plan.png",
+        caption: "Memorial: Plan",
+      },
+      {
+        src: "/project-gallery/contextless-memorial/memorial-section-1.png",
+        caption: "Memorial: Section",
+      },
+
+      {
+        src: "/project-gallery/digital-objects/cnc-art.jpg",
+        caption: "2.5D CNC Painting",
+      },
+      {
+        src: "/project-gallery/digital-objects/grasshopper-vases.png",
+        caption: "Parametric Vases",
+      },
+      {
+        src: "/project-gallery/digital-objects/laser-cube.gif",
+        caption: "Grasshopper Cube",
+      },
+      {
+        src: "/project-gallery/phantasmagoria/phantasmagoria-video.mp4",
+        caption:
+          "Phantasmagoria: Phantasmagoria(noun): a sequence of real or imaginary images likethose seen in a dream.Through the use of curated reflections overlayed onto a 3D space, it is possibleto lose sense of reality and perception.",
+      },
+      {
+        src: "/project-gallery/phantasmagoria/phantasmagoria-elevation.png",
+        caption: "Phantasmagoria: Elevation",
+      },
+
+      {
+        src: "/project-gallery/phantasmagoria/phantasmagoria-plan.jpg",
+        caption: "Phantasmagoria: Plan",
+      },
     ],
   },
   {
@@ -253,16 +365,24 @@ export const projects = [
     role: "Co-Editor",
     site: null,
     team:
-      "Christian Unverzagt | Hannah X | Grace X | X | X | X | X | Arvinder Singh",
+      "Christian Unverzagt | Hannah Cane | Karun Chughasrani | Grace Hsu | Jordan Laurila | Austin Kronig | Nour Majzoub | Rinika Prince | Jenny Scarborough | Arvinder Singh",
     award: null,
     thumbnail: "/thumbnail/thumbnail-dimensions.png",
     text: [
-      `These objects are made through digital fabrication. I used Grasshopper, 3D printing, ZUND cutter, laser cutter, robots, etc. to make em`,
+      `Dimensions is the student produced journal of architecture at the University of Michigan. The journal seeks to contribute to the critical discourse of architectural education by documenting the most compelling work produced by its students, faculty, fellows, and visiting lecturers.`,
+      `Volume 32 uniquelly focused on elucidating the traces of labor required for much of the architectural work to exist. The volume seeked out transparency behind every project: total project costs in US dollars, number of hours labored by the authors, and the tools used to create these works.`,
+      `Check out the full copy <a href="https://issuu.com/taubmancollege/docs/dimensions-32">here</a>`,
     ],
     images: [
-      { src: "/project-gallery/dimensions-32/dimensions-1.jpg", caption: "" },
+      {
+        src: "/project-gallery/dimensions-32/dimensions-1.jpg",
+        caption: "Front Cover",
+      },
       { src: "/project-gallery/dimensions-32/dimensions-2.jpg", caption: "" },
-      { src: "/project-gallery/dimensions-32/dimensions-3.jpg", caption: "" },
+      {
+        src: "/project-gallery/dimensions-32/dimensions-3.jpg",
+        caption: "Sample Page",
+      },
     ],
   },
 ];

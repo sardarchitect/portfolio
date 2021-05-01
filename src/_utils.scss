@@ -8,11 +8,17 @@
 // $secondaryColor: rgb(34, 34, 34);
 // $highlightColor: rgb(0, 105, 166);
 
+// #faf8f9
+// #b6adaa
+// #aeaba6
+// #7d776D
+// #C3BFC2
+
 // COLORS
-$backgroundColor: rgb(239, 236, 224);
-$primaryColor:  rgb(26, 26, 26);
-$secondaryColor: rgb(215, 211, 191);
-$highlightColor: rgb(197, 195, 189);
+$backgroundColor: #faf8f9;
+$primaryColor:  #151514;
+$secondaryColor: #C3BFC2;
+$highlightColor: #7d776D;
 
 // FONTS
 $headingSize: calc(30px + (75 - 30) * ((100vw - 300px) / (1600 - 300)));

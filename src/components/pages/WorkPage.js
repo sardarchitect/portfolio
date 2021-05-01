@@ -16,6 +16,7 @@ export const WorkPage = () => {
   const project = projects.find((project) => project.projectId === id);
   console.log(project);
 
+  // Usage
   return (
     <div className="workpage">
       <div className="workpage__text">
@@ -23,7 +24,6 @@ export const WorkPage = () => {
           <h2>{project.title.toUpperCase()}</h2>
           <h2>{project.year}</h2>
         </div>
-
         <div className="workpage__text__metadata">
           {project.studio ? (
             <p>STUDIO: {project.studio.toUpperCase()}</p>
@@ -34,44 +34,46 @@ export const WorkPage = () => {
         </div>
         <div className="section-breaker" />
         {project.text.map((para) => (
-          <p className="workpage__text__content">{para}</p>
+          <div
+            dangerouslySetInnerHTML={{ __html: para }}
+            className="workpage__text__content"
+          />
         ))}
       </div>
       <div className="workpage__images">
         {project.images.map((image) => (
           <div className="workpage__images__item">
-            <ImageZoom
-              image={{
-                src: image.src,
-                alt: image.caption ,
-                className: "img",
-                // style: { width: "200em" },
-              }}
-              zoomImage={{
-                src: image.src,
-                alt: image.caption ,
-              }}
-              zoomMargin={10}
-            />
-            {
-              image.src.includes(".mp4") ? (
-                <ReactPlayer
-                className='react-player'
+            {image.src.includes(".mp4") ? (
+              <ReactPlayer
+                className="react-player"
                 playing="True"
                 loop="True"
                 url={image.src}
-                width='100%'
-                height='100%'
+                width="100%"
+                height="100%"
                 volume="0"
                 muted="True"
               />
-              ) : null 
-              }
+            ) : (
+              <ImageZoom
+                image={{
+                  src: image.src,
+                  alt: image.caption,
+                  className: "img",
+                  // style: { width: "200em" },
+                }}
+                zoomImage={{
+                  src: image.src,
+                  alt: image.caption,
+                }}
+                zoomMargin={10}
+              />
+            )}
+
             <p>{image.caption}</p>
           </div>
         ))}
       </div>
-
       <div className="workpage__back">
         <HashLink smooth to="/#Work">
           <IoArrowBackCircle size="50px" />
@@ -80,17 +82,3 @@ export const WorkPage = () => {
     </div>
   );
 };
-
-/*
-category
-projectId
-title
-year
--studio
--site
--team
--award
-text
-images
-thumbnailSrc
-*/

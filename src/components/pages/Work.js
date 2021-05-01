@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./_Work.scss";
 import { projects } from "../../data/projectList";
 import { Link } from "react-router-dom";
+import useWindowSize from "../utils/useWindowSize";
 
 export const Work = () => {
   const [data, setData] = useState([]);
@@ -49,7 +50,7 @@ export const Work = () => {
           ART | DESIGN
         </button>
       </div>
-     
+
       <div className="Work_list">
         {data.map((project) => {
           return (
@@ -68,9 +69,11 @@ export const Work = () => {
 export const WorkItem = ({ project, filter }) => {
   const [hover, setHover] = useState(false);
   let url = "projects/" + project.projectId;
+  const size = useWindowSize();
+
   return (
     <div
-      className="Work_grid_item"
+      className={size.width < 700 ? "Work_grid_item_mobile" : "Work_grid_item"}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
@@ -87,7 +90,23 @@ export const WorkItem = ({ project, filter }) => {
           {project.title}
         </h2>
       </Link>
-      {hover ? <img src={project.thumbnail} alt={project.title} /> : null}
+      {size.width < 700 ? (
+        <Link to={"/" + url}>
+          <img
+            className={
+              filter === false
+                ? null
+                : filter !== project.category
+                ? "Work_grid_item_filter"
+                : null
+            }
+            src={project.thumbnail}
+            alt={project.title}
+          />
+        </Link>
+      ) : hover ? (
+        <img src={project.thumbnail} alt={project.title} />
+      ) : null}
     </div>
   );
 };
