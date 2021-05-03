@@ -45,8 +45,10 @@ nav {
             .nav__footer {
                 position: absolute;
                 bottom: 0;
+                right: 0;
                 padding: 50px;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 gap: 50px;
                 svg path {

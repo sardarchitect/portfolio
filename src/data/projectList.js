@@ -1,38 +1,39 @@
 export const projects = [
-  // {
-  //   category: "research",
-  //   projectId: "plan-gan",
-  //   title: "Floor Plan Generation",
-  //   year: 2021,
-  //   studio: null,
-  //   role: null,
-  //   site: null,
-  //   team: null,
-  //   award: null,
-  //   thumbnail: "/thumbnail/",
-  //   text: [
-  //     `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-  //   ],
-  //   images: [{ src: "/project-gallery/", caption: "" }],
-  // },
-  // {
-  //   category: "research",
-  //   projectId: "franework",
-  //   title: "A Framework For Frameworks",
-  //   year: 2019,
-  //   studio: "Gabriel Cuellar",
-  //   role: null,
-  //   site: "Native American Reservations, New Mexico",
-  //   team: "Brendan Varilek | Arvinder Singh",
-  //   award: "Wallenberg Award Finalist",
-  //   thumbnail: "/thumbnail/framework-for-frameworks.png",
-  //   text: [
-  //     `Wallenberg Award Finalists The rights of the Native Americans have been constantly violated since the first encounter with European colonists. Today, Native reservations are exploited for their land and resources for capitalistic gains, virtually erasing their influence and footprint from this continent. Indigenous people living on reservations are disproportionately experiencing problems of poverty, connectivity, housing, education, and overall self-determination.`,
-  //     `To address the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque NM, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics. In pursuit of addressing the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics.`,
-  //     `Through navigating within law, policies, economic incentives, and the cultural context, the project proposes to create a unified Pueblo body, the Middle Rio Grande Pueblo Initiative, that advocates for Indigenous priorities to the Bureau of Indian Affairs.  MRGPI works closely with lawyers, architects, and politicians to prioritize infrastructure development through budgetary allocations, and collective transformations. Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. By doing so, the project speculates a decrease in heavy-dependency on the BIA, and an increase in tribal sovereignty`,
-  //   ],
-  //   images: [{ src: "/project-gallery/", caption: "" }],
-  // },
+  {
+    category: "research",
+    projectId: "plan-gan",
+    title: "Floor Plan Generation",
+    year: 2021,
+    studio: null,
+    role: null,
+    site: null,
+    team: null,
+    award: null,
+    thumbnail: "/thumbnail/",
+    text: [
+      `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    ],
+    images: [{ src: "/project-gallery/", caption: "" }],
+  },
+  {
+    category: "research",
+    projectId: "a-framework-for-frameworks",
+    title: "A Framework For Frameworks",
+    year: 2019,
+    studio: "Gabriel Cuellar",
+    role: null,
+    site: "Native American Reservations, New Mexico",
+    team: "Brendan Varilek | Arvinder Singh",
+    award: "Wallenberg Award Finalist",
+    thumbnail: "/thumbnail/framework-for-frameworks.png",
+    text: [
+      `Wallenberg Award Finalists The rights of the Native Americans have been constantly violated since the first encounter with European colonists. Today, Native reservations are exploited for their land and resources for capitalistic gains, virtually erasing their influence and footprint from this continent. Indigenous people living on reservations are disproportionately experiencing problems of poverty, connectivity, housing, education, and overall self-determination.`,
+      `To address the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque NM, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics. In pursuit of addressing the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics.`,
+      `Through navigating within law, policies, economic incentives, and the cultural context, the project proposes to create a unified Pueblo body, the Middle Rio Grande Pueblo Initiative, that advocates for Indigenous priorities to the Bureau of Indian Affairs.  MRGPI works closely with lawyers, architects, and politicians to prioritize infrastructure development through budgetary allocations, and collective transformations. Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. By doing so, the project speculates a decrease in heavy-dependency on the BIA, and an increase in tribal sovereignty`
+      `Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. It works on multiple scales: the building, the property, the urban, and the regional. By doing so, the project  a decrease in heavy-dependency on the BIA and an increase in tribal sovereignty and self-determination.`,
+    ],
+    images: [{ src: "/project-gallery/", caption: "" }],
+  },
   {
     category: "research",
     projectId: "seek2solve",
@@ -74,9 +75,7 @@ export const projects = [
     team: "Daniel Mooney | Heather Buffone | Stephen Bohlen | Arvinder Singh",
     award: null,
     thumbnail: "/thumbnail/thumbnail-baker-college.jpg",
-    text: [
-      ``,
-    ],
+    text: [``],
     images: [
       {
         src: "/project-gallery/baker-college/baker-college-render-2.jpg",
@@ -116,7 +115,7 @@ export const projects = [
       },
       {
         src: "/project-gallery/disrupting-suburbia/disrupting-suburbia.mp4",
-        caption: "Construction Process",
+        caption: "Time-lapse of the development: By negotiating property-ownership and other legal bundles of rights, the project forms a  in the American suburbia, and promotes a bottom-up approach to architecture",
       },
       {
         src:
@@ -155,8 +154,6 @@ export const projects = [
         src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-8.jpg",
         caption: "",
       },
-
-     
     ],
   },
   {
@@ -176,16 +173,46 @@ export const projects = [
       `Formally, the vaulted ceiling-condition not only recalls the ancient typology of a bazaar, but also helps the visual distribution of spaces within the super structure. The periphery of the pochè supports service areas, whilethe core opens up for circulation and flexible programming.`,
     ],
     images: [
-      { src: "/project-gallery/the-american-bazaar/0.png", caption: "Site - Pittsburgh PA" },
-      { src: "/project-gallery/the-american-bazaar/1.png", caption: "Worms-eye View" },
-      { src: "/project-gallery/the-american-bazaar/2.png", caption: "Exploded Axonometric" },
-      { src: "/project-gallery/the-american-bazaar/3.png", caption: "Floor Plan - Ground" },
-      { src: "/project-gallery/the-american-bazaar/4.png", caption: "Floor Plan - 2nd" },
-      { src: "/project-gallery/the-american-bazaar/5.png", caption: "Section - A" },
-      { src: "/project-gallery/the-american-bazaar/6.png", caption: "Elevation - West" },
-      { src: "/project-gallery/the-american-bazaar/7.jpg", caption: "3D Model" },
-      { src: "/project-gallery/the-american-bazaar/8.png", caption: "Render - Public Space" },
-      { src: "/project-gallery/the-american-bazaar/9.png", caption: "Render - Market" },
+      {
+        src: "/project-gallery/the-american-bazaar/0.png",
+        caption: "Site - Pittsburgh PA",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/1.png",
+        caption: "Worms-eye View",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/2.png",
+        caption: "Exploded Axonometric",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/3.png",
+        caption: "Floor Plan - Ground",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/4.png",
+        caption: "Floor Plan - 2nd",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/5.png",
+        caption: "Section - A",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/6.png",
+        caption: "Elevation - West",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/7.jpg",
+        caption: "3D Model",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/8.png",
+        caption: "Render - Public Space",
+      },
+      {
+        src: "/project-gallery/the-american-bazaar/9.png",
+        caption: "Render - Market",
+      },
     ],
   },
   {

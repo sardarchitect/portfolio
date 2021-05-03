@@ -22,9 +22,9 @@ export const Nav = () => {
           <span></span>
           <span></span>
         </div>
-        <HashLink smooth to="/#Home" className="nav_title">
+        <a href="/" className="nav_title">
           ARVINDER SINGH
-        </HashLink>
+        </a>
       </div>
       <div
         className="nav__overlay"

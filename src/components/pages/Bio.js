@@ -23,6 +23,10 @@ export const Bio = () => {
           <IoArrowUpCircle size="50px" />
         </HashLink>
       </div>
+      <div className="Bio__description__wrapper">
+      <div className="Bio__img">
+        <img src='/singh.jpeg'/>
+      </div>
       <div className="Bio__description">
         Arvinder Singh is an architectural designer, with a unique focus in
         Artificial Intelligence. He got his Bachelor's from the 
@@ -46,6 +50,7 @@ export const Bio = () => {
         <br />
         <br />
         Click <a href="#">here</a> for a PDF version of Arvinder's resume.
+      </div>
       </div>
 
       <div className="Bio__section">

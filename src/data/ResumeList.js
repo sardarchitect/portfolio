@@ -19,7 +19,7 @@ export const experienceList = [
     location: "Ann Arbor MI",
     date: "July 2019 - December 2020",
     description: [
-      "Worked on mutliple commercial projects in Michigan, ranging from conceptual design to shop drawings. Notable projects include: Baker College at Royal Oak, The Dot at Ferndale, and various rennovations at the Ann Arbor District Libraries"
+      "Worked on mutliple commercial projects within Michigan ranging from conceptual design to shop drawings. Notable projects include Baker College at Royal Oak, The Dot at Ferndale, and various rennovations at the Ann Arbor District Libraries. Also expedited and automated redundant tasks using tools like Dynamo, Python scripting, etc."
     ],
   },
   {
@@ -28,7 +28,7 @@ export const experienceList = [
     location: "Ann Arbor MI",
     date: "October 2019 - February 2020",
     description: [
-      "Drafted, designed, and prototyped a cloud-based app for promoting awareness of world-issues through the use of big-data and AI. The project was pitched to tHe optiMize panel and was well recieved."
+      "Drafted, designed, and prototyped a cloud-based app for promoting awareness of world-issues through the use of big-data and AI. The project was pitched to the optiMize panel and was well recieved."
     ],
   },
   {
@@ -46,7 +46,7 @@ export const experienceList = [
     location: "Detroit MI",
     date: "March 2019",
     description: [
-      "Investigated multiple design strategies for HAA 25th-Anniversary Book design and cover, while also helping out with facade design decisions.",
+      "Assisted HAA with facade design decisions for a mixed-use project in Detroit. Also investigated multiple design strategies for HAA 25th-Anniversary Book design and cover",
     ],
   },
   {
@@ -64,7 +64,7 @@ export const experienceList = [
     location: "Detroit MI",
     date: "June 2016 - August 2016",
     description: [
-      "Assisted Prof. Anya Sirota with preparing for the 10th Saint Etienne International Design Biennale by helping produce floor plans and elevations of exisiting buildings in the neighborhood. Also managed the design of Akoaki's annual publication: The ONE Mile Zine v.2",
+      "Assisted Prof. Anya Sirota with preparing for the 10th Saint Etienne International Design Biennale by helping produce floor plans and elevations of exisiting buildings in the neighborhood. Also managed the design of Akoaki's annual publication: The ONE Mile Zine - v2",
     ],
   },
   {
@@ -143,19 +143,19 @@ export const awardsSkillsList = [
   {
     title: "Software: Visualization",
     description: [
-      "Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere, Adobe AfterEffects"
+      "Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere, Adobe AfterEffects, D3.js"
     ]
     },
   {
     title: "Software: Web Development",
     description:[
-       "HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB, Mongoose"
+       "HTML, CSS, JavaScript (1+ Year), ReactJS (1+ Year), NodeJS, MongoDB"
     ]
   },
   {
     title: "Software: Machine Learning",
     description:[
-       "Python, Anaconda Environment, PyTorch, Numpy, Pandas"
+       "Python (1+ Year), Anaconda Environment, PyTorch, Numpy, Pandas"
     ]
   },
   {
