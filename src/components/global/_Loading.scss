@@ -1,4 +1,4 @@
-
+@use "../../utils" as u;
 
 @keyframes ldio-dhg8ln6rccp {
   0% { transform: rotate(0deg) }
@@ -13,7 +13,7 @@
   top: 26.52px;
   left: 26.52px;
   border-radius: 50%;
-  box-shadow: 0 6.188000000000001px 0 0 #85a2b6;
+  box-shadow: 0 6.188000000000001px 0 0 u.$primaryColor;
   transform-origin: 83.98px 87.074px;
 }
 .loading-wrapper{

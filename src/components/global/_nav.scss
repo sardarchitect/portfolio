@@ -1,5 +1,5 @@
-/* IMPORTS */
 @use "../../utils" as u;
+/* IMPORTS */
 
 nav {
     position: fixed;
@@ -45,14 +45,18 @@ nav {
             .nav__footer {
                 position: absolute;
                 bottom: 0;
-                right: 0;
-                padding: 50px;
+                margin-bottom: 50px;
                 display: flex;
-                flex-direction: column;
                 align-items: center;
                 gap: 50px;
                 svg path {
                     fill: u.$primaryColor;
+                }
+                svg:hover{
+                    path{
+                        fill: u.$highlightColor;
+        
+                    }
                 }
             }
         }

@@ -1,8 +1,25 @@
 /* IMPORTS */
 @use "../../utils" as u;
 
-.footer__copyright {
+
+footer{
     background-color: u.$secondaryColor;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    .footer__contact{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        svg:hover{
+            path{
+                fill: u.$highlightColor;
+
+            }
+        }
+    }
+    .footer__copyright {
+        margin-top: 25px;
+    }    
 }

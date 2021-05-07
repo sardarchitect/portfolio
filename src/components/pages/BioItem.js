@@ -13,7 +13,7 @@ export const BioItem = ({ title, role, location, date, description }) => {
           {location ? location + " | " : null} {date ? date : null}
         </p>
         <div className="Bio__item__description">
-          {description == null
+          {description === null
             ? null
             : description.map((item) => <p>{item}</p>)}
         </div>

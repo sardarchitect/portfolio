@@ -26,7 +26,7 @@ export const Work = () => {
         <button
           className={filter === "architecture" ? "Work_filter_active" : null}
           onClick={() => {
-            filter == "architecture"
+            filter === "architecture"
               ? setFilter(false)
               : setFilter("architecture");
           }}
@@ -36,7 +36,7 @@ export const Work = () => {
         <button
           className={filter === "research" ? "Work_filter_active" : null}
           onClick={() => {
-            filter == "research" ? setFilter(false) : setFilter("research");
+            filter === "research" ? setFilter(false) : setFilter("research");
           }}
         >
           RESEARCH
@@ -44,7 +44,7 @@ export const Work = () => {
         <button
           className={filter === "art-design" ? "Work_filter_active" : null}
           onClick={() => {
-            filter == "art-design" ? setFilter(false) : setFilter("art-design");
+            filter === "art-design" ? setFilter(false) : setFilter("art-design");
           }}
         >
           ART | DESIGN

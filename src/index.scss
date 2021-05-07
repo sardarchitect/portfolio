@@ -10,8 +10,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
 body {
+  // BACKGROUND
   background-color: u.$backgroundColor;
   overflow-x: hidden;
   // FONTS
@@ -34,7 +34,7 @@ body {
     color: u.$highlightColor;
     cursor: pointer;
   }
-  .section-breaker{
+  .section-breaker {
     margin: 20px 0;
     border: 1px solid u.$primaryColor;
   }

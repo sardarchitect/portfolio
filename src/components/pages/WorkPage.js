@@ -7,7 +7,6 @@ import "./_Workpage.scss";
 import { projects } from "../../data/projectList";
 import { HashLink } from "react-router-hash-link";
 import { IoArrowBackCircle } from "react-icons/io5";
-import Zoom from "react-medium-image-zoom";
 import ImageZoom from "react-medium-image-zoom";
 import ReactPlayer from "react-player";
 

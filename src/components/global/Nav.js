@@ -41,9 +41,6 @@ export const Nav = () => {
             <Link to="/bio">
               <h1 onClick={() => setShowNav(false)}>BIO</h1>
             </Link>
-            <Link to="/contact">
-              <h1 onClick={() => setShowNav(false)}>CONTACT</h1>
-            </Link>
           </div>
           <div className="nav__footer">
             <a

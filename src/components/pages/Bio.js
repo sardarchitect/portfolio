@@ -25,7 +25,7 @@ export const Bio = () => {
       </div>
       <div className="Bio__description__wrapper">
       <div className="Bio__img">
-        <img src='/singh.jpeg'/>
+        <img alt="profile" src='/singh.jpeg'/>
       </div>
       <div className="Bio__description">
         Arvinder Singh is an architectural designer, with a unique focus in
@@ -49,7 +49,7 @@ export const Bio = () => {
         cooperative, and a highly motivated individual.
         <br />
         <br />
-        Click <a href="#">here</a> for a PDF version of Arvinder's resume.
+        Click <a href="/">here</a> for a PDF version of Arvinder's resume.
       </div>
       </div>
 
