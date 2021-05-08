@@ -278,7 +278,7 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-artwork.png",
     text: [
-      `Here is a compilation of various artworks done by Arvinder over various periods.`,
+      `These are various artworks done throughout the years. They include digital art, graphite, charcoal, and long-exposure light art through the use of KUKA robotic arms.`,
     ],
     images: [
       {
@@ -335,7 +335,7 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-digital-objects.png",
     text: [
-      `This is a compilation of small objects designed and manufactured through the use of digital technologies. The projects were created using tools like Grasshopper, and physically rendered using 3D printing, ZUND cutter, laser cutter, robots, etc. `,
+      `This is a compilation of small objects designed and fabricated through the use of digital technologies. The projects were created using scripting tools like Grasshopper, and Rhino. The fabrication process included 3D printing, ZUND cutting, laser cutting, and KUKA robots.`,
     ],
     images: [
       {
@@ -350,11 +350,10 @@ export const projects = [
         src: "/project-gallery/contextless-memorial/memorial-plan.png",
         caption: "Memorial: Plan",
       },
-      {
-        src: "/project-gallery/contextless-memorial/memorial-section-1.png",
-        caption: "Memorial: Section",
-      },
-
+      // {
+      //   src: "/project-gallery/contextless-memorial/memorial-section-1.png",
+      //   caption: "Memorial: Section",
+      // },
       {
         src: "/project-gallery/digital-objects/cnc-art.jpg",
         caption: "2.5D CNC Painting",
@@ -398,7 +397,7 @@ export const projects = [
     text: [
       `Dimensions is the student produced journal of architecture at the University of Michigan. The journal seeks to contribute to the critical discourse of architectural education by documenting the most compelling work produced by its students, faculty, fellows, and visiting lecturers.`,
       `Volume 32 uniquelly focused on elucidating the traces of labor required for much of the architectural work to exist. The volume seeked out transparency behind every project: total project costs in US dollars, number of hours labored by the authors, and the tools used to create these works.`,
-      `Check out the full copy <a href="https://issuu.com/taubmancollege/docs/dimensions-32">here</a>`,
+      `Check out the full copy <a target="_blank" href="https://taubmancollege.umich.edu/architecture/publications/dimensions/dimensions-32">here</a>`,
     ],
     images: [
       {

@@ -1,4 +1,6 @@
+// MODULE IMPORTS
 import React from 'react'
+// STYLE IMPORTS
 import './_Error404.scss';
 
 export const Error404 = () => {

@@ -12,7 +12,7 @@
     padding: 25px;
   }
   .Bio__description__wrapper{
-    margin: 50px 0;
+    // margin: 50px 0;
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
@@ -20,15 +20,19 @@
   .Bio__img{
     text-align: center;
     img{
-      width: 100%;
-      border-radius: 25px;
+      object-fit: cover;
+      object-position: 0% 0%;
       filter: grayscale(100%);
+      height: 150px;
+      width: 150px;
+      overflow: hidden;
+      border-radius: 50%;
     }
   }
   .Bio__description{
   }
   .Bio__section:nth-child(odd){
-    background-color: u.$secondaryColor;
+    background-color: #d3d5d450;
   }
   .Bio__section {
     max-width: calc(800px + (1200 - 800) * ((100vw - 300px) / (1600 - 300)));
@@ -43,11 +47,15 @@
     padding: 20px;
   }
   .Bio__item {
+    .Bio__item__header p{
+      font-weight: 700;
+    }
     margin-bottom: 25px;
     .Bio__item__inner {
       font-style: italic;
-      .Bio__role{
-        font-weight: 700;
+      .Bio__item__description{
+        font-style: normal;
+        margin-top: 5px;
       }
     }
   }
@@ -56,7 +64,7 @@
 }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
   .Bio {
     .Bio__description{
       text-align: start;
@@ -74,12 +82,13 @@
       margin-left: 25px;
     }
     .Bio__description__wrapper{
-      grid-template-columns: 1fr 2fr;
-      gap: 50px;
+      grid-template-columns: 1fr 3fr;
+      padding: 20px;
     }
     .Bio__img{
       img{
-
+        height: 200px;
+        width: 200px;
       }
     }
   }

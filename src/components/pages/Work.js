@@ -1,8 +1,12 @@
+// MODULE IMPORTS
 import React, { useEffect, useState } from "react";
-import "./_Work.scss";
-import { projects } from "../../data/projectList";
 import { Link } from "react-router-dom";
+// DATA IMPORTS
+import { projects } from "../../data/projectList";
+// COMPONENT IMPORTS
 import useWindowSize from "../utils/useWindowSize";
+// STYLE IMPORTS
+import "./_Work.scss";
 
 export const Work = () => {
   const [data, setData] = useState([]);
@@ -17,11 +21,13 @@ export const Work = () => {
         return a.year > b.year ? -1 : a.year < b.year ? 1 : 0;
       });
     }
+
     setData(sorted);
   }, [filter]);
 
   return (
     <div className="Work" id="Work">
+      <div className="section-breaker"/>
       <div className="Work_filter">
         <button
           className={filter === "architecture" ? "Work_filter_active" : null}
@@ -50,7 +56,6 @@ export const Work = () => {
           ART | DESIGN
         </button>
       </div>
-
       <div className="Work_list">
         {data.map((project) => {
           return (
@@ -87,7 +92,7 @@ export const WorkItem = ({ project, filter }) => {
               : null
           }
         >
-          {project.title}
+          {project.title.toUpperCase()}
         </h2>
       </Link>
       {size.width < 700 ? (

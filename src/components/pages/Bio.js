@@ -29,29 +29,34 @@ export const Bio = () => {
       </div>
       <div className="Bio__description">
         Arvinder Singh is an architectural designer, with a unique focus in
-        Artificial Intelligence. He got his Bachelor's from the 
-        Taubman College of Architecture at the University of Michigan, and since
-        then has worked at Edge Design Associates in Ann Arbor. During his time at Edge,
-        Arvinder worked on a couple of large development projects, including the new urban 
-        campus building of Baker College at Royal Oak, Michigan.
+        Artificial Intelligence. He recieved his undergraduate in architecture from the 
+        Taubman College of Architecture at the University of Michigan, and is planning to 
+        pursue his Masters in Data Science.
+        <br />
+        <br />
+        Since graduating, Arvinder worked at a local architecture firm in Ann Arbor, where
+        he had the opportunity to work on multiple large-scale projects, such as the new urban 
+        campus building of Baker College at Royal Oak, Michigan. During his time at the firm, 
+        Arvinder helped automatize redundant tasks within Revit and AutoCAD.
         <br />
         <br />
         Brought up in a unique experimental city of Chandigarh, designed by
-        the famous architect Le Corbusier, Arvinder's childood has revolved 
-        around design and creativity — from his father's wood-shop, to his 
-        mother's art studio.
+        the famous modernist architect Le Corbusier, Arvinder's childood has revolved 
+        around design and creativity — from his father's wood-shop, to his mother's art studio.
         <br />
         <br />
         Throughout his education, Arvinder realized that the architect holds a great agency in shaping
         social and cultural dynamics. His passion for philosophy, world-politics,
         rhetoric, and architectural pedagogy critically engages him with the work
-        he pursues. Arvinder considers himself as an open-minded, 
-        cooperative, and a highly motivated individual.
+        he pursues. Arvinder considers himself as an open-minded, cooperative, 
+        and a highly motivated individual.
         <br />
         <br />
         Click <a href="/">here</a> for a PDF version of Arvinder's resume.
       </div>
       </div>
+
+      {/* <div className="section-breaker"/> */}
 
       <div className="Bio__section">
         <h2> EDUCATION </h2>
