@@ -2,46 +2,81 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 // STYLE IMPORT
-import "./_workpage.scss";
+import "./_Workpage.scss";
 // COMPONENT IMPORT
 import { projects } from "../../data/projectList";
 import { HashLink } from "react-router-hash-link";
+import { IoArrowBackCircle } from "react-icons/io5";
+import ImageZoom from "react-medium-image-zoom";
+import ReactPlayer from "react-player";
 
 export const WorkPage = () => {
   let { id } = useParams();
   const project = projects.find((project) => project.projectId === id);
   console.log(project);
 
+  // Usage
   return (
-    <div className="work__page">
-      <div className="work__page__title">
-        <h1>{project.title}</h1>
-        <h2>{project.year}</h2>
+    <div className="workpage">
+      <div className="workpage__text">
+        <div className="workpage__text__heading">
+          <h2>{project.title.toUpperCase()}</h2>
+          <h2>{project.year}</h2>
+        </div>
+        <div className="workpage__text__metadata">
+          {project.studio ? (
+            <p>STUDIO: {project.studio.toUpperCase()}</p>
+          ) : null}
+          {project.site ? <p>SITE: {project.site.toUpperCase()}</p> : null}
+          {project.team ? <p>TEAM: {project.team.toUpperCase()}</p> : null}
+          {project.award ? <p>AWARD: {project.award.toUpperCase()}</p> : null}
+        </div>
+        <div className="section-breaker" />
+        {project.text.map((para) => (
+          <div
+            dangerouslySetInnerHTML={{ __html: para }}
+            className="workpage__text__content"
+          />
+        ))}
       </div>
-
-      <div className="work__page__content">
-      <div className="work__text">
-          {project.text.map((para) =>
-            para.includes("Studio:") ||
-            para.includes("Site:") ||
-            para.includes("Team:") ? (
-              <p>
-                <b>{para}</b>
-              </p>
+      <div className="workpage__images">
+        {project.images.map((image) => (
+          <div className="workpage__images__item">
+            {image.src.includes(".mp4") ? (
+              <ReactPlayer
+                className="react-player"
+                playing="True"
+                loop="True"
+                url={image.src}
+                width="100%"
+                height="100%"
+                volume="0"
+                muted="True"
+              />
             ) : (
-              <p>{para}</p>
-            )
-          )}
-        </div>
-        <div className="work__images">
-          {project.images.map((item) => (
-            <img src={item} alt={item.key}/>
-          ))}
-        </div>
-      </div>
+              <ImageZoom
+                image={{
+                  src: image.src,
+                  alt: image.caption,
+                  className: "img",
+                  // style: { width: "200em" },
+                }}
+                zoomImage={{
+                  src: image.src,
+                  alt: image.caption,
+                }}
+                zoomMargin={10}
+              />
+            )}
 
-      <div className="back__button">
-        <HashLink smooth to="/#work">...Back to Projects</HashLink>
+            <p>{image.caption}</p>
+          </div>
+        ))}
+      </div>
+      <div className="workpage__back">
+        <HashLink smooth to="/#Work">
+          <IoArrowBackCircle size="50px" />
+        </HashLink>
       </div>
     </div>
   );

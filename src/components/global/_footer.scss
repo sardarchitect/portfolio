@@ -1,37 +1,25 @@
 /* IMPORTS */
-@use '../../utils/utils' as u;
-// FOOTER
-.Footer {
-  padding: 0 20px;
-  background-color: u.$secondaryColor;
-  padding-top: 30px;
+@use "../../utils" as u;
 
-  .contact__description {
+
+footer{
+    background-color: u.$secondaryColor;
+    padding: 25px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    h2 {
-      margin-top: 30px;
-      margin-bottom: 30px;
-      text-align: right;
-      max-width: calc(300px + (500 - 300) * ((100vw - 300px) / (1600 - 300)));
-    }
-    a {
-      color: white;
-    }
-    a:hover {
-      color: u.$primaryColor;
-    }
-  }
-  .copyright {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-  }
-}
+    text-align: center;
+    .footer__contact{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        svg:hover{
+            path{
+                fill: u.$highlightColor;
 
-@media only screen and (min-width: 1000px) {
-  .Footer {
-    padding: 0 150px;
-  }
+            }
+        }
+    }
+    .footer__copyright {
+        margin-top: 25px;
+    }    
 }

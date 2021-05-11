@@ -1,13 +1,10 @@
-.error404 {
+.Error404 {
+  min-height: 70vh;
   h1 {
     text-align: center;
   }
-  min-height: 100vh;
   p{
       text-align: center;
       margin-top: 60px;
-  }
-  a{
-      text-decoration: underline;
   }
 }

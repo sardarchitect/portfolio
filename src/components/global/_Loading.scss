@@ -1,0 +1,39 @@
+@use "../../utils" as u;
+
+@keyframes ldio-dhg8ln6rccp {
+  0% { transform: rotate(0deg) }
+  50% { transform: rotate(180deg) }
+  100% { transform: rotate(360deg) }
+}
+.ldio-dhg8ln6rccp div {
+  position: absolute;
+  animation: ldio-dhg8ln6rccp 1s linear infinite;
+  width: 167.96px;
+  height: 167.96px;
+  top: 26.52px;
+  left: 26.52px;
+  border-radius: 50%;
+  box-shadow: 0 6.188000000000001px 0 0 u.$primaryColor;
+  transform-origin: 83.98px 87.074px;
+}
+.loading-wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.loadingio-spinner-eclipse-gbywbsn9txw {
+  width: 221px;
+  height: 221px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ldio-dhg8ln6rccp {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-dhg8ln6rccp div { box-sizing: content-box; }

@@ -1,0 +1,24 @@
+/* IMPORTS */
+@use "../../utils" as u;
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    .Home__title{
+        h1{
+            font-size: 10vw;
+            line-height: 1;
+        }
+            }
+    .Home__subtitle{
+        display: flex;
+        justify-content: center;
+        margin: 60px;
+    }
+    .Home__text{
+        text-align: justify;
+    }
+}

@@ -1,23 +1,40 @@
 // MODULE IMPORTS
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 // COMPONENT IMPORTS
-import { Nav } from "./components/global/Nav";
-import { Cursor } from "./components/global/Cursor";
-import { Footer } from "./components/global/Footer";
-import ScrollToTop from "./components/global/ScrollToTop";
 import App from "./App";
+import { Footer } from "./components/global/Footer";
+import { Nav } from "./components/global/Nav";
+import ScrollToTop from "./components/utils/ScrollToTop";
+import { LoadingScreen } from "./components/global/Loading";
 // STYLE IMPORTS
 import "./index.scss";
+
+const Wrapper = () => {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000);
+  }, []);
+  return (
+    <>
+      {loading === false ? (
+        <>
+          <Nav />
+          <App />
+          <Footer />
+        </>
+      ) : (
+        <LoadingScreen />
+      )}
+    </>
+  );
+};
 
 ReactDOM.render(
   <BrowserRouter>
     <ScrollToTop>
-      <Cursor />
-      <Nav />
-      <App />
-      <Footer />
+      <Wrapper />
     </ScrollToTop>
   </BrowserRouter>,
   document.getElementById("root")

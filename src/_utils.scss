@@ -1,0 +1,16 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+// COLORS
+$backgroundColor: #FFFFFF;
+$primaryColor:  #2D2D2B;
+$secondaryColor: #D3D5D4;
+$highlightColor: #5F7880;
+
+// FONTS
+$headingSize: calc(30px + (75 - 30) * ((100vw - 300px) / (1600 - 300)));
+$subheadingSize: calc(25px + (30 - 25) * ((100vw - 300px) / (1600 - 300)));
+$textSize: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+$headingFamily: 'Space Grotesk', sans-serif;
+$textFamily: "Poppins", sans-serif;
