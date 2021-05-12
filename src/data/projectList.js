@@ -32,7 +32,30 @@ export const projects = [
       `Through navigating within law, policies, economic incentives, and the cultural context, the project proposes to create a unified Pueblo body, the Middle Rio Grande Pueblo Initiative, that advocates for Indigenous priorities to the Bureau of Indian Affairs.  MRGPI works closely with lawyers, architects, and politicians to prioritize infrastructure development through budgetary allocations, and collective transformations. Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. By doing so, the project speculates a decrease in heavy-dependency on the BIA, and an increase in tribal sovereignty`,
       `Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. It works on multiple scales: the building, the property, the urban, and the regional. By doing so, the project  a decrease in heavy-dependency on the BIA and an increase in tribal sovereignty and self-determination.`,
     ],
-    images: [{ src: "/project-gallery/", caption: "" }],
+    images: [
+      {
+        src: "/project-gallery/framework-for-frameworks/ThesisBoard_FINAL.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/04242019_Satellite.png",
+        caption: "",
+      },
+      { src: "/project-gallery/framework-for-frameworks/Road Network Disparity.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/Pueblo-Interior copy.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/Reservation_Urban(1) copy.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04252019_SchoolBusDirtRoad_optimized 2 copy.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04252019_CurrentReservation_optimized copy.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04242019_ProposedGIS.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-2.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/36x36 copy.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/Electrical Disparity.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04292019_BorregoCanyon.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04252019_Zia.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04292019_Kewa.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-1.png", caption: "" },
+      { src: "/project-gallery/framework-for-frameworks/04292019_Timeline.png", caption: "" },
+    ],
   },
   {
     category: "research",
@@ -109,17 +132,16 @@ export const projects = [
     ],
     images: [
       {
-        src:
-          "/project-gallery/disrupting-suburbia/disrupting-suburbia-site.png",
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-site.png",
         caption: "Site - Ann Arbor MI",
       },
       {
         src: "/project-gallery/disrupting-suburbia/disrupting-suburbia.mp4",
-        caption: "Time-lapse of the development: By negotiating property-ownership and other legal bundles of rights, the project forms a  in the American suburbia, and promotes a bottom-up approach to architecture",
+        caption:
+          "Time-lapse of the development: By negotiating property-ownership and other legal bundles of rights, the project forms a  in the American suburbia, and promotes a bottom-up approach to architecture",
       },
       {
-        src:
-          "/project-gallery/disrupting-suburbia/disrupting-suburbia-plan.png",
+        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-plan.png",
         caption: "Plan",
       },
       {
@@ -390,8 +412,7 @@ export const projects = [
     studio: null,
     role: "Co-Editor",
     site: null,
-    team:
-      "Christian Unverzagt | Hannah Cane | Karun Chughasrani | Grace Hsu | Jordan Laurila | Austin Kronig | Nour Majzoub | Rinika Prince | Jenny Scarborough | Arvinder Singh",
+    team: "Christian Unverzagt | Hannah Cane | Karun Chughasrani | Grace Hsu | Jordan Laurila | Austin Kronig | Nour Majzoub | Rinika Prince | Jenny Scarborough | Arvinder Singh",
     award: null,
     thumbnail: "/thumbnail/thumbnail-dimensions.png",
     text: [

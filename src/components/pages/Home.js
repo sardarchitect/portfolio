@@ -13,7 +13,7 @@ export const Home = () => {
                 <h1>ARTIFICIAL INTELLIGENCE</h1>
             </div>
             <div className="Home__subtitle">
-                <h2>ARVINDER SINGH</h2>
+                <h2>PORTFOLIO - 2021</h2>
             </div>
             <div className="Home__text">
                 ARTIFICIAL INTELLIGENCE AND ARCHITECTURE ARE SEEING AN INTERPLAY AKIN TO THE
