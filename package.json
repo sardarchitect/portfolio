@@ -1,8 +1,8 @@
 {
-  "name": "sardarchitect",
+  "name": "arvinder.me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sardarchitect.com",
+  "homepage": "https://www.arvinder.me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",

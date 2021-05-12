@@ -34,28 +34,81 @@ export const projects = [
     ],
     images: [
       {
+        src: "https://www.youtube.com/watch?v=uRdHD16qjKQ",
+        caption: "Hi",
+      },
+      {
         src: "/project-gallery/framework-for-frameworks/ThesisBoard_FINAL.png",
         caption: "",
       },
       {
-        src: "/project-gallery/framework-for-frameworks/04242019_Satellite.png",
+        src: "/project-gallery/framework-for-frameworks/04242019_Satellite.jpg",
         caption: "",
       },
-      { src: "/project-gallery/framework-for-frameworks/Road Network Disparity.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/Pueblo-Interior copy.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/Reservation_Urban(1) copy.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04252019_SchoolBusDirtRoad_optimized 2 copy.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04252019_CurrentReservation_optimized copy.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04242019_ProposedGIS.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-2.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/36x36 copy.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/Electrical Disparity.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04292019_BorregoCanyon.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04252019_Zia.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04292019_Kewa.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-1.png", caption: "" },
-      { src: "/project-gallery/framework-for-frameworks/04292019_Timeline.png", caption: "" },
-    ],
+      {
+        src: "/project-gallery/framework-for-frameworks/04242019_ProposedGIS.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/Education-Disparity-01.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/Funding Diagram.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/04232019_ActorNetwork.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/04232019_Axons-1-01.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/04232019_Axons-1-02.png",
+        caption: "",
+      },
+      
+      {
+        src: "/project-gallery/framework-for-frameworks/04252019_Zia.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/04292019_Kewa.jpg",
+        caption: "",
+      },
+      // {
+      //   src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-1.png",
+      //   caption: "",
+      // },
+      // {
+      //   src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-2.png",
+      //   caption: "",
+      // },
+
+
+      {
+        src: "/project-gallery/framework-for-frameworks/04252019_CurrentReservation_optimized-copy.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/36x36-copy.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/04252019_SchoolBusDirtRoad_optimized-2-copy.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/Pueblo-Interior-copy.jpg",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/Reservation_Urban(1)-copy.jpg",
+        caption: "",
+      },
+      ],
   },
   {
     category: "research",
@@ -111,6 +164,26 @@ export const projects = [
       {
         src: "/project-gallery/baker-college/baker-college-render-3.jpg",
         caption: "S. Lafayette Ave. Looking South",
+      },
+      {
+        src: "/project-gallery/baker-college/A.101_CCD004.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/baker-college/A.104_CCD004.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/baker-college/A.200_CCD003.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/baker-college/A.314_CCD003.png",
+        caption: "",
+      },
+      {
+        src: "/project-gallery/baker-college/A.501_CCD003.png",
+        caption: "",
       },
     ],
   },

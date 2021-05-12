@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" children={[<Home />, <Work />]} />
-        <Route path="/bio" children={<Bio />} />
         <Route path="/projects/:id" children={<WorkPage />} />
         <Route path="/" children={<Error404 />} />
       </Switch>
