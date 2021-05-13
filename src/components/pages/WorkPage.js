@@ -43,16 +43,18 @@ export const WorkPage = () => {
         {project.images.map((image) => (
           <div className="workpage__images__item">
             {image.src.includes(".mp4") || image.src.includes("https") ? (
+              <div className="player-wrapper">
               <ReactPlayer
                 className="react-player"
+                // width="100%"
+                // height="100%"
+                url={image.src}
+                muted="True"
                 playing="True"
                 loop="True"
-                url={image.src}
-                width="100%"
-                height="100%"
-                volume="0"
-                muted="True"
+                
               />
+              </div>
             ) :  (
               <ImageZoom
                 image={{

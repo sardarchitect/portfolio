@@ -25,88 +25,60 @@ export const projects = [
     site: "Native American Reservations, New Mexico",
     team: "Brendan Varilek | Arvinder Singh",
     award: "Wallenberg Award Finalist",
-    thumbnail: "/thumbnail/framework-for-frameworks.png",
+    thumbnail: "/thumbnail/thumbnail-a-framework-for-frameworks.jpg",
     text: [
-      `Wallenberg Award Finalists The rights of the Native Americans have been constantly violated since the first encounter with European colonists. Today, Native reservations are exploited for their land and resources for capitalistic gains, virtually erasing their influence and footprint from this continent. Indigenous people living on reservations are disproportionately experiencing problems of poverty, connectivity, housing, education, and overall self-determination.`,
+      `The rights of the Native Americans have been constantly violated since the first encounter with European colonists. Today, Native reservations are exploited for their land and resources for capitalistic gains, virtually erasing their influence and footprint from this continent. Indigenous people living on reservations are disproportionately experiencing problems of poverty, connectivity, housing, education, and overall self-determination.`,
       `To address the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque NM, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics. In pursuit of addressing the socio-economic disparity and spatial issues within the Pueblos north of Albuquerque, this project aims to catalyze infrastructure development that creates the potential for new architectural configurations and urban dynamics.`,
       `Through navigating within law, policies, economic incentives, and the cultural context, the project proposes to create a unified Pueblo body, the Middle Rio Grande Pueblo Initiative, that advocates for Indigenous priorities to the Bureau of Indian Affairs.  MRGPI works closely with lawyers, architects, and politicians to prioritize infrastructure development through budgetary allocations, and collective transformations. Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. By doing so, the project speculates a decrease in heavy-dependency on the BIA, and an increase in tribal sovereignty`,
       `Simultaneously, the Initiative implements economically and environmentally sustainable spatial productions that all help create an inter-tribal economy. It works on multiple scales: the building, the property, the urban, and the regional. By doing so, the project  a decrease in heavy-dependency on the BIA and an increase in tribal sovereignty and self-determination.`,
     ],
     images: [
       {
-        src: "https://www.youtube.com/watch?v=uRdHD16qjKQ",
-        caption: "Hi",
+        src: "/project-gallery/framework-for-frameworks/ThesisBoard_FINAL.png",
+        caption: "Project Coverpage",
       },
       {
-        src: "/project-gallery/framework-for-frameworks/ThesisBoard_FINAL.png",
-        caption: "",
+        src: "https://www.youtube.com/watch?v=uRdHD16qjKQ",
+        caption: "Project Video",
       },
       {
         src: "/project-gallery/framework-for-frameworks/04242019_Satellite.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/framework-for-frameworks/04242019_ProposedGIS.jpg",
-        caption: "",
+        caption: "Satellite image of the region",
       },
       {
         src: "/project-gallery/framework-for-frameworks/Education-Disparity-01.png",
-        caption: "",
+        caption: "Series of maps showing disparities in Native Reservations of NM",
+      },
+      {
+        src: "/project-gallery/framework-for-frameworks/04242019_ProposedGIS.jpg",
+        caption: "Proposed infrastructure changes to the reservation land for increased connectivity",
       },
       {
         src: "/project-gallery/framework-for-frameworks/Funding Diagram.png",
-        caption: "",
+        caption: "Proposed budget allocations from the BIA for increased socio-economic impact",
       },
       {
         src: "/project-gallery/framework-for-frameworks/04232019_ActorNetwork.png",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/framework-for-frameworks/04232019_Axons-1-01.png",
-        caption: "",
+        caption: "A diagram showing connections between various actors involved in the region",
       },
       {
         src: "/project-gallery/framework-for-frameworks/04232019_Axons-1-02.png",
-        caption: "",
+        caption: "Proposed adobe-brick: Allows for an economic, modular approach to traditional construction",
       },
-      
+      {
+        src: "/project-gallery/framework-for-frameworks/04232019_Axons-1-01.png",
+        caption: "Proposed property assignment tool: internal densification and increases economic within the settlement",
+      },
       {
         src: "/project-gallery/framework-for-frameworks/04252019_Zia.png",
-        caption: "",
+        caption: "Zia Pueblo: Re-densification within sprawl | Black: Existing Orange: Intervention",
       },
       {
         src: "/project-gallery/framework-for-frameworks/04292019_Kewa.jpg",
-        caption: "",
-      },
-      // {
-      //   src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-1.png",
-      //   caption: "",
-      // },
-      // {
-      //   src: "/project-gallery/framework-for-frameworks/04232019_BrickDrawings_Construction-2.png",
-      //   caption: "",
-      // },
-
-
+        caption: "Kewa Pueblo: Introduction of passive design and sustainable energy production elements | Black: Existing Orange: Intervention",      },
       {
-        src: "/project-gallery/framework-for-frameworks/04252019_CurrentReservation_optimized-copy.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/framework-for-frameworks/36x36-copy.png",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/framework-for-frameworks/04252019_SchoolBusDirtRoad_optimized-2-copy.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/framework-for-frameworks/Pueblo-Interior-copy.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/framework-for-frameworks/Reservation_Urban(1)-copy.jpg",
-        caption: "",
+        src: "/project-gallery/framework-for-frameworks/posters.png",
+        caption: "Renderings showing the process of change within a pueblo, and the larger surroundings",
       },
       ],
   },
@@ -170,20 +142,12 @@ export const projects = [
         caption: "",
       },
       {
-        src: "/project-gallery/baker-college/A.104_CCD004.png",
-        caption: "",
-      },
-      {
         src: "/project-gallery/baker-college/A.200_CCD003.png",
         caption: "",
       },
       {
-        src: "/project-gallery/baker-college/A.314_CCD003.png",
-        caption: "",
-      },
-      {
         src: "/project-gallery/baker-college/A.501_CCD003.png",
-        caption: "",
+        caption: "Working drawings for reference only",
       },
     ],
   },
@@ -218,36 +182,8 @@ export const projects = [
         caption: "Plan",
       },
       {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-1.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-2.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-3.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-4.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-5.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-6.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-7.jpg",
-        caption: "",
-      },
-      {
-        src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-8.jpg",
-        caption: "",
+        src: "/project-gallery/disrupting-suburbia/collage.png",
+        caption: "Pictures of wooden model",
       },
     ],
   },
@@ -285,16 +221,8 @@ export const projects = [
         caption: "Floor Plan - Ground",
       },
       {
-        src: "/project-gallery/the-american-bazaar/4.png",
-        caption: "Floor Plan - 2nd",
-      },
-      {
         src: "/project-gallery/the-american-bazaar/5.png",
         caption: "Section - A",
-      },
-      {
-        src: "/project-gallery/the-american-bazaar/6.png",
-        caption: "Elevation - West",
       },
       {
         src: "/project-gallery/the-american-bazaar/7.jpg",
@@ -373,7 +301,7 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-artwork.png",
     text: [
-      `These are various artworks done throughout the years. They include digital art, graphite, charcoal, and long-exposure light art through the use of KUKA robotic arms.`,
+      `These are various artworks done throughout the years. They include art through the use of graphite, charcoal, iPads, and robots`,
     ],
     images: [
       {
@@ -410,12 +338,7 @@ export const projects = [
         caption: "Temple Study | 2014",
       },
       { src: "/project-gallery/robotic-picasso/0.jpg", caption: "" },
-      { src: "/project-gallery/robotic-picasso/1.jpg", caption: "" },
-      { src: "/project-gallery/robotic-picasso/1a.jpg", caption: "" },
-      { src: "/project-gallery/robotic-picasso/2.jpg", caption: "" },
-      { src: "/project-gallery/robotic-picasso/2a.jpg", caption: "" },
-      { src: "/project-gallery/robotic-picasso/3.jpg", caption: "" },
-      { src: "/project-gallery/robotic-picasso/3a.jpg", caption: "" },
+      { src: "/project-gallery/robotic-picasso/1.png", caption: "Picasso created through long-exposure robotic arm movement | Above: Picasso | Below: KUKA Robot" },
     ],
   },
   {
@@ -434,21 +357,9 @@ export const projects = [
     ],
     images: [
       {
-        src: "/project-gallery/contextless-memorial/memorial-side.png",
+        src: "/project-gallery/contextless-memorial/memorial-combined.jpg",
         caption: "Memorial: Elevation View",
       },
-      {
-        src: "/project-gallery/contextless-memorial/memorial-top.png",
-        caption: "Memorial: Top View",
-      },
-      {
-        src: "/project-gallery/contextless-memorial/memorial-plan.png",
-        caption: "Memorial: Plan",
-      },
-      // {
-      //   src: "/project-gallery/contextless-memorial/memorial-section-1.png",
-      //   caption: "Memorial: Section",
-      // },
       {
         src: "/project-gallery/digital-objects/cnc-art.jpg",
         caption: "2.5D CNC Painting",
@@ -462,18 +373,13 @@ export const projects = [
         caption: "Grasshopper Cube",
       },
       {
+        src: "/project-gallery/phantasmagoria/phantasmagoria-combined.jpg",
+        caption: "Phantasmagoria: Elevation and Plan | Phantasmagoria: Phantasmagoria(noun): a sequence of real or imaginary images likethose seen in a dream.Through the use of curated reflections overlayed onto a 3D space, it is possibleto lose sense of reality and perception.",
+      },
+      {
         src: "/project-gallery/phantasmagoria/phantasmagoria-video.mp4",
         caption:
-          "Phantasmagoria: Phantasmagoria(noun): a sequence of real or imaginary images likethose seen in a dream.Through the use of curated reflections overlayed onto a 3D space, it is possibleto lose sense of reality and perception.",
-      },
-      {
-        src: "/project-gallery/phantasmagoria/phantasmagoria-elevation.png",
-        caption: "Phantasmagoria: Elevation",
-      },
-
-      {
-        src: "/project-gallery/phantasmagoria/phantasmagoria-plan.jpg",
-        caption: "Phantasmagoria: Plan",
+          "",
       },
     ],
   },
