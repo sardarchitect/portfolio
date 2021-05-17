@@ -8,27 +8,32 @@
   .workpage__images {
     display: flex;
     flex-direction: column;
-    align-items: center;
     .workpage__images__item {
       margin-bottom: 25px;
       .player-wrapper {
-        // position: relative;
-        // padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
         display: flex;
         justify-content: center;
-
       }
-      // .react-player {
-      //   position: absolute;
-      //   top: 0;
-      //   left: 0;
-      // }
+      .player-wrapper-youtube {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25;
+        height: 0;
+      }
+      .react-player-youtube {
+        align-self: flex-start;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
       p {
         text-align: center;
       }
-      img {
+      .img {
         max-width: 100%;
-        // background-color: white;
+        margin: 0 auto;  
       }
     }
   }

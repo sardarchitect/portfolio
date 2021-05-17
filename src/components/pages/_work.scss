@@ -5,10 +5,10 @@
   .Work_filter {
     margin: 50px 0 50px;
     display: flex;
-    gap: 15px;
     align-items: center;
 
     button {
+      margin: 0 15px;
       background-color: u.$secondaryColor;
       border: 1px solid u.$secondaryColor;
       border-radius: 10px;

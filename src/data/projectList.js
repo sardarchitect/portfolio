@@ -9,7 +9,7 @@ export const projects = [
     site: null,
     team: null,
     award: null,
-    thumbnail: "/thumbnail/",
+    thumbnail: "/thumbnail/thumbnail-gan.png",
     text: [
       `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     ],
@@ -39,7 +39,7 @@ export const projects = [
       },
       {
         src: "https://www.youtube.com/watch?v=uRdHD16qjKQ",
-        caption: "Project Video",
+        caption: "Project Video: Play on YouTube for sound",
       },
       {
         src: "/project-gallery/framework-for-frameworks/04242019_Satellite.jpg",
@@ -95,6 +95,7 @@ export const projects = [
     thumbnail: "/thumbnail/thumbnail-seek2solve.png",
     text: [
       `This project started through an observation  that certain problems around the world such as overpopulation, climate change, political strife , nuclear threat, and the increasing economic gap, are swiftly reaching a breaking point. No previous generation has quite faced these large-scale, existential threats that not only affect our own species, but also this planet at large.`,
+      `What Seek2Solve strives to achieve is the reorganization, reprioritization, and visualization of information regarding world issues, so that everyday citizens can have as much of an equitable insight as academic researchers have into them.`,
       `Seek helps users to identify the scale and context of important, urgent issues going on around the world in a easy-to-understand filtration process. It allows users to see the problem through multiple ways: visual trend graphs, short descriptions, and chronological news articles.`,
       `Solve gives users the ability to take action. By associating efficient groups and organizations to the issues, Solve helps people to get directly involved with the solution (through multiple ways of engagement). To help users decide which nonprofits they would like to support , Solve shows rankings of nonprofits based on different, credible watchdog groups, and tries to promote those that need the most public attention.`,
     ],
@@ -123,7 +124,10 @@ export const projects = [
     team: "Daniel Mooney | Heather Buffone | Stephen Bohlen | Arvinder Singh",
     award: null,
     thumbnail: "/thumbnail/thumbnail-baker-college.jpg",
-    text: [``],
+    text: [
+      `Baker College is a private college in Michigan, founded in 1911. It has since grown to span multiple cities within Michigan, and this project is the College's most recent urban campus.`,
+      `This 8 storey building is located in downtown Royal Oak, Michigan, and has a total area of about 80,000 square feet. There are two floors dedicated to parking, and the rest are classrooms, terraces, and office spaces.`,
+    ],
     images: [
       {
         src: "/project-gallery/baker-college/baker-college-render-2.jpg",
