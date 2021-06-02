@@ -27,6 +27,7 @@ export const WorkPage = () => {
           {project.studio ? (
             <p>STUDIO: {project.studio.toUpperCase()}</p>
           ) : null}
+          {project.role ? <p>ROLE: {project.role.toUpperCase()}</p> : null}
           {project.site ? <p>SITE: {project.site.toUpperCase()}</p> : null}
           {project.team ? <p>TEAM: {project.team.toUpperCase()}</p> : null}
           {project.award ? <p>AWARD: {project.award.toUpperCase()}</p> : null}
@@ -87,7 +88,7 @@ export const WorkPage = () => {
       </div>
       <div className="workpage__back">
         <HashLink smooth to="/#Work">
-          <IoArrowBackCircle size="50px" />
+          <IoArrowBackCircle />
         </HashLink>
       </div>
     </div>

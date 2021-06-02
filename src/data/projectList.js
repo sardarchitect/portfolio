@@ -1,22 +1,6 @@
 export const projects = [
   {
     category: "research",
-    projectId: "plan-gan",
-    title: "Floor Plan Generation",
-    year: 2021,
-    studio: null,
-    role: null,
-    site: null,
-    team: null,
-    award: null,
-    thumbnail: "/thumbnail/thumbnail-gan.png",
-    text: [
-      `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-    ],
-    images: [{ src: "/project-gallery/", caption: "" }],
-  },
-  {
-    category: "research",
     projectId: "a-framework-for-frameworks",
     title: "A Framework For Frameworks",
     year: 2019,
@@ -126,7 +110,8 @@ export const projects = [
     thumbnail: "/thumbnail/thumbnail-baker-college.jpg",
     text: [
       `Baker College is a private college in Michigan, founded in 1911. It has since grown to span multiple cities within Michigan, and this project is the College's most recent urban campus.`,
-      `This 8 storey building is located in downtown Royal Oak, Michigan, and has a total area of about 80,000 square feet. There are two floors dedicated to parking, and the rest are classrooms, terraces, and office spaces.`,
+      `This 8-story building is located in downtown Royal Oak, Michigan, and has a total area of about 80,000 square feet. There are two floors dedicated to parking, and the rest are classrooms, terraces, and office spaces.`,
+      `I played a multi-faceted role in this project; making key conceptual design decisions, preparing design development documents, answering RFIs, and coordinating with sub-contractors.`
     ],
     images: [
       {
@@ -295,8 +280,8 @@ export const projects = [
   },
   {
     category: "art-design",
-    projectId: "artwork",
-    title: "Artwork",
+    projectId: "illustrations",
+    title: "Illustrations",
     year: "Various Dates",
     studio: null,
     role: null,

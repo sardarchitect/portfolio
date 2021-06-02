@@ -5,6 +5,11 @@
   50% { transform: rotate(180deg) }
   100% { transform: rotate(360deg) }
 }
+.loading-notice{
+  position: fixed;
+  top: 100px;
+
+}
 .ldio-dhg8ln6rccp div {
   position: absolute;
   animation: ldio-dhg8ln6rccp 1s linear infinite;

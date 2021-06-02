@@ -9,6 +9,8 @@ export const LoadingScreen = () => {
           <div></div>
         </div>
       </div>
+      <p className="loading-notice">
+      BEST VIEWED ON DESKTOP</p>
     </div>
   );
 };
