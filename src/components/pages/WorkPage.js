@@ -82,7 +82,10 @@ export const WorkPage = () => {
               />
             )}
 
-            <p>{image.caption}</p>
+            <p
+            dangerouslySetInnerHTML={{ __html: image.caption }}
+            className="workpage__text__content"
+          />
           </div>
         ))}
       </div>

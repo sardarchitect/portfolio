@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 // COMPONENT IMPORTS
 import { Home } from "./components/pages/Home";
 import { Work } from "./components/pages/Work";
-import { Bio } from "./components/pages/Bio";
+// import { Bio } from "./components/pages/Bio";
 import { Error404 } from "./components/pages/Error404";
 import { WorkPage } from "./components/pages/WorkPage";
 // STYLE IMPORTS

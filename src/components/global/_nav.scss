@@ -8,10 +8,22 @@ nav {
     .nav__header {
         .nav_title{
             position: fixed;
+            bottom: 0;
             right: 0;
+            height: 70px;
+            width: 70px;
             margin: 20px;
             z-index: 999;
             text-decoration: none;
+            border-radius: 50%;
+            background-color: u.$secondaryColor;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav_title:hover{
+            color: white;
+            background-color: u.$highlightColor;
         }
     }
 }

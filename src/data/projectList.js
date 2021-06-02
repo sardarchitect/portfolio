@@ -84,11 +84,11 @@ export const projects = [
       `Solve gives users the ability to take action. By associating efficient groups and organizations to the issues, Solve helps people to get directly involved with the solution (through multiple ways of engagement). To help users decide which nonprofits they would like to support , Solve shows rankings of nonprofits based on different, credible watchdog groups, and tries to promote those that need the most public attention.`,
     ],
     images: [
-      { src: "/project-gallery/seek2solve/seek2solve-1.png", caption: "Seek" },
-      { src: "/project-gallery/seek2solve/seek2solve-2.png", caption: "Solve" },
+      { src: "/project-gallery/seek2solve/seek2solve-1.png" },
+      { src: "/project-gallery/seek2solve/seek2solve-2.png" },
       {
         src: "/project-gallery/seek2solve/seek2solve-3.png",
-        caption: "Educate",
+        caption: "",
       },
       { src: "/project-gallery/seek2solve/seek2solve-4.png", caption: "" },
       {
@@ -152,8 +152,8 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-disrupting-suburbia.png",
     text: [
-      `American suburbanization has created an uneventful dystopia that lacks pedestrian anchorage, walk-ability, and social infrastructure. This car-dependent, eveloper-oriented sub-urbanization also creates spaces that economically disincentivizes lower-income housing, gives way to sprawl, and promotes longer commutes.`,
-      `This project creates a disruption within the critiqued American suburbiaby introducing a society of “DIY Makers” similar to the type proposed by Adam Greenfield in Toward a New Political Economy of Matter. By providing tools for manufacturing within a spatial rule-set, this project predicts a new sub-urban typology for a community-based development.`,
+      `American suburbanization has created an uneventful dystopia that lacks pedestrian anchorage, walk-ability, and social infrastructure. This car-dependent, developer-oriented sub-urbanization also creates spaces that economically disincentivize lower-income housing, gives way to sprawl, and promotes longer commutes.`,
+      `This project creates a disruption within the critiqued American suburbia by introducing a society of “DIY Makers” similar to the type proposed by Adam Greenfield in Toward a New Political Economy of Matter. By providing tools for manufacturing within a spatial rule-set, this project predicts a new sub-urban typology for a community-based development.`,
       `This new form of urbanism stays cohesive and structured in form, yet becomes organic in behavior. The project speculates the introduction of markets, cafes, residential quarters, and employment opportunities, providing a re-densification of suburbia at a smaller scale.`,
     ],
     images: [
@@ -164,7 +164,7 @@ export const projects = [
       {
         src: "/project-gallery/disrupting-suburbia/disrupting-suburbia.mp4",
         caption:
-          "Time-lapse of the development: By negotiating property-ownership and other legal bundles of rights, the project forms a  in the American suburbia, and promotes a bottom-up approach to architecture",
+          "Time-lapse of the development: By negotiating property-ownership and other legal bundles of rights, the project forms a disruption in the American suburbia, and promotes a bottom-up approach to architecture",
       },
       {
         src: "/project-gallery/disrupting-suburbia/disrupting-suburbia-plan.png",
@@ -190,7 +190,7 @@ export const projects = [
     text: [
       `Throughout history, the bazaar has been the backdrop for not only trade, commerce, and innovation, but also for politics, rhetoric, and exchange of ideas. This has rarely been the case with contemporary, capital-driven spatial typologies, like the American strip-mall.`,
       `Through introducing a bazaar typology in the American urban-condition, this project tries to advocate for a human-centric buyer-seller relationship, via an economy of scale. The introduction of a formal and informal theater provides a layer of anchorage to bring people in, providing a medium for the spread of ideas.`,
-      `Formally, the vaulted ceiling-condition not only recalls the ancient typology of a bazaar, but also helps the visual distribution of spaces within the super structure. The periphery of the pochè supports service areas, whilethe core opens up for circulation and flexible programming.`,
+      `Formally, the vaulted ceiling-condition not only recalls the ancient typology of a bazaar, but also helps the visual distribution of spaces within the super structure. The periphery of the pochè supports service areas, while the core opens up for circulation and flexible programming.`,
     ],
     images: [
       {
@@ -265,7 +265,7 @@ export const projects = [
     text: [
       `Conventional residential complexes contain self-centered units that usually inhibit any kind of interaction with other neighboring units. Even if the architect provides social space(s), the intrinsic nature of being self-sustaining (bedrooms, bathrooms, kitchen, etc. all being in the same unit), gives room to creating a very individualistic lifestyle.`,
       `     
-      These separate living environments create social bubbles within the life of the inhabitants, which may or may not be desirable. By challenging this conventional configuration of a solid-void relationship between the public and private space within each residential unit, an alternative way of living environment can be cultivated through the use of explosions and fragmentations of the program.`,
+      These separate living environments create social bubbles within the life of the inhabitants, which may or may not be desirable. By challenging this conventional configuration of a solid-void relationship between the public and private space within each residential unit, an alternative living environment can be cultivated through the use of explosions and fragmentations of the program.`,
     ],
     images: [
       {
@@ -290,21 +290,17 @@ export const projects = [
     award: null,
     thumbnail: "/thumbnail/thumbnail-artwork.png",
     text: [
-      `These are various artworks done throughout the years. They include art through the use of graphite, charcoal, iPads, and robots`,
+      `These are various artworks done throughout the years. They include art through the use of graphite, charcoal, iPads, and robots.`,
     ],
     images: [
       {
         src: "/project-gallery/artwork/artwork-ai-factory.png",
         caption:
-          "MSAIL Blog Cover Image: The Image Classification Process | 2020",
+          `<a target="_blank" rel="noreferrer" href="http://msail.github.io/post/">Michigan Student Artificial Intelligence Lab</a> (MSAIL) Blog Cover Image: The Image Classification Process | 2020`,
       },
       {
         src: "/project-gallery/artwork/artwork-ai-fusion.png",
         caption: "MSAIL Blog Cover: Using AI For Good | 2021",
-      },
-      {
-        src: "/project-gallery/artwork/artwork-chair.png",
-        caption: "Fabric Study | 2016",
       },
       {
         src: "/project-gallery/artwork/artwork-computer-vision.png",
@@ -317,6 +313,10 @@ export const projects = [
       {
         src: "/project-gallery/artwork/artwork-rembrandt-study.png",
         caption: "Studying the Greats: Rembrandt | 2020",
+      },
+      {
+        src: "/project-gallery/artwork/artwork-chair.png",
+        caption: "Fabric Study | 2016",
       },
       {
         src: "/project-gallery/artwork/artwork-statue.png",
@@ -363,12 +363,12 @@ export const projects = [
       },
       {
         src: "/project-gallery/phantasmagoria/phantasmagoria-combined.jpg",
-        caption: "Phantasmagoria: Elevation and Plan | Phantasmagoria: Phantasmagoria(noun): a sequence of real or imaginary images likethose seen in a dream.Through the use of curated reflections overlayed onto a 3D space, it is possibleto lose sense of reality and perception.",
+        caption: "Phantasmagoria: Elevation and Plan | Phantasmagoria (noun): a sequence of real or imaginary images like those seen in a dream. Through the use of curated reflections overlayed onto a 3D space, it is possible to lose sense of reality and perception.",
       },
       {
         src: "/project-gallery/phantasmagoria/phantasmagoria-video.mp4",
         caption:
-          "",
+          "Phantasmagoria: Animation",
       },
     ],
   },
@@ -385,8 +385,8 @@ export const projects = [
     thumbnail: "/thumbnail/thumbnail-dimensions.png",
     text: [
       `Dimensions is the student produced journal of architecture at the University of Michigan. The journal seeks to contribute to the critical discourse of architectural education by documenting the most compelling work produced by its students, faculty, fellows, and visiting lecturers.`,
-      `Volume 32 uniquelly focused on elucidating the traces of labor required for much of the architectural work to exist. The volume seeked out transparency behind every project: total project costs in US dollars, number of hours labored by the authors, and the tools used to create these works.`,
-      `Check out the full copy <a target="_blank" href="https://taubmancollege.umich.edu/architecture/publications/dimensions/dimensions-32">here</a>`,
+      `Volume 32 uniquely focused on elucidating the traces of labor required for much of the architectural work to exist. The volume sought out transparency behind every project: total project costs in US dollars, number of hours labored by the authors, and the tools used to create these works.`,
+      `Check out the full copy <a target="_blank" href="https://taubmancollege.umich.edu/architecture/publications/dimensions/dimensions-32">here.</a>`,
     ],
     images: [
       {

@@ -61,6 +61,9 @@
 @media only screen and (max-width: 700px) {
   .Work {
     .Work_filter {
+      button{
+        margin: 5px;
+      }
       gap: 5px;
       button {
         padding: 10px;
