@@ -5,8 +5,8 @@ export const Footer = () => {
   return (
     <footer>
     <div className="footer__note">
-    <p>You can reach me via <a href="mailto: singh@arvinder.me">
-singh@arvinder.me</a></p>
+    <p>EMAIL ME AT <a href="mailto: singh@arvinder.me">
+SINGH@ARVINDER.ME</a></p>
     </div>
       <div className="footer__contact">
         <a
