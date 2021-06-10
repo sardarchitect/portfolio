@@ -1,6 +1,6 @@
 // MODULE IMPORTS
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // STYLE IMPORTS
 import "./_Home.scss";
 
@@ -19,7 +19,7 @@ export const Home = () => {
         ARCHITECTURE AND ARTIFICIAL INTELLIGENCE ARE SEEING AN INTERPLAY AKIN TO
         THE ADVANCEMENTS OF COMPUTER-AIDED DESIGN IN THE 80s. AI'S ROLE IN ARCHITECTURE IS INEVITABLE, AND MY CURRENT EDUCATION
         CONCERNS HOW TO ENSURE ARCHITECTS ARE THE ONES STEERING THIS
-        REVOLUTION. PLEASE FEEL FREE TO CHECK OUT MY <a target="_blank" rel="noreferrer" href="https://github.com/sardarchitect">GITHUB</a> AND 
+        REVOLUTION. PLEASE FEEL FREE TO CHECK OUT MY <Link to="/projects/computer-vision">CURRENT RESEARCH</Link> AND 
         MY <a target="_blank" rel="noreferrer" href="singh_resume_21.pdf">RESUME</a> TO KNOW MORE.
       </div>
     </div>
