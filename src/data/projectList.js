@@ -505,8 +505,8 @@ export const projects = [
         caption: "<b><u>Virtual Reality</u></b>",
       },
       {
-        src: null,
-        caption: "Using Unreal Engine 4",
+        src:  "/project-gallery/vr/vr.jpg",
+        caption: "Experiments with VR through Unreal Engine 4. This work was mostly done for my Virtual Reality for Architecture course.",
       },
     ],
   },

@@ -1,7 +1,7 @@
 // MODULE IMPORTS
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 // COMPONENT IMPORTS
 import App from "./App";
 import { Footer } from "./components/global/Footer";
@@ -32,10 +32,10 @@ const Wrapper = () => {
 };
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <ScrollToTop>
       <Wrapper />
     </ScrollToTop>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
