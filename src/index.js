@@ -32,7 +32,7 @@ const Wrapper = () => {
 };
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ScrollToTop>
       <Wrapper />
     </ScrollToTop>

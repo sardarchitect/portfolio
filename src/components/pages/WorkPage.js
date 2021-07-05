@@ -43,7 +43,8 @@ export const WorkPage = () => {
       <div className="workpage__images">
         {project.images.map((image) => (
           <div className="workpage__images__item">
-            {image.src.includes(".mp4") ? (
+            {image.src == null ? (<></>) : (
+            image.src.includes(".mp4") ? (
               <div className="player-wrapper">
                 <ReactPlayer
                   className="react-player"
@@ -80,7 +81,7 @@ export const WorkPage = () => {
                 }}
                 zoomMargin={10}
               />
-            )}
+            ))}
 
             <p
             dangerouslySetInnerHTML={{ __html: image.caption }}

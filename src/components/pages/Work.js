@@ -40,12 +40,12 @@ export const Work = () => {
           ARCHITECTURE
         </button>
         <button
-          className={filter === "research" ? "Work_filter_active" : null}
+          className={filter === "technology" ? "Work_filter_active" : null}
           onClick={() => {
-            filter === "research" ? setFilter(false) : setFilter("research");
+            filter === "technology" ? setFilter(false) : setFilter("technology");
           }}
         >
-          RESEARCH
+          TECHNOLOGY
         </button>
         <button
           className={filter === "art-design" ? "Work_filter_active" : null}
