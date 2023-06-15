@@ -6,7 +6,7 @@ import { projects } from "../../data/projectList";
 // COMPONENT IMPORTS
 import useWindowSize from "../utils/useWindowSize";
 // STYLE IMPORTS
-import "./_Work.scss";
+import "./_work.scss";
 
 export const Work = () => {
   const [data, setData] = useState([]);

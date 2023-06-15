@@ -8,7 +8,7 @@ import { Work } from "./components/pages/Work";
 import { Error404 } from "./components/pages/Error404";
 import { WorkPage } from "./components/pages/WorkPage";
 // STYLE IMPORTS
-import "./_App.scss";
+import "./_app.scss";
 
 function App() {
   return (

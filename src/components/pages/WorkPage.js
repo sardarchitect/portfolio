@@ -2,7 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 // STYLE IMPORT
-import "./_Workpage.scss";
+import "./_workpage.scss";
 // COMPONENT IMPORT
 import { projects } from "../../data/projectList";
 import { HashLink } from "react-router-hash-link";

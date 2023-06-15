@@ -3,7 +3,7 @@ import React from "react";
 // import { useLocation } from "react-router";
 // COMPONENT IMPORTS
 // STYLE IMPORTS
-import "./_Nav.scss";
+import "./_nav.scss";
 
 export const Nav = () => {
   // const location = useLocation();
