@@ -19,14 +19,6 @@
 .env.test.local
 .env.production.local
 /images
-/src_archived
-/src_archived_20210302
-/src_archived_20210316
-/src_archived_20210326
-<<<<<<< HEAD
-/src_archived_20210403
-=======
->>>>>>> 3426c80d8aaa8ee5da22affbfdcc8b231d2b38e9
 
 npm-debug.log*
 yarn-debug.log*
